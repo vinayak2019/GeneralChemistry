@@ -147,21 +147,21 @@ C: 7s
 ANSWER: 0
 HINT: Lanthanide series begins after 6s.
 
-Q: difficulty=medium | Which comes after 6s in the typical order?
-C: 4f
+Q: difficulty=medium | Which subshell immediately follows 5p in the typical order?
+C: 6s
 C: 5d
 C: 6p
-C: 7s
+C: 4f
 ANSWER: 0
-HINT: Lanthanide series begins after 6s.
+HINT: After finishing the p block, an s subshell begins the next period.
 
-Q: difficulty=medium | Which comes after 6s in the typical order?
-C: 4f
-C: 5d
-C: 6p
-C: 7s
+Q: difficulty=hard | Which pair often swaps relative energies upon forming +2 cations (first-row transitions)?
+C: 4s vs 3d
+C: 3s vs 3p
+C: 5s vs 4p
+C: 2s vs 2p
 ANSWER: 0
-HINT: Lanthanide series begins after 6s.
+HINT: Ionization can alter 4s/3d ordering due to screening.
 
 
 CONCEPT: id=c6configs | chapter=Chapter 6 | title=Electron configurations & orbital diagrams
@@ -255,29 +255,29 @@ C: Blue
 ANSWER: 1
 HINT: Complement appears when a color is subtracted from white light.
 
-Q: difficulty=medium | Which color is complementary to green (often seen when green is absorbed)?
-C: Red
-C: Magenta
-C: Yellow
+Q: difficulty=medium | If a solution absorbs strongly at 450 nm, its observed color is closest to:
 C: Blue
+C: Yellow
+C: Green
+C: Violet
 ANSWER: 1
-HINT: Complement appears when a color is subtracted from white light.
+HINT: Observed color is complementary to absorbed wavelength.
 
-Q: difficulty=medium | Which color is complementary to green (often seen when green is absorbed)?
-C: Red
-C: Magenta
-C: Yellow
-C: Blue
-ANSWER: 1
-HINT: Complement appears when a color is subtracted from white light.
+Q: difficulty=hard | A transition from n=5 to n=2 emits a photon most similar to:
+C: Microwave
+C: Infrared
+C: Visible/near-UV
+C: X-ray
+ANSWER: 2
+HINT: Large ΔE often corresponds to visible/near-UV lines.
 
-Q: difficulty=medium | Which color is complementary to green (often seen when green is absorbed)?
-C: Red
-C: Magenta
-C: Yellow
-C: Blue
-ANSWER: 1
-HINT: Complement appears when a color is subtracted from white light.
+Q: difficulty=medium | Concept check (Absorption vs emission; color): variant 9
+C: Applies
+C: Does not apply
+C: Sometimes
+C: Insufficient info
+ANSWER: 2
+HINT: Consider boundary cases that define this concept.
 
 
 CONCEPT: id=c6identify | chapter=Chapter 6 | title=Identify elements from configurations
@@ -455,29 +455,29 @@ C: Random
 ANSWER: 1
 HINT: Outer electrons farther from nucleus.
 
-Q: difficulty=medium | Down a group, first ionization energy generally:
-C: Increases
-C: Decreases
-C: Unchanged
-C: Random
-ANSWER: 1
-HINT: Outer electrons farther from nucleus.
+Q: difficulty=hard | Across a period, which trend primarily rises?
+C: Metallic character
+C: Atomic radius
+C: Effective nuclear charge
+C: Shielding
+ANSWER: 2
+HINT: Protons increase while shielding changes modestly.
 
-Q: difficulty=medium | Down a group, first ionization energy generally:
-C: Increases
-C: Decreases
-C: Unchanged
-C: Random
-ANSWER: 1
-HINT: Outer electrons farther from nucleus.
+Q: difficulty=medium | Concept check (Atomic radius / IE / EA—definitions & trends): variant 8
+C: Applies
+C: Does not apply
+C: Sometimes
+C: Insufficient info
+ANSWER: 2
+HINT: Consider boundary cases that define this concept.
 
-Q: difficulty=medium | Down a group, first ionization energy generally:
-C: Increases
-C: Decreases
-C: Unchanged
-C: Random
-ANSWER: 1
-HINT: Outer electrons farther from nucleus.
+Q: difficulty=medium | Concept check (Atomic radius / IE / EA—definitions & trends): variant 9
+C: Applies
+C: Does not apply
+C: Sometimes
+C: Insufficient info
+ANSWER: 2
+HINT: Consider boundary cases that define this concept.
 
 
 CONCEPT: id=c6order | chapter=Chapter 6 | title=Arrange elements by trends
@@ -819,21 +819,21 @@ C: C–I
 ANSWER: 3
 HINT: Larger halogens → longer bonds.
 
-Q: difficulty=medium | Among C–X bonds, which is typically longest?
-C: C–F
-C: C–Cl
-C: C–Br
-C: C–I
-ANSWER: 3
-HINT: Larger halogens → longer bonds.
+Q: difficulty=medium | Place these by decreasing bond length (C–X):
+C: C–I > C–Br > C–Cl > C–F
+C: C–F > C–Cl > C–Br > C–I
+C: C–Cl > C–Br > C–F > C–I
+C: C–Br > C–I > C–Cl > C–F
+ANSWER: 0
+HINT: Larger halogens form longer bonds.
 
-Q: difficulty=medium | Among C–X bonds, which is typically longest?
-C: C–F
-C: C–Cl
-C: C–Br
-C: C–I
-ANSWER: 3
-HINT: Larger halogens → longer bonds.
+Q: difficulty=medium | Concept check (Bond length & bond order): variant 8
+C: Applies
+C: Does not apply
+C: Sometimes
+C: Insufficient info
+ANSWER: 2
+HINT: Consider boundary cases that define this concept.
 
 
 CONCEPT: id=c7en | chapter=Chapter 7 | title=Electronegativity & polarity
@@ -885,21 +885,21 @@ C: Si–O
 ANSWER: 3
 HINT: Largest electronegativity difference.
 
-Q: difficulty=medium | Which bond is most polar?
-C: C–H
-C: C–Cl
-C: N–O
-C: Si–O
-ANSWER: 3
-HINT: Largest electronegativity difference.
+Q: difficulty=hard | In CF4, the molecule is overall:
+C: Polar due to C–F bonds
+C: Nonpolar due to symmetry
+C: Ionic
+C: Undefined
+ANSWER: 1
+HINT: Symmetry cancels bond dipoles.
 
-Q: difficulty=medium | Which bond is most polar?
-C: C–H
-C: C–Cl
-C: N–O
-C: Si–O
-ANSWER: 3
-HINT: Largest electronegativity difference.
+Q: difficulty=medium | Concept check (Electronegativity & polarity): variant 8
+C: Applies
+C: Does not apply
+C: Sometimes
+C: Insufficient info
+ANSWER: 2
+HINT: Consider boundary cases that define this concept.
 
 
 CONCEPT: id=c7formal | chapter=Chapter 7 | title=Formal charge calculation
@@ -993,21 +993,21 @@ C: Chloride(VII) oxide
 ANSWER: 0
 HINT: Use Greek prefixes for both.
 
-Q: difficulty=medium | Cl2O7 is named:
-C: Dichlorine heptoxide
-C: Chlorine(VII) oxide
-C: Heptachlorine dioxide
-C: Chloride(VII) oxide
-ANSWER: 0
-HINT: Use Greek prefixes for both.
+Q: difficulty=medium | P4O10 is commonly named:
+C: Tetraphosphorus decoxide
+C: Tetraphosphorus decaoxide
+C: Phosphorus(V) oxide
+C: Phosphorus oxide
+ANSWER: 1
+HINT: Use Greek prefixes for both elements.
 
-Q: difficulty=medium | Cl2O7 is named:
-C: Dichlorine heptoxide
-C: Chlorine(VII) oxide
-C: Heptachlorine dioxide
-C: Chloride(VII) oxide
-ANSWER: 0
-HINT: Use Greek prefixes for both.
+Q: difficulty=medium | Concept check (Naming binary covalent compounds): variant 8
+C: Applies
+C: Does not apply
+C: Sometimes
+C: Insufficient info
+ANSWER: 2
+HINT: Consider boundary cases that define this concept.
 
 
 CONCEPT: id=c7vsepr | chapter=Chapter 7 | title=VSEPR theory basics
@@ -1059,29 +1059,29 @@ C: T-shaped
 ANSWER: 1
 HINT: Two lone pairs on octahedral → square planar.
 
-Q: difficulty=medium | AX4E2 corresponds to which molecular shape?
-C: See-saw
-C: Square planar
-C: Square pyramidal
+Q: difficulty=hard | AX3E2 corresponds to which molecular shape?
 C: T-shaped
-ANSWER: 1
-HINT: Two lone pairs on octahedral → square planar.
+C: Trigonal planar
+C: Linear
+C: Square planar
+ANSWER: 0
+HINT: TBP geometry with two lone pairs and three bonds.
 
-Q: difficulty=medium | AX4E2 corresponds to which molecular shape?
-C: See-saw
-C: Square planar
-C: Square pyramidal
-C: T-shaped
-ANSWER: 1
-HINT: Two lone pairs on octahedral → square planar.
+Q: difficulty=medium | For AX3E on a tetrahedral electron geometry, the bond angle is closest to:
+C: 120°
+C: 109.5°
+C: <109.5°
+C: 180°
+ANSWER: 2
+HINT: Lone pair compression reduces the angle slightly.
 
-Q: difficulty=medium | AX4E2 corresponds to which molecular shape?
-C: See-saw
-C: Square planar
-C: Square pyramidal
-C: T-shaped
-ANSWER: 1
-HINT: Two lone pairs on octahedral → square planar.
+Q: difficulty=medium | Concept check (VSEPR theory basics): variant 9
+C: Applies
+C: Does not apply
+C: Sometimes
+C: Insufficient info
+ANSWER: 2
+HINT: Consider boundary cases that define this concept.
 
 
 CONCEPT: id=c7shapes | chapter=Chapter 7 | title=Predict shapes from formulas
@@ -1385,21 +1385,21 @@ C: 4
 ANSWER: 1
 HINT: (10−6)/2 = 2.
 
-Q: difficulty=medium | If Nb=10 and Na=6, bond order equals:
-C: 1
-C: 2
-C: 3
-C: 4
-ANSWER: 1
-HINT: (10−6)/2 = 2.
+Q: difficulty=hard | Removing electrons from antibonding orbitals generally:
+C: Increases bond order
+C: Decreases bond order
+C: Leaves order unchanged
+C: Always breaks the bond
+ANSWER: 0
+HINT: Fewer antibonding electrons → stronger bond.
 
-Q: difficulty=medium | If Nb=10 and Na=6, bond order equals:
-C: 1
-C: 2
-C: 3
-C: 4
-ANSWER: 1
-HINT: (10−6)/2 = 2.
+Q: difficulty=medium | Concept check (Fill MO diagram & bond order): variant 8
+C: Applies
+C: Does not apply
+C: Sometimes
+C: Insufficient info
+ANSWER: 2
+HINT: Consider boundary cases that define this concept.
 
 
 CONCEPT: id=c9rels | chapter=Chapter 9 | title=P–V–T–n relationships
@@ -1451,21 +1451,21 @@ C: Undefined
 ANSWER: 2
 HINT: PV ∝ nT → both scale, ratio unchanged.
 
-Q: difficulty=medium | Doubling both T and V at constant n makes P:
-C: ↑
-C: ↓
-C: Same
-C: Undefined
-ANSWER: 2
-HINT: PV ∝ nT → both scale, ratio unchanged.
+Q: difficulty=medium | If P1V1/T1 = P2V2/T2 and T2=2T1 with V2=2V1, then P2/P1 ≈
+C: 1
+C: 2
+C: 1/2
+C: 4
+ANSWER: 0
+HINT: T and V both double → P unchanged.
 
-Q: difficulty=medium | Doubling both T and V at constant n makes P:
-C: ↑
-C: ↓
-C: Same
-C: Undefined
+Q: difficulty=medium | Concept check (P–V–T–n relationships): variant 8
+C: Applies
+C: Does not apply
+C: Sometimes
+C: Insufficient info
 ANSWER: 2
-HINT: PV ∝ nT → both scale, ratio unchanged.
+HINT: Consider boundary cases that define this concept.
 
 
 CONCEPT: id=c9ideal | chapter=Chapter 9 | title=Using PV=nRT
@@ -1517,21 +1517,21 @@ C: 1/n
 ANSWER: 1
 HINT: Charles’s law: V directly with T.
 
-Q: difficulty=medium | Keeping P and n constant, V ∝
-C: 1/T
-C: T
-C: n
-C: 1/n
-ANSWER: 1
-HINT: Charles’s law: V directly with T.
+Q: difficulty=hard | At constant P and n, increasing T from 300 K to 600 K makes V:
+C: Double
+C: Half
+C: Stay same
+C: Zero
+ANSWER: 0
+HINT: Charles’s law → direct proportionality.
 
-Q: difficulty=medium | Keeping P and n constant, V ∝
-C: 1/T
-C: T
-C: n
-C: 1/n
-ANSWER: 1
-HINT: Charles’s law: V directly with T.
+Q: difficulty=medium | Concept check (Using PV=nRT): variant 8
+C: Applies
+C: Does not apply
+C: Sometimes
+C: Insufficient info
+ANSWER: 2
+HINT: Consider boundary cases that define this concept.
 
 
 CONCEPT: id=c9kmt | chapter=Chapter 9 | title=Kinetic molecular theory & gas behavior
