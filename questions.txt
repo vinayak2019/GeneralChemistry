@@ -1,0 +1,84 @@
+# One or more CONCEPT blocks. Each MUST have 5 questions minimum.
+# Lines starting with # are ignored.
+
+CONCEPT: id=c6qnums | chapter=Chapter 6 | title=Quantum numbers & roles
+Q: difficulty=easy | Which quantum number sets the main energy level of an electron?
+C: n
+C: l
+C: m
+C: s
+ANSWER: 0
+HINT: Think shells and size.
+
+Q: difficulty=medium | Which quantum number limits the allowed range of m values?
+C: n
+C: l
+C: m
+C: s
+ANSWER: 1
+HINT: Orientation values depend on the orbital shape number.
+
+Q: difficulty=medium | The set (n=3, l=2) refers to which subshell family?
+C: s
+C: p
+C: d
+C: f
+ANSWER: 2
+HINT: Map l = 0,1,2,3 → s,p,d,f.
+
+Q: difficulty=hard | For n=4, how many m values exist in the l=1 subshell?
+C: 1
+C: 2
+C: 3
+C: 5
+ANSWER: 2
+HINT: Count from −l to +l inclusive.
+
+Q: difficulty=hard | Which statement about spin is accurate?
+C: It sets orbital size
+C: It sets orientation
+C: It has two allowed values per electron
+C: It fixes the subshell letter
+ANSWER: 2
+HINT: Think intrinsic two-state property.
+
+CONCEPT: id=c9ideal | chapter=Chapter 9 | title=Using PV=nRT
+Q: difficulty=easy | In PV=nRT, R is the:
+C: Rate constant
+C: Gas constant
+C: Radius
+C: Resistance
+ANSWER: 1
+HINT: It links state variables and their units.
+
+Q: difficulty=medium | If V doubles at constant n and T, then P will:
+C: Double
+C: Halve
+C: Stay the same
+C: Quarter
+ANSWER: 1
+HINT: Keep the left product consistent with the right side.
+
+Q: difficulty=medium | Units consistent with R = 0.08206 are:
+C: L·atm·mol⁻¹·K⁻¹
+C: Pa·m³·mol⁻¹·K⁻¹
+C: L·torr·mol⁻¹·K⁻¹
+C: bar·L·mol⁻¹·K⁻¹
+ANSWER: 0
+HINT: Atmospheres pair with liters in this common value.
+
+Q: difficulty=hard | Tripling n while halving V (T const.) changes P by:
+C: ×1.5
+C: ×3
+C: ×6
+C: ×0.5
+ANSWER: 2
+HINT: Scale numerator and denominator.
+
+Q: difficulty=hard | Celsius to Kelvin requires:
+C: ×273
+C: −273
+C: +273.15
+C: ÷273.15
+ANSWER: 2
+HINT: Add the fixed offset to reach the absolute scale.
