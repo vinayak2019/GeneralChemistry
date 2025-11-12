@@ -1,46 +1,1472 @@
-# One or more CONCEPT blocks. Each MUST have 5 questions minimum.
-# Lines starting with # are ignored.
-
 CONCEPT: id=c6qnums | chapter=Chapter 6 | title=Quantum numbers & roles
-Q: difficulty=easy | Which quantum number sets the main energy level of an electron?
+Q: difficulty=easy | Which quantum number sets the principal energy level?
 C: n
 C: l
 C: m
 C: s
 ANSWER: 0
-HINT: Think shells and size.
+HINT: Think shells and average orbital size.
 
-Q: difficulty=medium | Which quantum number limits the allowed range of m values?
+Q: difficulty=medium | Which quantum number determines orbital shape?
 C: n
 C: l
 C: m
 C: s
 ANSWER: 1
-HINT: Orientation values depend on the orbital shape number.
+HINT: Map 0→s,1→p,2→d,3→f for shapes.
 
-Q: difficulty=medium | The set (n=3, l=2) refers to which subshell family?
+Q: difficulty=medium | Which quantum number specifies orientation in space?
+C: n
+C: l
+C: m
+C: s
+ANSWER: 2
+HINT: Values run from −l to +l.
+
+Q: difficulty=hard | How many m values exist in an l=2 subshell?
+C: 2
+C: 3
+C: 5
+C: 7
+ANSWER: 2
+HINT: Count from −l to +l including zero.
+
+Q: difficulty=hard | Spin quantum number allows how many states per electron?
+C: 1
+C: 2
+C: 3
+C: Depends on l
+ANSWER: 1
+HINT: It's an intrinsic two-state property.
+
+Q: difficulty=medium | Which set is invalid?
+C: n=2,l=2
+C: n=3,l=2
+C: n=4,l=0
+C: n=5,l=3
+ANSWER: 0
+HINT: Ensure l < n for allowed sets.
+
+Q: difficulty=hard | For n=4, allowed l values are:
+C: 0 only
+C: 0,1
+C: 0,1,2
+C: 0,1,2,3
+ANSWER: 3
+HINT: l runs from 0 up to n−1.
+
+
+CONCEPT: id=c6nlms | chapter=Chapter 6 | title=Find n, l, m, s; labels & shapes
+Q: difficulty=easy | If l=0, the subshell label is:
 C: s
 C: p
 C: d
 C: f
-ANSWER: 2
-HINT: Map l = 0,1,2,3 → s,p,d,f.
+ANSWER: 0
+HINT: The spherical set starts at zero.
 
-Q: difficulty=hard | For n=4, how many m values exist in the l=1 subshell?
+Q: difficulty=medium | How many orbitals total exist for n=2?
+C: 2
+C: 3
+C: 4
+C: 8
+ANSWER: 2
+HINT: One s + three p = four.
+
+Q: difficulty=medium | Which set is not allowed?
+C: n=3,l=3
+C: n=3,l=2
+C: n=4,l=1
+C: n=2,l=1
+ANSWER: 0
+HINT: Remember l must be less than n.
+
+Q: difficulty=hard | For l=3, how many m values are possible?
+C: 3
+C: 5
+C: 7
+C: 9
+ANSWER: 2
+HINT: Use −l…+l to count.
+
+Q: difficulty=hard | Which l corresponds to dumbbell-like orbitals?
+C: 0
 C: 1
 C: 2
 C: 3
-C: 5
-ANSWER: 2
-HINT: Count from −l to +l inclusive.
+ANSWER: 1
+HINT: p orbitals have this shape.
 
-Q: difficulty=hard | Which statement about spin is accurate?
-C: It sets orbital size
-C: It sets orientation
-C: It has two allowed values per electron
-C: It fixes the subshell letter
+
+CONCEPT: id=c6aufbau | chapter=Chapter 6 | title=Order of filling (Aufbau)
+Q: difficulty=easy | Which fills first in Aufbau order?
+C: 3d
+C: 4s
+C: 4p
+C: 4d
+ANSWER: 1
+HINT: Use the diagonal rule after 3p.
+
+Q: difficulty=medium | Which subshell fills right after 4s?
+C: 3d
+C: 4p
+C: 5s
+C: 3p
+ANSWER: 0
+HINT: Transition block begins there.
+
+Q: difficulty=medium | Which fills latest by energy among these?
+C: 5s
+C: 4p
+C: 3d
+C: 4d
+ANSWER: 3
+HINT: Later row, same block tends to be higher.
+
+Q: difficulty=hard | Which pair often inverts on ionization?
+C: 4s/3d
+C: 3p/3d
+C: 5s/4p
+C: 2s/2p
+ANSWER: 0
+HINT: A first-row transition nuance.
+
+Q: difficulty=hard | The diagonal rule compares:
+C: n only
+C: l only
+C: n+l (then n)
+C: atomic number
 ANSWER: 2
-HINT: Think intrinsic two-state property.
+HINT: Sort by sum then by n.
+
+Q: difficulty=medium | Which comes after 6s in the typical order?
+C: 4f
+C: 5d
+C: 6p
+C: 7s
+ANSWER: 0
+HINT: Lanthanide series begins after 6s.
+
+Q: difficulty=medium | Which comes after 6s in the typical order?
+C: 4f
+C: 5d
+C: 6p
+C: 7s
+ANSWER: 0
+HINT: Lanthanide series begins after 6s.
+
+Q: difficulty=medium | Which comes after 6s in the typical order?
+C: 4f
+C: 5d
+C: 6p
+C: 7s
+ANSWER: 0
+HINT: Lanthanide series begins after 6s.
+
+
+CONCEPT: id=c6configs | chapter=Chapter 6 | title=Electron configurations & orbital diagrams
+Q: difficulty=easy | Configuration ending in p-block indicates the element lies in:
+C: s block
+C: p block
+C: d block
+C: f block
+ANSWER: 1
+HINT: The highest subshell letter gives the block.
+
+Q: difficulty=medium | Half-filled p subshell contains how many electrons?
+C: 1
+C: 2
+C: 3
+C: 4
+ANSWER: 2
+HINT: One per orbital before pairing.
+
+Q: difficulty=medium | Ground-state diagrams must obey:
+C: Aufbau only
+C: Pauli only
+C: Hund only
+C: Aufbau, Hund, Pauli
+ANSWER: 3
+HINT: Energy order, exclusion, and parallel spins.
+
+Q: difficulty=hard | Condensed noble-gas notation replaces:
+C: Valence e−
+C: Inner-shell configuration
+C: Total e− count
+C: d and f only
+ANSWER: 1
+HINT: Bracket covers core electrons.
+
+Q: difficulty=hard | Neutral atom ending 3d¹⁰ is in which period?
+C: 3
+C: 4
+C: 5
+C: 6
+ANSWER: 2
+HINT: Consider s-orbital row preceding that d set.
+
+
+CONCEPT: id=c6absorb | chapter=Chapter 6 | title=Absorption vs emission; color
+Q: difficulty=easy | Absorption involves an electron moving to:
+C: Lower E
+C: Higher E
+C: Same E
+C: No change
+ANSWER: 1
+HINT: Light provides energy for promotion.
+
+Q: difficulty=medium | Emission spectrum lines arise when electrons:
+C: Gain energy
+C: Lose energy
+C: Stay excited
+C: Ionize
+ANSWER: 1
+HINT: Dropping to lower levels releases photons.
+
+Q: difficulty=medium | A photon of greater frequency has:
+C: Lower energy
+C: Higher energy
+C: Same energy
+C: No relation
+ANSWER: 1
+HINT: E ∝ ν by Planck's relation.
+
+Q: difficulty=hard | If ΔE matches green light, absorbing that photon implies the sample appears:
+C: Green
+C: Magenta (complement)
+C: Yellow
+C: Blue
+ANSWER: 1
+HINT: Subtracting green leaves its complement.
+
+Q: difficulty=hard | When an electron relaxes from n=4 to n=2, it:
+C: Absorbs UV
+C: Emits visible/UV
+C: Emits IR only
+C: Shows no line
+ANSWER: 1
+HINT: Balmer-like transitions can be visible/UV.
+
+Q: difficulty=medium | Which color is complementary to green (often seen when green is absorbed)?
+C: Red
+C: Magenta
+C: Yellow
+C: Blue
+ANSWER: 1
+HINT: Complement appears when a color is subtracted from white light.
+
+Q: difficulty=medium | Which color is complementary to green (often seen when green is absorbed)?
+C: Red
+C: Magenta
+C: Yellow
+C: Blue
+ANSWER: 1
+HINT: Complement appears when a color is subtracted from white light.
+
+Q: difficulty=medium | Which color is complementary to green (often seen when green is absorbed)?
+C: Red
+C: Magenta
+C: Yellow
+C: Blue
+ANSWER: 1
+HINT: Complement appears when a color is subtracted from white light.
+
+Q: difficulty=medium | Which color is complementary to green (often seen when green is absorbed)?
+C: Red
+C: Magenta
+C: Yellow
+C: Blue
+ANSWER: 1
+HINT: Complement appears when a color is subtracted from white light.
+
+
+CONCEPT: id=c6identify | chapter=Chapter 6 | title=Identify elements from configurations
+Q: difficulty=easy | Which condensed notation could match chlorine?
+C: [Ne]3s²3p⁵
+C: [Ar]4s²
+C: [He]2s²2p¹
+C: [Ne]3s²3p¹
+ANSWER: 0
+HINT: 17 total: 10 core + 7 valence.
+
+Q: difficulty=medium | Which configuration ends with a transition-metal pattern?
+C: [Ar]4s²3d⁷
+C: [Ne]3s²3p⁶
+C: [Kr]5s²5p²
+C: [He]2s²2p⁴
+ANSWER: 0
+HINT: d electrons indicate a transition metal.
+
+Q: difficulty=medium | Which could be a noble gas?
+C: …ns²np⁶
+C: …ns²np⁴
+C: …ns¹
+C: …ns²np²
+ANSWER: 0
+HINT: Full p-shell at main-group end.
+
+Q: difficulty=hard | Which corresponds to an alkali metal?
+C: …ns²
+C: …ns¹
+C: …ns²np¹
+C: …ns²np⁶
+ANSWER: 1
+HINT: One valence s electron.
+
+Q: difficulty=hard | Lanthanides typically involve filling of:
+C: 4f
+C: 3d
+C: 5p
+C: 6s only
+ANSWER: 0
+HINT: Inner f-block filling.
+
+
+CONCEPT: id=c6shield | chapter=Chapter 6 | title=Nuclear charge & shielding
+Q: difficulty=easy | Effective nuclear charge (Z_eff) generally:
+C: Increases across a period
+C: Decreases across a period
+C: Unchanged
+C: Random
+ANSWER: 0
+HINT: Shielding changes slowly; protons increase.
+
+Q: difficulty=medium | Inner electrons primarily:
+C: Increase Z_eff
+C: Shield outer electrons
+C: Have no effect
+C: Cause expansion only
+ANSWER: 1
+HINT: They reduce the pull felt by valence e−.
+
+Q: difficulty=medium | Which electron is best shielded?
+C: 1s
+C: 2s
+C: 2p
+C: 3p
+ANSWER: 3
+HINT: Higher n and farther out → more shielding effects felt.
+
+Q: difficulty=hard | Z_eff helps explain:
+C: Ionic radii only
+C: Trends in IE and size
+C: Melting points only
+C: Color of complexes only
+ANSWER: 1
+HINT: It underlies multiple periodic trends.
+
+Q: difficulty=hard | Across a period, size decreases mainly due to:
+C: More shielding
+C: Less shielding
+C: Greater Z_eff
+C: Fewer protons
+ANSWER: 2
+HINT: Valence e− pulled closer.
+
+
+CONCEPT: id=c6crcu | chapter=Chapter 6 | title=Cr/Cu configuration deviations
+Q: difficulty=easy | Cr and Cu show deviations because:
+C: Electrons are random
+C: Half/filled subshell stability
+C: Pauli violation
+C: No packing effects
+ANSWER: 1
+HINT: Half-filled d⁵ and filled d¹⁰ have extra stability.
+
+Q: difficulty=medium | A typical Cr-like exception shows:
+C: 4s²3d⁴
+C: 4s¹3d⁵
+C: 4s⁰3d⁶
+C: 4s²3d³
+ANSWER: 1
+HINT: Promotion to achieve half-filled d.
+
+Q: difficulty=medium | For Cu-like atoms, a common pattern is:
+C: 4s²3d⁹
+C: 4s¹3d¹⁰
+C: 4s⁰3d¹¹
+C: 4s²3d¹⁰
+ANSWER: 1
+HINT: One s electron promotes to fill d¹⁰.
+
+Q: difficulty=hard | These deviations still obey:
+C: Hund only
+C: Pauli only
+C: Aufbau in a nuanced energy sense
+C: No rules
+ANSWER: 2
+HINT: Energy ordering includes exchange stabilization.
+
+Q: difficulty=hard | Promotions occur when the energy cost is outweighed by:
+C: Electron mass
+C: Exchange/correlation stabilization
+C: More protons
+C: More neutrons
+ANSWER: 1
+HINT: Stability gain from favorable spin alignment.
+
+
+CONCEPT: id=c6trends1 | chapter=Chapter 6 | title=Atomic radius / IE / EA—definitions & trends
+Q: difficulty=easy | Atomic radius tends to ______ across a period.
+C: Increase
+C: Decrease
+C: Stay same
+C: Random
+ANSWER: 1
+HINT: Greater Z_eff contracts the cloud.
+
+Q: difficulty=medium | First ionization energy generally ______ across a period.
+C: Falls
+C: Rises
+C: Unchanged
+C: Irregular only
+ANSWER: 1
+HINT: Harder to remove e− as Z_eff grows.
+
+Q: difficulty=medium | Electron affinity is often more exothermic moving toward:
+C: Metals
+C: Alkali metals
+C: Halogens
+C: Noble gases
+ANSWER: 2
+HINT: Adding e− forms stable anions near halogens.
+
+Q: difficulty=hard | Down a group, atomic radius:
+C: Decreases
+C: Increases
+C: Unchanged
+C: Oscillates
+ANSWER: 1
+HINT: Higher n dominates over Z_eff changes.
+
+Q: difficulty=hard | Which trend pair often correlates?
+C: Large radius & high IE
+C: Small radius & high IE
+C: High EA & large radius
+C: Low Z_eff & high IE
+ANSWER: 1
+HINT: Tighter electrons are harder to remove.
+
+Q: difficulty=medium | Down a group, first ionization energy generally:
+C: Increases
+C: Decreases
+C: Unchanged
+C: Random
+ANSWER: 1
+HINT: Outer electrons farther from nucleus.
+
+Q: difficulty=medium | Down a group, first ionization energy generally:
+C: Increases
+C: Decreases
+C: Unchanged
+C: Random
+ANSWER: 1
+HINT: Outer electrons farther from nucleus.
+
+Q: difficulty=medium | Down a group, first ionization energy generally:
+C: Increases
+C: Decreases
+C: Unchanged
+C: Random
+ANSWER: 1
+HINT: Outer electrons farther from nucleus.
+
+Q: difficulty=medium | Down a group, first ionization energy generally:
+C: Increases
+C: Decreases
+C: Unchanged
+C: Random
+ANSWER: 1
+HINT: Outer electrons farther from nucleus.
+
+
+CONCEPT: id=c6order | chapter=Chapter 6 | title=Arrange elements by trends
+Q: difficulty=easy | Which is largest atomic radius (typical)?
+C: Na
+C: Mg
+C: Al
+C: Si
+ANSWER: 0
+HINT: Further left tends larger across a period.
+
+Q: difficulty=medium | Arrange by increasing first IE (likely):
+C: Cl < S < P
+C: P < S < Cl
+C: S < Cl < P
+C: Cl < P < S
+ANSWER: 1
+HINT: Across, IE rises; minor subshell effects aside.
+
+Q: difficulty=medium | Which likely has the most exothermic EA?
+C: Na
+C: Mg
+C: Si
+C: Cl
+ANSWER: 3
+HINT: Halogen region favors electron gain.
+
+Q: difficulty=hard | Which is smallest atom (likely)?
+C: K
+C: Ca
+C: Ga
+C: Ge
+ANSWER: 3
+HINT: Further right across and not too far down.
+
+Q: difficulty=hard | Which has higher first IE?
+C: B
+C: Be
+ANSWER: 0
+HINT: Subshell/penetration cause small exceptions (2p vs 2s).
+
+
+CONCEPT: id=c7types | chapter=Chapter 7 | title=Ionic vs covalent vs metallic
+Q: difficulty=easy | Nonmetal + nonmetal typically forms:
+C: Ionic
+C: Covalent
+C: Metallic
+C: Ionic lattice
+ANSWER: 1
+HINT: Electron sharing between nonmetals.
+
+Q: difficulty=medium | Metal nuclei in a sea of electrons describe:
+C: Ionic bond
+C: Metallic bond
+C: Hydrogen bond
+C: London force
+ANSWER: 1
+HINT: Delocalized electrons explain conductivity.
+
+Q: difficulty=medium | Which pair is most ionic?
+C: Na–Cl
+C: H–O
+C: C–H
+C: N–O
+ANSWER: 0
+HINT: Large ΔEN and metal/nonmetal.
+
+Q: difficulty=hard | Bond type is best viewed as:
+C: Strict categories
+C: A polarity continuum
+C: Metal-only model
+C: Unrelated to EN
+ANSWER: 1
+HINT: Real bonds mix ionic/covalent character.
+
+Q: difficulty=hard | As metallic bonding strengthens, melting point:
+C: Decreases
+C: Increases
+C: Unchanged
+C: Random
+ANSWER: 1
+HINT: Stronger cohesion resists melting.
+
+
+CONCEPT: id=c7lewisA | chapter=Chapter 7 | title=Lewis dots: atoms & molecules
+Q: difficulty=easy | Main-group valence e− count from:
+C: Period
+C: Group (A) number
+C: Atomic number
+C: Mass
+ANSWER: 1
+HINT: s/p columns give valence.
+
+Q: difficulty=medium | Lewis dot for O has total dots:
+C: 4
+C: 6
+C: 8
+C: 2
+ANSWER: 1
+HINT: Group 16 → 6 valence electrons.
+
+Q: difficulty=medium | Hydrogen follows the:
+C: Octet rule
+C: Duet rule
+C: 18-electron rule
+C: No rule
+ANSWER: 1
+HINT: H only needs two electrons.
+
+Q: difficulty=hard | Resonance structures keep:
+C: Different connectivity
+C: Same connectivity
+C: Different atom count
+C: Different total e−
+ANSWER: 1
+HINT: Only placement of e− differs.
+
+Q: difficulty=hard | Lewis structures primarily track:
+C: 3D shape
+C: Electron accounting
+C: Hybridization directly
+C: Spectra
+ANSWER: 1
+HINT: 2D bookkeeping of bonding/lone pairs.
+
+
+CONCEPT: id=c7ionicMO | chapter=Chapter 7 | title=Orbital picture of ionic formation
+Q: difficulty=easy | Ionic bonding often depicted as:
+C: Electron sharing
+C: Electron transfer
+C: Proton sharing
+C: Neutron transfer
+ANSWER: 1
+HINT: Metal → nonmetal electron transfer.
+
+Q: difficulty=medium | Formation of NaCl lattice lowers energy due to:
+C: Lattice energy
+C: Ionization only
+C: Entropy only
+C: Hydration only
+ANSWER: 0
+HINT: Coulombic stabilization in the crystal.
+
+Q: difficulty=medium | Cation forms by:
+C: Gaining e−
+C: Losing e−
+C: Sharing e−
+C: Nuclear change
+ANSWER: 1
+HINT: Metal atoms lose electrons.
+
+Q: difficulty=hard | Stability of ionic solids depends strongly on:
+C: Ion sizes & charges
+C: Color
+C: Density only
+C: Phase
+ANSWER: 0
+HINT: Coulomb attraction via q and r.
+
+Q: difficulty=hard | In an orbital picture, ionic bond overlap is:
+C: Extensive
+C: Localized
+C: Minimal compared to covalent
+C: Same as metallic
+ANSWER: 2
+HINT: Electron density localizes to anions.
+
+
+CONCEPT: id=c7lattice | chapter=Chapter 7 | title=Ionic bond strength & trends
+Q: difficulty=easy | Lattice energy increases with:
+C: Larger ions & lower charge
+C: Smaller ions & higher charge
+C: Random
+C: Phase change
+ANSWER: 1
+HINT: Coulomb’s law magnitude grows.
+
+Q: difficulty=medium | Which has stronger lattice energy?
+C: NaCl
+C: MgO
+ANSWER: 1
+HINT: Doubly charged ions bind more strongly.
+
+Q: difficulty=medium | As ionic radius increases, lattice energy:
+C: Increases
+C: Decreases
+C: Unchanged
+C: Oscillates
+ANSWER: 1
+HINT: Greater separation weakens attraction.
+
+Q: difficulty=hard | Born-Haber cycles help estimate:
+C: Ion size
+C: Lattice energy
+C: IE only
+C: EA only
+ANSWER: 1
+HINT: They combine multiple energies to infer lattice energy.
+
+Q: difficulty=hard | Polarizability tends to ______ lattice energy.
+C: Increase
+C: Decrease
+C: No effect
+C: Reverse sign
+ANSWER: 1
+HINT: More distortion lowers effective attraction.
+
+
+CONCEPT: id=c7metals | chapter=Chapter 7 | title=Cracking crystals; denting metals
+Q: difficulty=easy | Metals dent because metallic bonds are:
+C: Directional
+C: Non-directional
+C: Ionic
+C: Hydrogen bonds
+ANSWER: 1
+HINT: Atoms can slide without breaking specific bonds.
+
+Q: difficulty=medium | Cracking of ionic crystals occurs because bonds are:
+C: Non-directional
+C: Directional & brittle
+C: Metallic
+C: Hydrogen
+ANSWER: 1
+HINT: Shifting layers aligns like charges → fracture.
+
+Q: difficulty=medium | Conductivity in metals is due to:
+C: Localized e−
+C: Delocalized e−
+C: No e−
+C: Proton flow
+ANSWER: 1
+HINT: Sea of electrons moves freely.
+
+Q: difficulty=hard | Alloying can change properties via:
+C: Changing electron sea density
+C: Adding neutrons
+C: Color only
+C: Phase removal
+ANSWER: 0
+HINT: Adjusts bonding and structure.
+
+Q: difficulty=hard | Work hardening increases strength by:
+C: Making grains larger
+C: Introducing dislocations interactions
+C: Cooling only
+C: Adding water
+ANSWER: 1
+HINT: Defect interactions impede slip.
+
+
+CONCEPT: id=c7lewisC | chapter=Chapter 7 | title=Lewis for covalent compounds
+Q: difficulty=easy | Each bond line in a Lewis structure represents:
+C: One e−
+C: Two e−
+C: Three e−
+C: Four e−
+ANSWER: 1
+HINT: A shared pair counts as two electrons.
+
+Q: difficulty=medium | Which central atom often expands octet?
+C: C
+C: N
+C: O
+C: S
+ANSWER: 3
+HINT: Third period and beyond can be hypervalent in models.
+
+Q: difficulty=medium | A double bond counts as how many shared pairs?
+C: 1
+C: 2
+C: 3
+C: 4
+ANSWER: 1
+HINT: Two shared pairs compose a double bond.
+
+Q: difficulty=hard | Choose the best Lewis structure criterion:
+C: Minimize formal charge magnitude
+C: Maximize charge separation
+C: Break octet always
+C: Use most bonds possible
+ANSWER: 0
+HINT: Lower magnitude and negative on EN atoms.
+
+Q: difficulty=hard | Odd-electron molecules (radicals) typically:
+C: Break rules randomly
+C: Have one unpaired e−
+C: Must be linear
+C: Are noble gases
+ANSWER: 1
+HINT: They can be octet-deficient.
+
+
+CONCEPT: id=c7bondlen | chapter=Chapter 7 | title=Bond length & bond order
+Q: difficulty=easy | As bond order increases, bond length:
+C: Increases
+C: Decreases
+C: Unchanged
+C: Random
+ANSWER: 1
+HINT: Multiple bonds are shorter.
+
+Q: difficulty=medium | Higher bond order typically means bond energy:
+C: Lower
+C: Higher
+C: Unchanged
+C: Only for metals
+ANSWER: 1
+HINT: Stronger bonds require more energy to break.
+
+Q: difficulty=medium | Which has the shortest C–C bond?
+C: Single
+C: Double
+C: Triple
+C: All same
+ANSWER: 2
+HINT: Triple > Double > Single in strength/shortness.
+
+Q: difficulty=hard | Resonance often leads to bond lengths that are:
+C: Pure single
+C: Pure double
+C: Intermediate
+C: Undefined
+ANSWER: 2
+HINT: Delocalization averages bond character.
+
+Q: difficulty=hard | As bond length decreases, vibrational frequency tends to:
+C: Decrease
+C: Increase
+C: Unchanged
+C: Random
+ANSWER: 1
+HINT: Stiffer, shorter bonds vibrate faster.
+
+Q: difficulty=medium | Among C–X bonds, which is typically longest?
+C: C–F
+C: C–Cl
+C: C–Br
+C: C–I
+ANSWER: 3
+HINT: Larger halogens → longer bonds.
+
+Q: difficulty=medium | Among C–X bonds, which is typically longest?
+C: C–F
+C: C–Cl
+C: C–Br
+C: C–I
+ANSWER: 3
+HINT: Larger halogens → longer bonds.
+
+Q: difficulty=medium | Among C–X bonds, which is typically longest?
+C: C–F
+C: C–Cl
+C: C–Br
+C: C–I
+ANSWER: 3
+HINT: Larger halogens → longer bonds.
+
+
+CONCEPT: id=c7en | chapter=Chapter 7 | title=Electronegativity & polarity
+Q: difficulty=easy | Electronegativity measures an atom’s ability to:
+C: Lose e−
+C: Attract shared e−
+C: Attract protons
+C: Gain neutrons
+ANSWER: 1
+HINT: Pull on bonding electrons.
+
+Q: difficulty=medium | A highly polar bond results from:
+C: Large EN difference
+C: Small EN difference
+C: Same EN
+C: No electrons
+ANSWER: 0
+HINT: Unequal sharing → polarity.
+
+Q: difficulty=medium | Dipole moment increases with:
+C: Equal sharing
+C: Greater charge separation
+C: Lower EN difference
+C: Shorter distance only
+ANSWER: 1
+HINT: μ ∝ q × r.
+
+Q: difficulty=hard | Polar bonds do not guarantee:
+C: Ionic solids
+C: Molecular polarity
+C: Any reactivity
+C: Spectra
+ANSWER: 1
+HINT: Geometry can cancel dipoles.
+
+Q: difficulty=hard | Across a period, EN generally:
+C: Decreases
+C: Increases
+C: Unchanged
+C: Oscillates
+ANSWER: 1
+HINT: Z_eff increases across a period.
+
+Q: difficulty=medium | Which bond is most polar?
+C: C–H
+C: C–Cl
+C: N–O
+C: Si–O
+ANSWER: 3
+HINT: Largest electronegativity difference.
+
+Q: difficulty=medium | Which bond is most polar?
+C: C–H
+C: C–Cl
+C: N–O
+C: Si–O
+ANSWER: 3
+HINT: Largest electronegativity difference.
+
+Q: difficulty=medium | Which bond is most polar?
+C: C–H
+C: C–Cl
+C: N–O
+C: Si–O
+ANSWER: 3
+HINT: Largest electronegativity difference.
+
+
+CONCEPT: id=c7formal | chapter=Chapter 7 | title=Formal charge calculation
+Q: difficulty=easy | Formal charge is a bookkeeping tool for:
+C: Valence e− ownership
+C: Mass
+C: Proton count
+C: Neutrons
+ANSWER: 0
+HINT: Assigns electrons in bonds/lone pairs.
+
+Q: difficulty=medium | Formal charge on halogen preferred when:
+C: Positive and central
+C: Negative and terminal
+C: Positive and terminal
+C: Zero always
+ANSWER: 1
+HINT: More EN atoms prefer negative charge.
+
+Q: difficulty=medium | Best Lewis structure tends to minimize:
+C: Formal charge separation
+C: Bonds
+C: Atoms
+C: Valence
+ANSWER: 0
+HINT: Lower magnitudes more stable.
+
+Q: difficulty=hard | Formal charge differs from oxidation state because:
+C: It counts ionic splitting
+C: It assigns all bonding pairs equally
+C: It uses electronegativity fully
+C: It equals charge always
+ANSWER: 1
+HINT: Split shared e− evenly regardless of EN.
+
+Q: difficulty=hard | Sum of formal charges in a neutral molecule equals:
+C: +1
+C: −1
+C: 0
+C: Depends on atom
+ANSWER: 2
+HINT: Total must match the net charge.
+
+
+CONCEPT: id=c7naming | chapter=Chapter 7 | title=Naming binary covalent compounds
+Q: difficulty=easy | CO is named:
+C: Carbon oxide
+C: Carbon monoxide
+C: Carbon(II) oxide
+C: Monocarbon oxide
+ANSWER: 1
+HINT: Use mono- for the second element.
+
+Q: difficulty=medium | N2O4 is:
+C: Dinitrogen tetraoxide
+C: Nitrogen dioxide
+C: Dinitrogen dioxide
+C: Nitrogen(IV) oxide
+ANSWER: 0
+HINT: Use prefixes for both elements as needed.
+
+Q: difficulty=medium | SF6 is:
+C: Sulfur hexafluoride
+C: Sulfur fluoride
+C: Sulfur heptafluoride
+C: Sulfur(VI) fluoride
+ANSWER: 0
+HINT: Hexa- indicates six fluorines.
+
+Q: difficulty=hard | PCl3 is:
+C: Phosphorus trichloride
+C: Phosphorus chloride(III)
+C: Triphosphorus monochloride
+C: Phosphorus trichlorate
+ANSWER: 0
+HINT: Prefix system for covalent compounds.
+
+Q: difficulty=hard | The ‘mono-’ on the first element is:
+C: Always used
+C: Never used
+C: Used when needed
+C: Typically omitted
+ANSWER: 3
+HINT: Often omitted for the first element.
+
+Q: difficulty=medium | Cl2O7 is named:
+C: Dichlorine heptoxide
+C: Chlorine(VII) oxide
+C: Heptachlorine dioxide
+C: Chloride(VII) oxide
+ANSWER: 0
+HINT: Use Greek prefixes for both.
+
+Q: difficulty=medium | Cl2O7 is named:
+C: Dichlorine heptoxide
+C: Chlorine(VII) oxide
+C: Heptachlorine dioxide
+C: Chloride(VII) oxide
+ANSWER: 0
+HINT: Use Greek prefixes for both.
+
+Q: difficulty=medium | Cl2O7 is named:
+C: Dichlorine heptoxide
+C: Chlorine(VII) oxide
+C: Heptachlorine dioxide
+C: Chloride(VII) oxide
+ANSWER: 0
+HINT: Use Greek prefixes for both.
+
+
+CONCEPT: id=c7vsepr | chapter=Chapter 7 | title=VSEPR theory basics
+Q: difficulty=easy | AX2 with no lone pairs is:
+C: Bent
+C: Linear
+C: Trigonal planar
+C: T-shaped
+ANSWER: 1
+HINT: Two groups, no lone pairs.
+
+Q: difficulty=medium | AX3E has molecular shape:
+C: Trigonal planar
+C: Tetrahedral
+C: Trigonal pyramidal
+C: Bent
+ANSWER: 2
+HINT: One lone pair on tetrahedral e− geometry.
+
+Q: difficulty=medium | AX2E2 has shape:
+C: Linear
+C: Trigonal planar
+C: Bent
+C: See-saw
+ANSWER: 2
+HINT: Two lone pairs compress to bent.
+
+Q: difficulty=hard | AX5E has shape:
+C: Trigonal bipyramidal
+C: Seesaw
+C: T-shaped
+C: Square pyramidal
+ANSWER: 1
+HINT: One lone pair on trigonal bipyramidal → seesaw.
+
+Q: difficulty=hard | AX2E3 has shape:
+C: Linear
+C: T-shaped
+C: Bent
+C: Square planar
+ANSWER: 0
+HINT: Three equatorial lone pairs → linear.
+
+Q: difficulty=medium | AX4E2 corresponds to which molecular shape?
+C: See-saw
+C: Square planar
+C: Square pyramidal
+C: T-shaped
+ANSWER: 1
+HINT: Two lone pairs on octahedral → square planar.
+
+Q: difficulty=medium | AX4E2 corresponds to which molecular shape?
+C: See-saw
+C: Square planar
+C: Square pyramidal
+C: T-shaped
+ANSWER: 1
+HINT: Two lone pairs on octahedral → square planar.
+
+Q: difficulty=medium | AX4E2 corresponds to which molecular shape?
+C: See-saw
+C: Square planar
+C: Square pyramidal
+C: T-shaped
+ANSWER: 1
+HINT: Two lone pairs on octahedral → square planar.
+
+Q: difficulty=medium | AX4E2 corresponds to which molecular shape?
+C: See-saw
+C: Square planar
+C: Square pyramidal
+C: T-shaped
+ANSWER: 1
+HINT: Two lone pairs on octahedral → square planar.
+
+
+CONCEPT: id=c7shapes | chapter=Chapter 7 | title=Predict shapes from formulas
+Q: difficulty=easy | CO2 is:
+C: Linear & nonpolar
+C: Bent & polar
+C: Trigonal planar
+C: Tetrahedral
+ANSWER: 0
+HINT: Dipoles cancel in linear geometry.
+
+Q: difficulty=medium | H2O is:
+C: Linear
+C: Bent
+C: Trigonal planar
+C: Tetrahedral
+ANSWER: 1
+HINT: Two lone pairs create bent shape.
+
+Q: difficulty=medium | NH3 is:
+C: Trigonal planar
+C: Trigonal pyramidal
+C: T-shaped
+C: Square planar
+ANSWER: 1
+HINT: One lone pair on N.
+
+Q: difficulty=hard | SF4 is:
+C: Seesaw
+C: T-shaped
+C: Square pyramidal
+C: Linear
+ANSWER: 0
+HINT: AX4E on trigonal bipyramidal.
+
+Q: difficulty=hard | XeF4 is:
+C: Seesaw
+C: Square planar
+C: T-shaped
+C: Trigonal planar
+ANSWER: 1
+HINT: AX4E2 on octahedral.
+
+
+CONCEPT: id=c8vbt | chapter=Chapter 8 | title=Valence bond theory
+Q: difficulty=easy | VBT forms bonds by overlap of:
+C: Atomic orbitals
+C: Cores
+C: Nuclei only
+C: Crystal fields
+ANSWER: 0
+HINT: Localized overlaps between atoms.
+
+Q: difficulty=medium | Stronger σ bonds correlate with:
+C: Less overlap
+C: More overlap
+C: No overlap
+C: Only π overlap
+ANSWER: 1
+HINT: Greater overlap strengthens σ.
+
+Q: difficulty=medium | π bonds arise from:
+C: End-to-end overlap
+C: Side-by-side overlap
+C: Core overlap
+C: s–s only
+ANSWER: 1
+HINT: Parallel p orbitals overlap sideways.
+
+Q: difficulty=hard | Localized VBT contrasts with:
+C: Lewis model
+C: MO theory
+C: Band theory
+C: Crystal field
+ANSWER: 1
+HINT: MO orbitals can delocalize over molecule.
+
+Q: difficulty=hard | Hybridization in VBT helps explain:
+C: Bond angles
+C: Atomic mass
+C: Color
+C: Phase
+ANSWER: 0
+HINT: Directionality of overlap → angles.
+
+
+CONCEPT: id=c8hyb | chapter=Chapter 8 | title=Hybridization & hybrid orbitals
+Q: difficulty=easy | Four electron domains suggest:
+C: sp
+C: sp2
+C: sp3
+C: sp3d2
+ANSWER: 2
+HINT: Match domain count to hybrid count.
+
+Q: difficulty=medium | Three electron domains often imply:
+C: sp
+C: sp2
+C: sp3
+C: sp3d
+ANSWER: 1
+HINT: Trigonal planar geometry.
+
+Q: difficulty=medium | Two electron domains indicate:
+C: sp
+C: sp2
+C: sp3
+C: sp3d2
+ANSWER: 0
+HINT: Linear arrangement.
+
+Q: difficulty=hard | Six electron domains correspond to:
+C: sp3
+C: sp3d
+C: sp3d2
+C: sp2
+ANSWER: 2
+HINT: Octahedral arrangement.
+
+Q: difficulty=hard | Hypervalent textbook model invokes:
+C: Core-only
+C: s/p only
+C: d participation conceptually
+C: No change
+ANSWER: 2
+HINT: Classic scheme for expanded octets.
+
+
+CONCEPT: id=c8hybfind | chapter=Chapter 8 | title=Determine hybridization from formula
+Q: difficulty=easy | Central atom in CH4 is typically:
+C: sp
+C: sp2
+C: sp3
+C: sp3d
+ANSWER: 2
+HINT: Four σ bonds → sp3.
+
+Q: difficulty=medium | Central atom in BF3 is likely:
+C: sp
+C: sp2
+C: sp3
+C: sp3d2
+ANSWER: 1
+HINT: Three σ bonds → sp2.
+
+Q: difficulty=medium | Central atom in CO2 is:
+C: sp
+C: sp2
+C: sp3
+C: sp3d
+ANSWER: 0
+HINT: Two σ bonds → sp.
+
+Q: difficulty=hard | Central atom in SF6 is:
+C: sp3
+C: sp3d
+C: sp3d2
+C: sp2
+ANSWER: 2
+HINT: Six σ bonds in octahedral pattern.
+
+Q: difficulty=hard | Central atom in PCl5 is:
+C: sp3
+C: sp3d
+C: sp3d2
+C: sp2
+ANSWER: 1
+HINT: Five σ bonds → trigonal bipyramidal.
+
+
+CONCEPT: id=c8sigpi | chapter=Chapter 8 | title=Sigma & pi bonds
+Q: difficulty=easy | A single bond consists of:
+C: One σ
+C: One π
+C: One σ + one π
+C: Two π
+ANSWER: 0
+HINT: Single bonds are σ bonds.
+
+Q: difficulty=medium | A double bond consists of:
+C: Two σ
+C: One σ + one π
+C: Two π only
+C: Three σ
+ANSWER: 1
+HINT: One σ framework, one π overlap.
+
+Q: difficulty=medium | A triple bond consists of:
+C: One σ + two π
+C: Three σ
+C: One π only
+C: Two σ + one π
+ANSWER: 0
+HINT: One σ plus two perpendicular π bonds.
+
+Q: difficulty=hard | σ bonds form by ______ overlap.
+C: Side-by-side
+C: End-to-end
+C: Nodal
+C: Non-overlap
+ANSWER: 1
+HINT: Along internuclear axis.
+
+Q: difficulty=hard | π bonds have nodal plane along:
+C: Internuclear axis
+C: Perpendicular axis
+C: No nodal plane
+C: Between nuclei only
+ANSWER: 0
+HINT: Node includes the bond axis.
+
+
+CONCEPT: id=c8count | chapter=Chapter 8 | title=Count σ/π in a structure
+Q: difficulty=easy | In ethene (C2H4), C=C contains:
+C: Two σ
+C: One σ + one π
+C: Two π
+C: No π
+ANSWER: 1
+HINT: Double bond has one π.
+
+Q: difficulty=medium | In ethyne (C2H2), C≡C contains:
+C: One σ + one π
+C: One σ + two π
+C: Two σ + one π
+C: Three σ
+ANSWER: 1
+HINT: Triple bond has two π bonds.
+
+Q: difficulty=medium | In benzene, C–C bonds are:
+C: Pure single
+C: Pure double
+C: Alternating only
+C: Delocalized intermediate
+ANSWER: 3
+HINT: Aromatic delocalization.
+
+Q: difficulty=hard | In HCN, count σ and π between C and N:
+C: 1 σ only
+C: 1 σ + 1 π
+C: 1 σ + 2 π
+C: 2 σ + 1 π
+ANSWER: 2
+HINT: Triple bond between C and N.
+
+Q: difficulty=hard | In CO2, each C=O bond has:
+C: 1 σ only
+C: 1 σ + 1 π
+C: 2 π only
+C: 1 σ + 2 π
+ANSWER: 1
+HINT: Double bond per C=O.
+
+
+CONCEPT: id=c8mo | chapter=Chapter 8 | title=Fill MO diagram & bond order
+Q: difficulty=easy | Bond order in MO theory is:
+C: (Nb−Na)/2
+C: (Na−Nb)/2
+C: Nb+Na
+C: Na/Nb
+ANSWER: 0
+HINT: Nb= bonding e−, Na= antibonding e−.
+
+Q: difficulty=medium | If Nb=8 and Na=2, bond order is:
+C: 1
+C: 2
+C: 3
+C: 4
+ANSWER: 2
+HINT: Subtract antibonding from bonding electrons, then divide by two.
+
+Q: difficulty=medium | If bond order computes to 0,
+C: Molecule stable
+C: Molecule unstable
+C: Always ionic
+C: Always metallic
+ANSWER: 1
+HINT: Zero order implies no net bond.
+
+Q: difficulty=hard | Adding electrons to antibonding orbitals usually:
+C: Strengthens bond
+C: Weakens bond
+C: No effect
+C: Reverses polarity
+ANSWER: 1
+HINT: Antibonding occupancy reduces order.
+
+Q: difficulty=hard | Paramagnetism in O2 arises from:
+C: All paired e−
+C: Unpaired e− in π*
+C: No antibonding e−
+C: Core transitions
+ANSWER: 1
+HINT: MO diagram shows two unpaired in π*.
+
+Q: difficulty=medium | If Nb=10 and Na=6, bond order equals:
+C: 1
+C: 2
+C: 3
+C: 4
+ANSWER: 1
+HINT: (10−6)/2 = 2.
+
+Q: difficulty=medium | If Nb=10 and Na=6, bond order equals:
+C: 1
+C: 2
+C: 3
+C: 4
+ANSWER: 1
+HINT: (10−6)/2 = 2.
+
+Q: difficulty=medium | If Nb=10 and Na=6, bond order equals:
+C: 1
+C: 2
+C: 3
+C: 4
+ANSWER: 1
+HINT: (10−6)/2 = 2.
+
+
+CONCEPT: id=c9rels | chapter=Chapter 9 | title=P–V–T–n relationships
+Q: difficulty=easy | At constant T and n, increasing P causes V to:
+C: Increase
+C: Decrease
+C: Stay same
+C: Random
+ANSWER: 1
+HINT: Boyle’s law (inverse relation).
+
+Q: difficulty=medium | At constant P, V is proportional to:
+C: T (Kelvin)
+C: 1/T
+C: n²
+C: 1/n
+ANSWER: 0
+HINT: Charles’s law (direct with T).
+
+Q: difficulty=medium | At constant V, P is proportional to:
+C: T (Kelvin)
+C: 1/T
+C: n
+C: 1/n
+ANSWER: 0
+HINT: Gay-Lussac’s law.
+
+Q: difficulty=hard | For fixed n, the combined gas law conserves:
+C: PV/T
+C: P/T
+C: PT/V
+C: V/T
+ANSWER: 0
+HINT: Compare states 1 and 2 using PV=nRT.
+
+Q: difficulty=hard | Doubling n and T while halving V makes P:
+C: ↓
+C: same
+C: ↑
+C: undefined
+ANSWER: 2
+HINT: Track proportional factors in PV=nRT.
+
+Q: difficulty=medium | Doubling both T and V at constant n makes P:
+C: ↑
+C: ↓
+C: Same
+C: Undefined
+ANSWER: 2
+HINT: PV ∝ nT → both scale, ratio unchanged.
+
+Q: difficulty=medium | Doubling both T and V at constant n makes P:
+C: ↑
+C: ↓
+C: Same
+C: Undefined
+ANSWER: 2
+HINT: PV ∝ nT → both scale, ratio unchanged.
+
+Q: difficulty=medium | Doubling both T and V at constant n makes P:
+C: ↑
+C: ↓
+C: Same
+C: Undefined
+ANSWER: 2
+HINT: PV ∝ nT → both scale, ratio unchanged.
+
 
 CONCEPT: id=c9ideal | chapter=Chapter 9 | title=Using PV=nRT
 Q: difficulty=easy | In PV=nRT, R is the:
@@ -49,23 +1475,23 @@ C: Gas constant
 C: Radius
 C: Resistance
 ANSWER: 1
-HINT: It links state variables and their units.
+HINT: Links variables with consistent units.
 
 Q: difficulty=medium | If V doubles at constant n and T, then P will:
 C: Double
 C: Halve
-C: Stay the same
+C: Same
 C: Quarter
 ANSWER: 1
-HINT: Keep the left product consistent with the right side.
+HINT: Keep product consistent.
 
-Q: difficulty=medium | Units consistent with R = 0.08206 are:
+Q: difficulty=medium | Units for R = 0.08206 are:
 C: L·atm·mol⁻¹·K⁻¹
 C: Pa·m³·mol⁻¹·K⁻¹
 C: L·torr·mol⁻¹·K⁻¹
 C: bar·L·mol⁻¹·K⁻¹
 ANSWER: 0
-HINT: Atmospheres pair with liters in this common value.
+HINT: Match atm with liters.
 
 Q: difficulty=hard | Tripling n while halving V (T const.) changes P by:
 C: ×1.5
@@ -73,12 +1499,163 @@ C: ×3
 C: ×6
 C: ×0.5
 ANSWER: 2
-HINT: Scale numerator and denominator.
+HINT: Numerator and denominator scaling.
 
-Q: difficulty=hard | Celsius to Kelvin requires:
-C: ×273
-C: −273
-C: +273.15
-C: ÷273.15
+Q: difficulty=hard | Convert 25 °C to K:
+C: 248 K
+C: 273 K
+C: 298.15 K
+C: 300 K
 ANSWER: 2
-HINT: Add the fixed offset to reach the absolute scale.
+HINT: Add 273.15 to Celsius.
+
+Q: difficulty=medium | Keeping P and n constant, V ∝
+C: 1/T
+C: T
+C: n
+C: 1/n
+ANSWER: 1
+HINT: Charles’s law: V directly with T.
+
+Q: difficulty=medium | Keeping P and n constant, V ∝
+C: 1/T
+C: T
+C: n
+C: 1/n
+ANSWER: 1
+HINT: Charles’s law: V directly with T.
+
+Q: difficulty=medium | Keeping P and n constant, V ∝
+C: 1/T
+C: T
+C: n
+C: 1/n
+ANSWER: 1
+HINT: Charles’s law: V directly with T.
+
+
+CONCEPT: id=c9kmt | chapter=Chapter 9 | title=Kinetic molecular theory & gas behavior
+Q: difficulty=easy | KMT assumes gas particles:
+C: Attract strongly
+C: Have negligible volume
+C: Stick permanently
+C: Are stationary
+ANSWER: 1
+HINT: Volume negligible vs container.
+
+Q: difficulty=medium | Average kinetic energy depends on:
+C: Temperature (K)
+C: Pressure
+C: Volume
+C: n
+ANSWER: 0
+HINT: Proportional to absolute T.
+
+Q: difficulty=medium | Higher temperature implies speed distribution:
+C: Narrower & slower
+C: Broader & faster
+C: Same
+C: Stops motion
+ANSWER: 1
+HINT: Maxwell–Boltzmann broadens and shifts right.
+
+Q: difficulty=hard | Deviations from KMT increase when:
+C: Low P, high T
+C: High P, low T
+C: Low P, low T
+C: High P, high T
+ANSWER: 1
+HINT: IMFs and finite sizes matter.
+
+Q: difficulty=hard | Effusion rate depends inversely on:
+C: Molar mass^0.5
+C: Volume
+C: Pressure
+C: R
+ANSWER: 0
+HINT: Graham’s law: r ∝ 1/√M.
+
+
+CONCEPT: id=c9real | chapter=Chapter 9 | title=Real vs ideal gases
+Q: difficulty=easy | Real gases deviate most at:
+C: Low P, high T
+C: High P, low T
+C: Moderate conditions
+C: Vacuum
+ANSWER: 1
+HINT: IMFs and finite molecular volume.
+
+Q: difficulty=medium | In van der Waals, ‘a’ corrects for:
+C: Molecular volume
+C: Attractions
+C: Repulsions
+C: Temperature
+ANSWER: 1
+HINT: Attractive forces reduce effective pressure.
+
+Q: difficulty=medium | In van der Waals, ‘b’ corrects for:
+C: Molecular volume
+C: Attractions
+C: Mass
+C: Kinetic energy
+ANSWER: 0
+HINT: Finite size excludes volume.
+
+Q: difficulty=hard | Liquefaction is favored by:
+C: High T, low P
+C: Low T, high P
+C: Any T,P
+C: Vacuum
+ANSWER: 1
+HINT: Encourages condensation by IMFs.
+
+Q: difficulty=hard | Z=PV/RT < 1 typically indicates dominant:
+C: Repulsions
+C: Attractions
+C: No interactions
+C: Measurement error
+ANSWER: 1
+HINT: Attractions reduce pressure.
+
+
+CONCEPT: id=c9diff | chapter=Chapter 9 | title=Diffusion/effusion & molar mass
+Q: difficulty=easy | Lighter gases diffuse:
+C: Slower
+C: Faster
+C: Same
+C: Stop
+ANSWER: 1
+HINT: Lower mass → higher average speed.
+
+Q: difficulty=medium | Graham’s law relates rate to:
+C: 1/√M
+C: M
+C: T^2
+C: P^2
+ANSWER: 0
+HINT: Inverse square-root of molar mass.
+
+Q: difficulty=medium | If gas A is 4× heavier than B, r_B/r_A ≈
+C: 2
+C: 1/2
+C: 4
+C: 1/4
+ANSWER: 0
+HINT: Rates scale as √(M_heavier/M_lighter).
+
+Q: difficulty=hard | Effusion experiments typically assume:
+C: No collisions at orifice
+C: Large opening
+C: Sticky walls
+C: Non-ideal behavior dominates
+ANSWER: 0
+HINT: Tiny hole → molecular regime.
+
+Q: difficulty=hard | At equal T, which effuses fastest?
+C: CO2
+C: O2
+C: He
+C: N2
+ANSWER: 2
+HINT: Lowest molar mass → highest rate.
+
