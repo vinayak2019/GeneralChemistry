@@ -225,7 +225,7 @@ HINT: E ∝ ν by Planck's relation.
 
 Q: difficulty=hard | If ΔE matches green light, absorbing that photon implies the sample appears:
 C: Green
-C: Magenta (complement)
+C: Magenta
 C: Yellow
 C: Blue
 ANSWER: 1
