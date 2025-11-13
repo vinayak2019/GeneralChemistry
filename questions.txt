@@ -118,7 +118,7 @@ HINT: Transition block begins there.
 Q: difficulty=medium | Which fills latest by energy among these?
 C: 5s
 C: 4p
-C: 3d
+C: 
 C: 4d
 ANSWER: 3
 HINT: Later row, same block tends to be higher.
@@ -194,7 +194,7 @@ C: 3
 C: 4
 C: 5
 C: 6
-ANSWER: 2
+ANSWER: 1
 HINT: Consider s-orbital row preceding that d set.
 
 
@@ -236,7 +236,7 @@ C: Red
 C: Magenta
 C: Yellow
 C: Blue
-ANSWER: 1
+ANSWER: 0
 HINT: Complement appears when a color is subtracted from white light.
 
 Q: difficulty=medium | If a solution absorbs strongly at 450 nm, its observed color is closest to:
