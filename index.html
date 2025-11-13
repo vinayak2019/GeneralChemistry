@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>General Chemistry — Mastery Navigator (GitHub Loader)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root{
+    --bg:#0b1220; --panel:#0f172a; --card:#ffffff; --muted:#94a3b8;
+    --accent:#38bdf8; --chip:#1e293b; --radius:14px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:#e5e7eb}
+  .layout{display:grid;grid-template-columns:310px 1fr;min-height:100vh}
+  aside{background:var(--panel);border-right:1px solid rgba(255,255,255,.05);padding:16px;overflow:auto}
+  main{padding:20px;overflow:auto}
+  .chapter{margin:14px 0 6px;font-size:12px;color:#9ca3af;text-transform:uppercase;letter-spacing:.08em}
+  .concept{display:flex;gap:10px;align-items:center;padding:10px;border-radius:10px;cursor:pointer}
+  .concept:hover{background:#0b1020}
+  .concept.active{background:#111a2d;border:1px solid rgba(255,255,255,.06)}
+  .badge{margin-left:auto;font-size:11px;padding:4px 8px;border-radius:9999px;background:var(--chip);color:#cbd5e1;border:1px solid rgba(148,163,184,.22)}
+  .badge.mastered{background:rgba(22,163,74,.18);color:#bbf7d0;border-color:rgba(22,163,74,.45)}
+  .badge.proficient{background:rgba(56,189,248,.18);color:#bae6fd;border-color:rgba(56,189,248,.45)}
+  .badge.developing{background:rgba(245,158,11,.18);color:#fde68a;border-color:rgba(245,158,11,.45)}
+  .badge.emerging{background:rgba(239,68,68,.18);color:#fecaca;border-color:rgba(239,68,68,.45)}
+  .badge.na{opacity:.7}
+  .topic-head{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:12px}
+  .topic-title{font-size:18px;font-weight:700}
+  .card{background:var(--card);color:#0f172a;border-radius:var(--radius);padding:16px;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+  .meta{font-size:12px;color:#64748b;margin-bottom:8px}
+  .question-text{font-weight:700;margin:8px 0 12px}
+  .choices{display:grid;gap:8px}
+  .choice{background:#f1f5f9;border:1px solid transparent;border-radius:10px;padding:10px;cursor:pointer;display:flex;gap:8px;align-items:flex-start}
+  .choice:hover{border-color:#cbd5e1}
+  .choice.correct{background:#dcfce7;border-color:#16a34a}
+  .choice.incorrect{background:#fee2e2;border-color:#ef4444}
+  .feedback{margin-top:8px;font-size:13px;color:#0b3b19;display:none}
+  .feedback.show{display:block}
+  .controls{display:flex;justify-content:space-between;align-items:center;margin-top:12px}
+  .btn{border:0;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
+  .btn.primary{background:var(--accent);color:#07121f}
+  .btn.ghost{background:#0b1a2a;color:#cbd5e1;border:1px solid rgba(148,163,184,.25)}
+  .progress{height:8px;border-radius:999px;background:#e5e7eb;overflow:hidden;margin:10px 0 0}
+  .bar{height:100%;width:0;background:linear-gradient(90deg,#38bdf8,#0ea5e9);transition:width .3s}
+  .pill{font-size:11px;padding:4px 8px;border-radius:999px;background:#eef2f7;color:#0f172a}
+  .empty{opacity:.85}
+  @media(max-width:900px){.layout{grid-template-columns:1fr} aside{order:2} main{order:1}}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="nav"><div class="chapter">Loading…</div></aside>
+  <main>
+    <div class="topic-head">
+      <div>
+        <div class="topic-title" id="topic-title">Loading questions…</div>
+        <div style="font-size:12px;color:#94a3b8;">5-question adaptive session • hints unlock after <span class="pill">Nov 13, 5:00 PM EST</span></div>
+      </div>
+      <div id="head-actions"></div>
+    </div>
+
+    <div id="panel" class="card">
+      <div class="empty">The app loads all concepts from a GitHub <code>questions.txt</code>. Use the raw URL and ensure CORS-friendly host (<code>raw.githubusercontent.com</code> works).</div>
+    </div>
+  </main>
+</div>
+
+<script>
+/* ======= CONFIGURE THIS TO YOUR RAW GITHUB URL ======= */
+const GITHUB_RAW_TXT = "https://raw.githubusercontent.com/vinayak2019/GeneralChemistry/refs/heads/main/questions.txt";
+
+/* ======= Time-locked feedback ======= */
+const UNLOCK_AT = new Date("2025-11-13T17:00:00-05:00"); // EST
+const explanationsOpen = () => (new Date()) >= UNLOCK_AT;
+
+/* ======= Mastery mapping ======= */
+function abilityToLevel(ability){
+  if(ability === null || ability === undefined) return {key:'na', label:'Not started'};
+  if(ability >= 90) return {key:'mastered',label:'Mastered'};
+  if(ability >= 80) return {key:'proficient',label:'Proficient'};
+  if(ability >= 70) return {key:'developing',label:'Developing'};
+  if(ability >= 60) return {key:'emerging',label:'Emerging'};
+  return {key:'poor',label:'Poor'};
+}
+
+/* ======= Persistence ======= */
+const STORAGE_KEY = "chem_mastery_progress_v3";
+function loadProgress(){ try{ return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }catch{ return {}; } }
+function saveProgress(state){ localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+
+/* ======= Parsing the TXT file =======
+Format:
+CONCEPT: id=abc | chapter=Chapter 6 | title=My Concept
+Q: difficulty=easy | Question text...
+C: choice text
+C: choice text
+C: choice text
+C: choice text
+ANSWER: 2
+HINT: a conceptual hint (never reveals the answer)
+(repeat Q:... blocks; at least 5 per concept)
+*/
+async function fetchQuestions(){
+  const res = await fetch(GITHUB_RAW_TXT, {cache:"no-store"});
+  if(!res.ok) throw new Error("Failed to load questions.txt");
+  const text = await res.text();
+  return parseQuestions(text);
+}
+
+function parseQuestions(text){
+  const lines = text.split(/\r?\n/);
+
+  const catalog = []; // [{chapter,id,title}]
+  const questions = {}; // { id: [ {difficulty,q,choices[],answer,hint}, ... ] }
+
+  let curConcept = null;
+
+  const flushConcept = ()=>{
+    if(curConcept && curConcept.id && curConcept.title && curConcept.chapter){
+      // only register if ≥ 1 question (we enforce 5 later when starting session)
+      catalog.push({chapter:curConcept.chapter, id:curConcept.id, title:curConcept.title});
+      questions[curConcept.id] = curConcept.items || [];
+    }
+  };
+
+  let qBuf = null;
+
+  for(const raw of lines){
+    const line = raw.trim();
+    if(line.length===0 || line.startsWith("#")) continue;
+
+    if(line.startsWith("CONCEPT:")){
+      // close previous concept
+      if(qBuf){ // flush stray question if needed
+        curConcept.items.push(qBuf);
+        qBuf = null;
+      }
+      flushConcept();
+
+      // parse header
+      const meta = line.replace(/^CONCEPT:\s*/,"");
+      const parts = meta.split("|").map(s=>s.trim());
+      const obj = {};
+      parts.forEach(p=>{
+        const [k,...rest] = p.split("=");
+        obj[k.trim().toLowerCase()] = rest.join("=").trim();
+      });
+      curConcept = {
+        id: obj.id,
+        title: obj.title,
+        chapter: obj.chapter,
+        items: []
+      };
+      continue;
+    }
+
+    if(line.startsWith("Q:")){
+      // push previous q if unfinished
+      if(qBuf){ curConcept.items.push(qBuf); }
+      const payload = line.replace(/^Q:\s*/,"");
+      const [left, ...rest] = payload.split("|");
+      const diffMatch = /difficulty\s*=\s*(easy|medium|hard)/i.exec(left);
+      const difficulty = diffMatch ? diffMatch[1].toLowerCase() : "medium";
+      const qText = rest.join("|").trim() || payload.replace(/difficulty\s*=\s*(easy|medium|hard)\s*\|\s*/i,"").trim();
+      qBuf = {difficulty, q:qText, choices:[], answer:null, hint:""};
+      continue;
+    }
+
+    if(line.startsWith("C:")){
+      if(!qBuf){ console.warn("Choice without Q:", line); continue; }
+      qBuf.choices.push(line.replace(/^C:\s*/,"").trim());
+      continue;
+    }
+
+    if(line.startsWith("ANSWER:")){
+      if(!qBuf){ console.warn("ANSWER without Q:", line); continue; }
+      const idx = parseInt(line.replace(/^ANSWER:\s*/,"").trim(),10);
+      qBuf.answer = isNaN(idx) ? null : idx;
+      continue;
+    }
+
+    if(line.startsWith("HINT:")){
+      if(!qBuf){ console.warn("HINT without Q:", line); continue; }
+      qBuf.hint = line.replace(/^HINT:\s*/,"").trim();
+      continue;
+    }
+
+    // Unknown line → ignore
+  }
+
+  // flush tail
+  if(qBuf && curConcept){ curConcept.items.push(qBuf); qBuf = null; }
+  flushConcept();
+
+  // sort catalog by chapter then title
+  const chapterOrder = ["Chapter 6","Chapter 7","Chapter 8","Chapter 9"];
+  catalog.sort((a,b)=>{
+    const ca = chapterOrder.indexOf(a.chapter);
+    const cb = chapterOrder.indexOf(b.chapter);
+    if(ca!==cb) return ca-cb;
+    return a.title.localeCompare(b.title);
+  });
+
+  return { catalog, questions };
+}
+
+/* ======= UI wires ======= */
+const navEl   = document.getElementById("nav");
+const titleEl = document.getElementById("topic-title");
+const panelEl = document.getElementById("panel");
+const headActions = document.getElementById("head-actions");
+
+let CATALOG = [];
+let QUESTIONS = {};
+let CURRENT = null;
+
+function renderSidebar(activeId){
+  navEl.innerHTML = "";
+  let currentChapter = "";
+  const state = loadProgress();
+
+  CATALOG.forEach(item=>{
+    if(item.chapter !== currentChapter){
+      currentChapter = item.chapter;
+      const ch = document.createElement("div");
+      ch.className = "chapter";
+      ch.textContent = currentChapter;
+      navEl.appendChild(ch);
+    }
+    const row = document.createElement("div");
+    row.className = "concept" + (activeId===item.id ? " active" : "");
+    row.dataset.id = item.id;
+
+    const title = document.createElement("div");
+    title.textContent = item.title;
+
+    const a = state[item.id]?.ability ?? null;
+    const lvl = abilityToLevel(a);
+    const badge = document.createElement("div");
+    badge.className = "badge " + (lvl.key || "na");
+    badge.textContent = lvl.label;
+
+    row.appendChild(title);
+    row.appendChild(badge);
+    row.addEventListener("click", ()=> selectConcept(item.id));
+    navEl.appendChild(row);
+  });
+}
+
+function selectConcept(conceptId){
+  renderSidebar(conceptId);
+  CURRENT = null; // not running yet
+  const item = CATALOG.find(c=>c.id===conceptId);
+  titleEl.textContent = item?.title || "Concept";
+  headActions.innerHTML = "";
+
+  const state = loadProgress()[conceptId] || {};
+  const ability = state.ability ?? null;
+  const lvl = abilityToLevel(ability);
+  const lastStr = state.last != null ? `${state.last}%` : "—";
+
+  const count = (QUESTIONS[conceptId] || []).length;
+
+  panelEl.className = "card";
+  panelEl.innerHTML = `
+    <div class="meta">Overview</div>
+    <div class="question-text" style="margin-bottom:10px;">Start a 5-question adaptive session for <strong>${item.title}</strong>?</div>
+    <div class="choices" style="margin-bottom:10px;">
+      <div class="choice" style="pointer-events:none">Questions available: <strong>${count}</strong></div>
+      <div class="choice" style="pointer-events:none">Current mastery: <strong>${lvl.label}</strong></div>
+      <div class="choice" style="pointer-events:none">Last session: <strong>${lastStr}</strong></div>
+      <div class="choice" style="pointer-events:none">Hints: <strong>${explanationsOpen() ? "Enabled (no answer reveal)" : "Locked until Nov 13, 5:00 PM EST"}</strong></div>
+    </div>
+    <div class="controls">
+      <div style="font-size:12px;color:#64748b">Make sure each concept has <strong>≥ 5</strong> questions in the txt file.</div>
+      <div>
+        <button class="btn ghost" id="resetConcept">Reset Mastery</button>
+        <button class="btn primary" id="startSession" ${count<5?"disabled":""}>Start Session</button>
+      </div>
+    </div>
+  `;
+
+  document.getElementById("startSession").addEventListener("click", ()=> startSession(conceptId));
+  document.getElementById("resetConcept").addEventListener("click", ()=>{
+    const store = loadProgress();
+    delete store[conceptId];
+    saveProgress(store);
+    selectConcept(conceptId);
+  });
+}
+
+/* ======= Adaptive engine (5Q) ======= */
+function startSession(conceptId){
+  const pool = (QUESTIONS[conceptId] || []).slice();
+  if(pool.length < 5){
+    panelEl.innerHTML = `<div class="card">This concept has fewer than 5 questions in <code>questions.txt</code>.</div>`;
+    return;
+  }
+  // pick any 5 from the pool (you can change to random sample)
+  // Attempt to preserve difficulty spread by shuffling then slicing:
+  const shuffled = pool.sort(()=>Math.random()-0.5);
+  const five = shuffled.slice(0,5);
+
+  const prior = loadProgress()[conceptId]?.ability ?? 50;
+  CURRENT = {
+    conceptId,
+    order:[0,1,2,3,4],
+    asked:0,
+    total:5,
+    ability: prior,
+    difficulty:"medium",
+    score:0,
+    qList: five
+  };
+  renderQuestion();
+}
+
+function pickNextIndex(){
+  const remaining = CURRENT.order.map(i=>({idx:i, diff: CURRENT.qList[i].difficulty}));
+  const target = CURRENT.difficulty;
+  const pref = remaining.filter(r=>r.diff===target);
+  if(pref.length) return pref[Math.floor(Math.random()*pref.length)].idx;
+  const map = {easy:["medium","hard"], medium:["easy","hard"], hard:["medium","easy"]};
+  for(const tier of map[target]){
+    const alt = remaining.filter(r=>r.diff===tier);
+    if(alt.length) return alt[Math.floor(Math.random()*alt.length)].idx;
+  }
+  return remaining[0].idx;
+}
+
+function renderQuestion(){
+  if(CURRENT.asked >= CURRENT.total){
+    const pct = Math.round((CURRENT.score/CURRENT.total)*100);
+    const prevA = loadProgress()[CURRENT.conceptId]?.ability ?? 50;
+    const newAbility = Math.max(20, Math.min(95, Math.round(0.6*prevA + 0.4*(20+pct*0.75))));
+    const store = loadProgress();
+    store[CURRENT.conceptId] = { ability:newAbility, last:pct, date:Date.now() };
+    saveProgress(store);
+    renderSidebar(CURRENT.conceptId);
+
+    panelEl.innerHTML = `
+      <div class="meta">Session complete</div>
+      <div class="question-text">You finished a 5-question adaptive check for this concept.</div>
+      <div class="choices">
+        <div class="choice" style="pointer-events:none">Score: <strong>${pct}%</strong></div>
+        <div class="choice" style="pointer-events:none">Updated mastery: <strong>${abilityToLevel(newAbility).label}</strong></div>
+      </div>
+      <div class="controls">
+        <div style="font-size:12px;color:#64748b">${explanationsOpen() ? "Hints are enabled (no answer reveal) for future sessions." : "Hints unlock after Nov 13, 5:00 PM EST."}</div>
+        <div>
+          <button class="btn ghost" onclick="selectConcept('${CURRENT.conceptId}')">Back to Overview</button>
+          <button class="btn primary" onclick="startSession('${CURRENT.conceptId}')">Try Again</button>
+        </div>
+      </div>
+    `;
+    return;
+  }
+
+  const idx = pickNextIndex();
+  const q = CURRENT.qList[idx];
+
+  panelEl.innerHTML = `
+    <div class="meta">
+      Question ${CURRENT.asked+1} of ${CURRENT.total} • ${q.difficulty.toUpperCase()}
+      <div class="progress"><div class="bar" style="width:${(CURRENT.asked/CURRENT.total)*100}%"></div></div>
+    </div>
+    <div class="question-text">${q.q}</div>
+    <div class="choices">
+      ${q.choices.map((c,i)=>`<div class="choice" data-i="${i}">${c}</div>`).join("")}
+    </div>
+    <div class="feedback" id="fb"></div>
+    <div class="controls">
+      <div style="font-size:12px;color:#64748b">${explanationsOpen() ? "Hints are enabled. Correct choice is never revealed." : "Only Correct/Incorrect until unlock."}</div>
+      <div>
+        <button class="btn ghost" onclick="selectConcept('${CURRENT.conceptId}')">End Session</button>
+        <button class="btn primary" id="nextBtn" disabled>Next →</button>
+      </div>
+    </div>
+  `;
+
+  const fb = document.getElementById("fb");
+  const choices = panelEl.querySelectorAll(".choice");
+  const nextBtn = document.getElementById("nextBtn");
+
+  choices.forEach(ch=>{
+    ch.addEventListener("click", ()=>{
+      if(nextBtn.disabled===false) return;
+      const sel = Number(ch.dataset.i);
+      const correct = sel === q.answer;
+
+      if(correct){
+        ch.classList.add("correct");
+        fb.textContent = "Correct.";
+        CURRENT.score++;
+        CURRENT.ability = Math.min(95, CURRENT.ability + (q.difficulty==="hard"?8:q.difficulty==="medium"?5:3));
+        CURRENT.difficulty = (q.difficulty==="easy") ? "medium" : (q.difficulty==="medium") ? "hard" : "hard";
+      } else {
+        ch.classList.add("incorrect");
+        fb.textContent = "Incorrect." + (explanationsOpen() ? " Hint: "+q.hint : "");
+        CURRENT.ability = Math.max(20, CURRENT.ability - (q.difficulty==="hard"?3.5:q.difficulty==="medium"?2.5:1.5));
+        CURRENT.difficulty = (q.difficulty==="hard") ? "medium" : (q.difficulty==="medium") ? "easy" : "easy";
+      }
+
+      fb.classList.add("show");
+      choices.forEach(c=>c.style.pointerEvents="none");
+      CURRENT.order = CURRENT.order.filter(i=>i!==idx);
+      CURRENT.asked++;
+      nextBtn.disabled = false;
+    }, {once:true});
+  });
+
+  nextBtn.addEventListener("click", renderQuestion, {once:true});
+}
+
+/* ======= Boot ======= */
+(async ()=>{
+  try{
+    const {catalog, questions} = await fetchQuestions();
+    CATALOG = catalog;
+    QUESTIONS = questions;
+
+    // Basic sanity: ensure each concept has at least 5 Qs
+    const ok = CATALOG.filter(c => (QUESTIONS[c.id]||[]).length >= 5).length;
+    document.getElementById("topic-title").textContent = "Select a concept";
+    renderSidebar(null);
+    panelEl.innerHTML = `<div class="card"><div class="meta">Loaded</div>
+      <div class="question-text">Concepts loaded from GitHub: <strong>${CATALOG.length}</strong></div>
+      <div class="choices"><div class="choice" style="pointer-events:none">Concepts ready (≥5 Qs): <strong>${ok}</strong></div></div>
+      <div class="empty" style="margin-top:10px;">Pick a concept on the left to see its overview and start a session.</div>
+    </div>`;
+  }catch(err){
+    console.error(err);
+    document.getElementById("topic-title").textContent = "Load error";
+    panelEl.innerHTML = `<div class="card">Could not load <code>questions.txt</code>.<br>
+      Make sure the <strong>GITHUB_RAW_TXT</strong> URL is correct and public (use raw.githubusercontent.com).<br><br>
+      Error: ${err.message}</div>`;
+  }
+})();
+</script>
+</body>
+</html>
