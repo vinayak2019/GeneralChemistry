@@ -131,14 +131,6 @@ C: 2s/2p
 ANSWER: 0
 HINT: A first-row transition nuance.
 
-Q: difficulty=hard | The diagonal rule compares:
-C: n only
-C: l only
-C: n+l (then n)
-C: atomic number
-ANSWER: 2
-HINT: Sort by sum then by n.
-
 Q: difficulty=medium | Which comes after 6s in the typical order?
 C: 4f
 C: 5d
@@ -239,14 +231,6 @@ C: Blue
 ANSWER: 1
 HINT: Subtracting green leaves its complement.
 
-Q: difficulty=hard | When an electron relaxes from n=4 to n=2, it:
-C: Absorbs UV
-C: Emits visible/UV
-C: Emits IR only
-C: Shows no line
-ANSWER: 1
-HINT: Balmer-like transitions can be visible/UV.
-
 Q: difficulty=medium | Which color is complementary to green (often seen when green is absorbed)?
 C: Red
 C: Magenta
@@ -270,15 +254,6 @@ C: Visible/near-UV
 C: X-ray
 ANSWER: 2
 HINT: Large ΔE often corresponds to visible/near-UV lines.
-
-Q: difficulty=medium | Concept check (Absorption vs emission; color): variant 9
-C: Applies
-C: Does not apply
-C: Sometimes
-C: Insufficient info
-ANSWER: 2
-HINT: Consider boundary cases that define this concept.
-
 
 CONCEPT: id=c6identify | chapter=Chapter 6 | title=Identify elements from configurations
 Q: difficulty=easy | Which condensed notation could match chlorine?
@@ -462,22 +437,6 @@ C: Effective nuclear charge
 C: Shielding
 ANSWER: 2
 HINT: Protons increase while shielding changes modestly.
-
-Q: difficulty=medium | Concept check (Atomic radius / IE / EA—definitions & trends): variant 8
-C: Applies
-C: Does not apply
-C: Sometimes
-C: Insufficient info
-ANSWER: 2
-HINT: Consider boundary cases that define this concept.
-
-Q: difficulty=medium | Concept check (Atomic radius / IE / EA—definitions & trends): variant 9
-C: Applies
-C: Does not apply
-C: Sometimes
-C: Insufficient info
-ANSWER: 2
-HINT: Consider boundary cases that define this concept.
 
 
 CONCEPT: id=c6order | chapter=Chapter 6 | title=Arrange elements by trends
@@ -795,14 +754,6 @@ C: All same
 ANSWER: 2
 HINT: Triple > Double > Single in strength/shortness.
 
-Q: difficulty=hard | Resonance often leads to bond lengths that are:
-C: Pure single
-C: Pure double
-C: Intermediate
-C: Undefined
-ANSWER: 2
-HINT: Delocalization averages bond character.
-
 Q: difficulty=hard | As bond length decreases, vibrational frequency tends to:
 C: Decrease
 C: Increase
@@ -826,15 +777,6 @@ C: C–Cl > C–Br > C–F > C–I
 C: C–Br > C–I > C–Cl > C–F
 ANSWER: 0
 HINT: Larger halogens form longer bonds.
-
-Q: difficulty=medium | Concept check (Bond length & bond order): variant 8
-C: Applies
-C: Does not apply
-C: Sometimes
-C: Insufficient info
-ANSWER: 2
-HINT: Consider boundary cases that define this concept.
-
 
 CONCEPT: id=c7en | chapter=Chapter 7 | title=Electronegativity & polarity
 Q: difficulty=easy | Electronegativity measures an atom’s ability to:
@@ -892,15 +834,6 @@ C: Ionic
 C: Undefined
 ANSWER: 1
 HINT: Symmetry cancels bond dipoles.
-
-Q: difficulty=medium | Concept check (Electronegativity & polarity): variant 8
-C: Applies
-C: Does not apply
-C: Sometimes
-C: Insufficient info
-ANSWER: 2
-HINT: Consider boundary cases that define this concept.
-
 
 CONCEPT: id=c7formal | chapter=Chapter 7 | title=Formal charge calculation
 Q: difficulty=easy | Formal charge is a bookkeeping tool for:
@@ -1001,13 +934,6 @@ C: Phosphorus oxide
 ANSWER: 1
 HINT: Use Greek prefixes for both elements.
 
-Q: difficulty=medium | Concept check (Naming binary covalent compounds): variant 8
-C: Applies
-C: Does not apply
-C: Sometimes
-C: Insufficient info
-ANSWER: 2
-HINT: Consider boundary cases that define this concept.
 
 
 CONCEPT: id=c7vsepr | chapter=Chapter 7 | title=VSEPR theory basics
@@ -1074,15 +1000,6 @@ C: <109.5°
 C: 180°
 ANSWER: 2
 HINT: Lone pair compression reduces the angle slightly.
-
-Q: difficulty=medium | Concept check (VSEPR theory basics): variant 9
-C: Applies
-C: Does not apply
-C: Sometimes
-C: Insufficient info
-ANSWER: 2
-HINT: Consider boundary cases that define this concept.
-
 
 CONCEPT: id=c7shapes | chapter=Chapter 7 | title=Predict shapes from formulas
 Q: difficulty=easy | CO2 is:
@@ -1200,14 +1117,6 @@ C: sp3d2
 C: sp2
 ANSWER: 2
 HINT: Octahedral arrangement.
-
-Q: difficulty=hard | Hypervalent textbook model invokes:
-C: Core-only
-C: s/p only
-C: d participation conceptually
-C: No change
-ANSWER: 2
-HINT: Classic scheme for expanded octets.
 
 
 CONCEPT: id=c8hybfind | chapter=Chapter 8 | title=Determine hybridization from formula
@@ -1393,15 +1302,6 @@ C: Always breaks the bond
 ANSWER: 0
 HINT: Fewer antibonding electrons → stronger bond.
 
-Q: difficulty=medium | Concept check (Fill MO diagram & bond order): variant 8
-C: Applies
-C: Does not apply
-C: Sometimes
-C: Insufficient info
-ANSWER: 2
-HINT: Consider boundary cases that define this concept.
-
-
 CONCEPT: id=c9rels | chapter=Chapter 9 | title=P–V–T–n relationships
 Q: difficulty=easy | At constant T and n, increasing P causes V to:
 C: Increase
@@ -1459,15 +1359,6 @@ C: 4
 ANSWER: 0
 HINT: T and V both double → P unchanged.
 
-Q: difficulty=medium | Concept check (P–V–T–n relationships): variant 8
-C: Applies
-C: Does not apply
-C: Sometimes
-C: Insufficient info
-ANSWER: 2
-HINT: Consider boundary cases that define this concept.
-
-
 CONCEPT: id=c9ideal | chapter=Chapter 9 | title=Using PV=nRT
 Q: difficulty=easy | In PV=nRT, R is the:
 C: Rate constant
@@ -1524,15 +1415,6 @@ C: Stay same
 C: Zero
 ANSWER: 0
 HINT: Charles’s law → direct proportionality.
-
-Q: difficulty=medium | Concept check (Using PV=nRT): variant 8
-C: Applies
-C: Does not apply
-C: Sometimes
-C: Insufficient info
-ANSWER: 2
-HINT: Consider boundary cases that define this concept.
-
 
 CONCEPT: id=c9kmt | chapter=Chapter 9 | title=Kinetic molecular theory & gas behavior
 Q: difficulty=easy | KMT assumes gas particles:
