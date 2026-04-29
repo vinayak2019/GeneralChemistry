@@ -1,398 +1,6 @@
-========== Chapter 1 ==========
+========== PERIODIC TRENDS ==========
 
-CONCEPT: id=c1 | chapter=Chapter 1 | title=measurement, density
-Q: difficulty=easy | A student reports density as 0.873 g/mL. Which statement is best?
-C: It depends on total amount
-C: It is an intensive property useful for identification
-C: It must double when mass doubles
-C: It is measured in mol/L
-ANSWER: 1
-HINT: Density = mass/volume
-
-CONCEPT: id=c3 | chapter=Chapter 1 | title=measurement, significant figures
-Q: difficulty=easy | Which measurement has three significant figures?
-C: 0.00450 g
-C: 1000 g, no decimal shown
-C: 0.040 g
-C: 2.0 x 10^4 g
-ANSWER: 0
-HINT: Leading zeros are not significant
-
-
-
-========== Chapter 10 ==========
-
-CONCEPT: id=c53 | chapter=Chapter 10 | title=intermolecular forces
-Q: difficulty=easy | Intermolecular force present in all molecules?
-C: hydrogen bonding
-C: ion-dipole
-C: London dispersion
-C: covalent between molecules
-ANSWER: 2
-HINT: Identify the governing concept: intermolecular forces.
-
-CONCEPT: id=c55 | chapter=Chapter 10 | title=intermolecular forces
-Q: difficulty=medium | Highest boiling point listed?
-C: CH4
-C: CH3CH3
-C: CH3OH
-C: CO2
-ANSWER: 2
-HINT: Identify the governing concept: intermolecular forces.
-
-
-
-========== Chapter 11 ==========
-
-CONCEPT: id=c70 | chapter=Chapter 11 | title=solubility
-Q: difficulty=easy | Most likely soluble in water?
-C: CCl4
-C: NaCl
-C: hexane
-C: I2
-ANSWER: 1
-HINT: Identify the governing concept: solubility.
-
-CONCEPT: id=c71 | chapter=Chapter 11 | title=molarity
-Q: difficulty=easy | Molarity of 0.500 mol solute in 2.00 L solution?
-C: 0.250 M
-C: 1.00 M
-C: 2.50 M
-C: 4.00 M
-ANSWER: 0
-HINT: Identify the governing concept: molarity.
-
-CONCEPT: id=c72 | chapter=Chapter 11 | title=molarity
-Q: difficulty=medium | Volume of 0.200 M NaCl containing 0.0500 mol?
-C: 0.0100 L
-C: 0.100 L
-C: 0.250 L
-C: 4.00 L
-ANSWER: 2
-HINT: Identify the governing concept: molarity.
-
-CONCEPT: id=c114 | chapter=Chapter 11 | title=solubility rules
-Q: difficulty=easy | Likely insoluble compound?
-C: NaNO3
-C: KCl
-C: AgCl
-C: NH4NO3
-ANSWER: 2
-HINT: Identify the governing concept: solubility rules.
-
-CONCEPT: id=c178 | chapter=Chapter 11 | title=solubility equilibrium
-Q: difficulty=medium | Clear solutions form precipitate. Best explanation:
-C: all ions vanish
-C: Qsp exceeded Ksp
-C: solutions became gases
-C: must be redox
-ANSWER: 1
-HINT: Identify the governing concept: solubility equilibrium.
-
-CONCEPT: id=c188 | chapter=Chapter 11 | title=solutions, electrolytes
-Q: difficulty=easy | Strong electrolyte likely:
-C: sucrose
-C: ethanol
-C: NaCl
-C: hexane
-ANSWER: 2
-HINT: Identify the governing concept: solutions, electrolytes.
-
-CONCEPT: id=c189 | chapter=Chapter 11 | title=solutions
-Q: difficulty=easy | Saturated solution means:
-C: no solute
-C: maximum dissolved solute at equilibrium
-C: equal moles solvent and solute
-C: always highly concentrated
-ANSWER: 1
-HINT: Identify the governing concept: solutions.
-
-
-
-========== Chapter 12 ==========
-
-CONCEPT: id=c76 | chapter=Chapter 12 | title=kinetics
-Q: difficulty=easy | Overall order for Rate=k[A][B]^2?
-C: 1
-C: 2
-C: 3
-C: cannot determine
-ANSWER: 2
-HINT: Identify the governing concept: kinetics.
-
-CONCEPT: id=c77 | chapter=Chapter 12 | title=kinetics
-Q: difficulty=medium | If [B] doubles in Rate=k[A][B]^2, rate changes by:
-C: 2
-C: 3
-C: 4
-C: 8
-ANSWER: 2
-HINT: Identify the governing concept: kinetics.
-
-CONCEPT: id=c81 | chapter=Chapter 12 | title=kinetics
-Q: difficulty=medium | First-order half-life:
-C: depends on initial concentration
-C: independent of initial concentration
-C: increases linearly with time
-C: equals k
-ANSWER: 1
-HINT: Identify the governing concept: kinetics.
-
-CONCEPT: id=c83 | chapter=Chapter 12 | title=kinetics
-Q: difficulty=medium | Activation energy is:
-C: reactant-product energy difference
-C: minimum energy to reach transition state
-C: always Delta H
-C: lowered by decreasing T
-ANSWER: 1
-HINT: Identify the governing concept: kinetics.
-
-CONCEPT: id=c86 | chapter=Chapter 12 | title=kinetics, thermodynamics
-Q: difficulty=high | Exothermic but slow reaction is best explained by:
-C: exothermic cannot be spontaneous
-C: large activation energy
-C: K exactly 1
-C: no transition state
-ANSWER: 1
-HINT: Identify the governing concept: kinetics, thermodynamics.
-
-CONCEPT: id=c167 | chapter=Chapter 12 | title=biochemistry, kinetics
-Q: difficulty=medium | Enzyme acts by:
-C: increasing Delta G
-C: lowering activation energy
-C: changing K
-C: being consumed stoichiometrically
-ANSWER: 1
-HINT: Identify the governing concept: biochemistry, kinetics.
-
-CONCEPT: id=c174 | chapter=Chapter 12 | title=kinetics, thermodynamics
-Q: difficulty=high | Delta G<0 but reaction is slow. Best reason?
-C: Delta G determines speed
-C: activation energy controls rate
-C: K must be 1
-C: reaction impossible
-ANSWER: 1
-HINT: Identify the governing concept: kinetics, thermodynamics.
-
-CONCEPT: id=c181 | chapter=Chapter 12 | title=equilibrium, kinetics
-Q: difficulty=high | Large K means:
-C: fast reaction
-C: reaction cannot occur
-C: products favored at equilibrium, not rate info
-C: same as rate constant
-ANSWER: 2
-HINT: Identify the governing concept: equilibrium, kinetics.
-
-CONCEPT: id=c184 | chapter=Chapter 12 | title=kinetics data
-Q: difficulty=medium | Best data to determine rate law:
-C: balanced equation only
-C: initial rates vs concentrations
-C: molar masses
-C: reactant colors only
-ANSWER: 1
-HINT: Identify the governing concept: kinetics data.
-
-CONCEPT: id=c185 | chapter=Chapter 12 | title=kinetics data
-Q: difficulty=medium | Observation supporting first order:
-C: constant half-life
-C: rate independent of concentration
-C: 1/[A] linear
-C: products=reactants
-ANSWER: 0
-HINT: Identify the governing concept: kinetics data.
-
-
-
-========== Chapter 2 ==========
-
-CONCEPT: id=c4 | chapter=Chapter 2 | title=atomic structure, isotopes
-Q: difficulty=easy | Which pair represents isotopes?
-C: 12C and 14C
-C: 14C and 14N
-C: 23Na+ and 24Mg2+
-C: 16O and 16S
-ANSWER: 0
-HINT: Identify the governing concept: atomic structure, isotopes.
-
-CONCEPT: id=c5 | chapter=Chapter 2 | title=atomic structure, ions
-Q: difficulty=medium | How many protons, neutrons, and electrons are in 35Cl-?
-C: 17 p, 18 n, 18 e
-C: 17 p, 35 n, 18 e
-C: 18 p, 17 n, 17 e
-C: 17 p, 18 n, 16 e
-ANSWER: 0
-HINT: Identify the governing concept: atomic structure, ions.
-
-CONCEPT: id=c22 | chapter=Chapter 2 | title=quantum theory
-Q: difficulty=easy | As wavelength increases, photon energy:
-C: increases
-C: decreases
-C: stays constant
-C: becomes negative
-ANSWER: 1
-HINT: Identify the governing concept: quantum theory.
-
-CONCEPT: id=c23 | chapter=Chapter 2 | title=quantum numbers
-Q: difficulty=medium | Which quantum number set is invalid?
-C: n=3,l=2,ml=0,ms=+1/2
-C: n=2,l=2,ml=0,ms=-1/2
-C: n=4,l=0,ml=0,ms=+1/2
-C: n=5,l=1,ml=-1,ms=-1/2
-ANSWER: 1
-HINT: Identify the governing concept: quantum numbers.
-
-
-
-========== Chapter 4 ==========
-
-CONCEPT: id=c8 | chapter=Chapter 4 | title=stoichiometry, balancing equations
-Q: difficulty=easy | Which equation is balanced?
-C: H2 + O2 -> H2O
-C: 2H2 + O2 -> 2H2O
-C: H2 + 2O2 -> H2O
-C: 2H2 + 2O2 -> H2O
-ANSWER: 1
-HINT: Identify the governing concept: stoichiometry, balancing equations.
-
-CONCEPT: id=c9 | chapter=Chapter 4 | title=stoichiometry, limiting reagent
-Q: difficulty=medium | When 4.00 mol H2 reacts with 1.50 mol O2 by 2H2 + O2 -> 2H2O, which is limiting?
-C: H2
-C: O2
-C: H2O
-C: Neither
-ANSWER: 1
-HINT: Identify the governing concept: stoichiometry, limiting reagent.
-
-CONCEPT: id=c10 | chapter=Chapter 4 | title=stoichiometry, molar mass
-Q: difficulty=medium | What mass of CO2 forms when 10.0 g CaCO3 reacts with excess HCl? CaCO3 + 2HCl -> CaCl2 + CO2 + H2O.
-C: 2.20 g
-C: 4.40 g
-C: 10.0 g
-C: 44.0 g
-ANSWER: 1
-HINT: Identify the governing concept: stoichiometry, molar mass.
-
-CONCEPT: id=c11 | chapter=Chapter 4 | title=stoichiometry, percent yield
-Q: difficulty=easy | A theoretical yield is 12.0 g and actual yield is 9.00 g. Percent yield?
-C: 25.0%
-C: 75.0%
-C: 100%
-C: 133%
-ANSWER: 1
-HINT: Identify the governing concept: stoichiometry, percent yield.
-
-CONCEPT: id=c12 | chapter=Chapter 4 | title=moles, Avogadro number
-Q: difficulty=high | Which sample contains the greatest number of atoms?
-C: 1.00 mol He
-C: 0.500 mol O2
-C: 0.250 mol CH4
-C: 0.200 mol C6H12O6
-ANSWER: 3
-HINT: Identify the governing concept: moles, Avogadro number.
-
-CONCEPT: id=c13 | chapter=Chapter 4 | title=empirical formula
-Q: difficulty=medium | A compound is 40.0% C, 6.7% H, and 53.3% O. Empirical formula?
-C: CH2O
-C: C2H4O2
-C: C6H12O6
-C: CHO
-ANSWER: 0
-HINT: Identify the governing concept: empirical formula.
-
-
-
-========== Chapter 5 ==========
-
-CONCEPT: id=c15 | chapter=Chapter 5 | title=thermochemistry, enthalpy
-Q: difficulty=easy | Which statement describes an exothermic process?
-C: Heat flows into system
-C: System releases heat to surroundings
-C: Delta H is positive
-C: Products are always less stable
-ANSWER: 1
-HINT: Identify the governing concept: thermochemistry, enthalpy.
-
-CONCEPT: id=c16 | chapter=Chapter 5 | title=calorimetry, thermochemistry
-Q: difficulty=medium | A solution warms in a coffee-cup calorimeter. For the reaction system, q is most likely:
-C: positive
-C: negative
-C: zero
-C: undefined
-ANSWER: 1
-HINT: Identify the governing concept: calorimetry, thermochemistry.
-
-CONCEPT: id=c17 | chapter=Chapter 5 | title=calorimetry
-Q: difficulty=easy | Heat to raise 50.0 g water from 20.0 to 30.0 C? c=4.184 J/g C
-C: 209 J
-C: 2.09 kJ
-C: 20.9 kJ
-C: 41.8 kJ
-ANSWER: 1
-HINT: Identify the governing concept: calorimetry.
-
-CONCEPT: id=c18 | chapter=Chapter 5 | title=thermochemistry, Hess law
-Q: difficulty=medium | Which statement about Hess's law is correct?
-C: Only one-step reactions apply
-C: Enthalpy is a state function
-C: Catalysts change Delta H
-C: Reversing reaction keeps same Delta H
-ANSWER: 1
-HINT: Identify the governing concept: thermochemistry, Hess law.
-
-CONCEPT: id=c19 | chapter=Chapter 5 | title=thermochemistry
-Q: difficulty=easy | If a reaction is reversed, Delta H:
-C: becomes zero
-C: changes sign
-C: doubles
-C: stays same
-ANSWER: 1
-HINT: Identify the governing concept: thermochemistry.
-
-CONCEPT: id=c20 | chapter=Chapter 5 | title=bond energy, thermochemistry
-Q: difficulty=medium | For an exothermic reaction, bond energy reasoning means:
-C: breaking bonds releases more energy
-C: forming bonds releases more energy than breaking absorbs
-C: no bonds break
-C: Delta H must be positive
-ANSWER: 1
-HINT: Identify the governing concept: bond energy, thermochemistry.
-
-CONCEPT: id=c89 | chapter=Chapter 5 | title=Le Chatelier, thermochemistry
-Q: difficulty=medium | For exothermic equilibrium, increasing temperature shifts:
-C: products
-C: reactants
-C: no shift
-C: fewer moles only
-ANSWER: 1
-HINT: Identify the governing concept: Le Chatelier, thermochemistry.
-
-CONCEPT: id=c173 | chapter=Chapter 5 | title=equilibrium, thermochemistry
-Q: difficulty=high | Exothermic reaction produces fewer gas moles. Which favors products?
-C: increase T, decrease P
-C: decrease T, increase P
-C: add catalyst, increase T
-C: decrease P only
-ANSWER: 1
-HINT: Identify the governing concept: equilibrium, thermochemistry.
-
-
-
-========== Chapter 6 ==========
-
-CONCEPT: id=c21 | chapter=Chapter 6 | title=electromagnetic radiation
-Q: difficulty=easy | Which photon has greatest energy?
-C: radio
-C: microwave
-C: red visible
-C: ultraviolet
-ANSWER: 3
-HINT: Identify the governing concept: electromagnetic radiation.
-
-
-
-========== Chapter 7 ==========
-
-CONCEPT: id=c2 | chapter=Chapter 7 | title=periodic trends, ionization energy
+CONCEPT: id=c2 | chapter=periodic trends | title=periodic trends, ionization energy
 Q: difficulty=high | Rank Na, Mg, Al, and Si in order of increasing first ionization energy.
 C: Na < Al < Mg < Si
 C: Na < Mg < Al < Si
@@ -401,52 +9,7 @@ C: Na < Al < Si < Mg
 ANSWER: 0
 HINT: IE generally increases across a period
 
-CONCEPT: id=c25 | chapter=Chapter 7 | title=electron configuration
-Q: difficulty=easy | Maximum electrons in a 3d subshell?
-C: 2
-C: 6
-C: 10
-C: 14
-ANSWER: 2
-HINT: Identify the governing concept: electron configuration.
-
-CONCEPT: id=c26 | chapter=Chapter 7 | title=electron configuration
-Q: difficulty=easy | Ground-state neutral oxygen configuration?
-C: 1s2 2s2 2p4
-C: 1s2 2s2 2p6
-C: 1s2 2s2 2p2
-C: 1s2 2p6
-ANSWER: 0
-HINT: Identify the governing concept: electron configuration.
-
-CONCEPT: id=c27 | chapter=Chapter 7 | title=electron configuration
-Q: difficulty=easy | Which atom is [Ne]3s2 3p5?
-C: S
-C: Cl
-C: Ar
-C: P
-ANSWER: 1
-HINT: Identify the governing concept: electron configuration.
-
-CONCEPT: id=c28 | chapter=Chapter 7 | title=magnetism, electron configuration
-Q: difficulty=medium | Which species is diamagnetic?
-C: O atom
-C: N atom
-C: Mg atom
-C: Fe3+
-ANSWER: 2
-HINT: Identify the governing concept: magnetism, electron configuration.
-
-CONCEPT: id=c29 | chapter=Chapter 7 | title=ions, electron configuration
-Q: difficulty=medium | Which ion is isoelectronic with Ne?
-C: Na+
-C: Cl-
-C: K+
-C: O-
-ANSWER: 0
-HINT: Identify the governing concept: ions, electron configuration.
-
-CONCEPT: id=c30 | chapter=Chapter 7 | title=periodic trends
+CONCEPT: id=c30 | chapter=periodic trends | title=periodic trends
 Q: difficulty=easy | Largest atomic radius among Li, Be, B, C?
 C: Li
 C: Be
@@ -455,7 +18,7 @@ C: C
 ANSWER: 0
 HINT: Identify the governing concept: periodic trends.
 
-CONCEPT: id=c31 | chapter=Chapter 7 | title=periodic trends
+CONCEPT: id=c31 | chapter=periodic trends | title=periodic trends
 Q: difficulty=easy | Smallest radius in group 1 choices K, Na, Li, Rb?
 C: K
 C: Na
@@ -464,7 +27,7 @@ C: Rb
 ANSWER: 2
 HINT: Identify the governing concept: periodic trends.
 
-CONCEPT: id=c32 | chapter=Chapter 7 | title=periodic trends
+CONCEPT: id=c32 | chapter=periodic trends | title=periodic trends
 Q: difficulty=easy | Most electronegative element listed?
 C: N
 C: O
@@ -473,16 +36,7 @@ C: Cl
 ANSWER: 2
 HINT: Identify the governing concept: periodic trends.
 
-CONCEPT: id=c33 | chapter=Chapter 7 | title=ions, periodic trends
-Q: difficulty=easy | Which element most readily forms a 2- ion?
-C: Na
-C: Mg
-C: O
-C: Al
-ANSWER: 2
-HINT: Identify the governing concept: ions, periodic trends.
-
-CONCEPT: id=c35 | chapter=Chapter 7 | title=periodic trends, ionization energy
+CONCEPT: id=c35 | chapter=periodic trends | title=periodic trends, ionization energy
 Q: difficulty=high | Why is Mg first IE greater than Al?
 C: Mg has more protons
 C: Al loses a higher-energy 3p electron
@@ -491,7 +45,7 @@ C: Al has full valence shell
 ANSWER: 1
 HINT: Identify the governing concept: periodic trends, ionization energy.
 
-CONCEPT: id=c187 | chapter=Chapter 7 | title=periodic trends
+CONCEPT: id=c187 | chapter=periodic trends | title=periodic trends
 Q: difficulty=medium | Atomic radius decreases across period because:
 C: Zeff increases in same shell
 C: new shells added
@@ -502,27 +56,9 @@ HINT: Identify the governing concept: periodic trends.
 
 
 
-========== Chapter 8 ==========
+========== VSEPR ==========
 
-CONCEPT: id=c36 | chapter=Chapter 8 | title=bonding
-Q: difficulty=easy | Most ionic compound?
-C: CO2
-C: NaCl
-C: CH4
-C: H2O
-ANSWER: 1
-HINT: Identify the governing concept: bonding.
-
-CONCEPT: id=c37 | chapter=Chapter 8 | title=Lewis structures
-Q: difficulty=medium | Best Lewis feature for CO2?
-C: two single C-O bonds
-C: two C=O double bonds
-C: one triple and one single only
-C: positive oxygen required
-ANSWER: 1
-HINT: Identify the governing concept: Lewis structures.
-
-CONCEPT: id=c38 | chapter=Chapter 8 | title=VSEPR
+CONCEPT: id=c38 | chapter=VSEPR | title=VSEPR
 Q: difficulty=easy | Molecular geometry of CH4?
 C: linear
 C: trigonal planar
@@ -531,7 +67,7 @@ C: bent
 ANSWER: 2
 HINT: Identify the governing concept: VSEPR.
 
-CONCEPT: id=c39 | chapter=Chapter 8 | title=VSEPR
+CONCEPT: id=c39 | chapter=VSEPR | title=VSEPR
 Q: difficulty=easy | Molecular geometry of NH3?
 C: trigonal planar
 C: trigonal pyramidal
@@ -540,7 +76,7 @@ C: bent
 ANSWER: 1
 HINT: Identify the governing concept: VSEPR.
 
-CONCEPT: id=c40 | chapter=Chapter 8 | title=VSEPR
+CONCEPT: id=c40 | chapter=VSEPR | title=VSEPR
 Q: difficulty=easy | Molecular geometry of H2O?
 C: linear
 C: bent
@@ -549,7 +85,7 @@ C: tetrahedral
 ANSWER: 1
 HINT: Identify the governing concept: VSEPR.
 
-CONCEPT: id=c42 | chapter=Chapter 8 | title=VSEPR
+CONCEPT: id=c42 | chapter=VSEPR | title=VSEPR
 Q: difficulty=easy | Trigonal planar molecule?
 C: BF3
 C: NH3
@@ -558,61 +94,7 @@ C: CH4
 ANSWER: 0
 HINT: Identify the governing concept: VSEPR.
 
-CONCEPT: id=c43 | chapter=Chapter 8 | title=Lewis structures
-Q: difficulty=medium | Expanded octet?
-C: NH3
-C: PCl5
-C: CH4
-C: CO2
-ANSWER: 1
-HINT: Identify the governing concept: Lewis structures.
-
-CONCEPT: id=c47 | chapter=Chapter 8 | title=hybridization
-Q: difficulty=easy | Hybridization of carbon with four sigma bonds?
-C: sp
-C: sp2
-C: sp3
-C: dsp3
-ANSWER: 2
-HINT: Identify the governing concept: hybridization.
-
-CONCEPT: id=c48 | chapter=Chapter 8 | title=hybridization
-Q: difficulty=medium | Hybridization of carbon in CO2?
-C: sp
-C: sp2
-C: sp3
-C: sp3d
-ANSWER: 0
-HINT: Identify the governing concept: hybridization.
-
-CONCEPT: id=c49 | chapter=Chapter 8 | title=covalent bonding
-Q: difficulty=easy | Correct sigma/pi statement?
-C: double bond has two sigma
-C: double bond has one sigma and one pi
-C: single bond has one pi
-C: triple has three sigma
-ANSWER: 1
-HINT: Identify the governing concept: covalent bonding.
-
-CONCEPT: id=c54 | chapter=Chapter 8 | title=hydrogen bonding
-Q: difficulty=easy | Pure substance that can hydrogen bond with itself?
-C: CH4
-C: CH3OH
-C: CH3Cl
-C: CO2
-ANSWER: 1
-HINT: Identify the governing concept: hydrogen bonding.
-
-CONCEPT: id=c68 | chapter=Chapter 8 | title=solids, metallic bonding
-Q: difficulty=easy | Solid conductor due to mobile electrons?
-C: NaCl
-C: SiO2
-C: Cu
-C: sugar
-ANSWER: 2
-HINT: Identify the governing concept: solids, metallic bonding.
-
-CONCEPT: id=c186 | chapter=Chapter 8 | title=VSEPR, polarity
+CONCEPT: id=c186 | chapter=VSEPR | title=VSEPR, polarity
 Q: difficulty=medium | Water drawn linear and nonpolar. Correction:
 C: two lone pairs make bent polar molecule
 C: no polar bonds
@@ -623,328 +105,67 @@ HINT: Identify the governing concept: VSEPR, polarity.
 
 
 
-========== Chapter 9 ==========
+========== KINETICS ==========
 
-CONCEPT: id=c56 | chapter=Chapter 9 | title=gases, KMT
-Q: difficulty=easy | Ideal gas assumption?
-C: strong attractions
-C: significant particle volume
-C: negligible volume and no attractions
-C: inelastic collisions
-ANSWER: 2
-HINT: Identify the governing concept: gases, KMT.
-
-CONCEPT: id=c57 | chapter=Chapter 9 | title=gas laws
-Q: difficulty=easy | At constant n,T, doubling volume causes pressure to:
-C: double
-C: halve
-C: quadruple
-C: stay constant
-ANSWER: 1
-HINT: Identify the governing concept: gas laws.
-
-CONCEPT: id=c58 | chapter=Chapter 9 | title=gas laws
-Q: difficulty=easy | At constant P,n, increasing Kelvin temperature causes volume to:
-C: increase
-C: decrease
-C: stay constant
-C: become zero
-ANSWER: 0
-HINT: Identify the governing concept: gas laws.
-
-CONCEPT: id=c60 | chapter=Chapter 9 | title=gas laws
-Q: difficulty=medium | Highest rms speed at same T?
-C: He
-C: Ne
-C: Ar
-C: Xe
-ANSWER: 0
-HINT: Identify the governing concept: gas laws.
-
-CONCEPT: id=c62 | chapter=Chapter 9 | title=real gases
-Q: difficulty=medium | Greatest real-gas deviation occurs at:
-C: high T low P
-C: low T high P
-C: high T high V
-C: low P high V
-ANSWER: 1
-HINT: Identify the governing concept: real gases.
-
-CONCEPT: id=c63 | chapter=Chapter 9 | title=real gases, IMF
-Q: difficulty=medium | Gas deviating most from ideal behavior?
-C: He
-C: Ne
-C: CH4
-C: NH3
-ANSWER: 3
-HINT: Identify the governing concept: real gases, IMF.
-
-CONCEPT: id=c180 | chapter=Chapter 9 | title=equilibrium, gases
-Q: difficulty=medium | Gas reaction Delta n = -2. Compression favors:
-C: reactants
-C: products
-C: no shift
-C: side with more gas
-ANSWER: 1
-HINT: Identify the governing concept: equilibrium, gases.
-
-
-
-========== Mixed ==========
-
-CONCEPT: id=c6 | chapter=Mixed | title=ionic compounds, nomenclature
-Q: difficulty=easy | Which formula is correct for aluminum oxide?
-C: AlO
-C: Al2O3
-C: Al3O2
-C: AlO2
-ANSWER: 1
-HINT: Identify the governing concept: ionic compounds, nomenclature.
-
-CONCEPT: id=c7 | chapter=Mixed | title=nomenclature, oxidation states
-Q: difficulty=medium | What is the correct Stock name for FeCl3?
-C: Iron chloride
-C: Iron(II) chloride
-C: Iron(III) chloride
-C: Iron(I) chloride
-ANSWER: 2
-HINT: Identify the governing concept: nomenclature, oxidation states.
-
-CONCEPT: id=c14 | chapter=Mixed | title=molecular formula
-Q: difficulty=medium | Empirical formula CH2O, molar mass 180 g/mol. Molecular formula?
-C: CH2O
-C: C2H4O2
-C: C6H12O6
-C: C3H6O3
-ANSWER: 2
-HINT: Identify the governing concept: molecular formula.
-
-CONCEPT: id=c24 | chapter=Mixed | title=orbitals
-Q: difficulty=easy | Which orbital designation is impossible?
-C: 2p
-C: 3d
-C: 4f
-C: 2d
-ANSWER: 3
-HINT: Identify the governing concept: orbitals.
-
-CONCEPT: id=c34 | chapter=Mixed | title=ionic radius
-Q: difficulty=medium | Correct comparison?
-C: Na+ larger than Na
-C: Cl- smaller than Cl
-C: Mg2+ smaller than Mg
-C: O2- smaller than O
-ANSWER: 2
-HINT: Identify the governing concept: ionic radius.
-
-CONCEPT: id=c41 | chapter=Mixed | title=polarity, geometry
-Q: difficulty=medium | Nonpolar molecule despite polar bonds?
-C: CO2
-C: H2O
-C: NH3
-C: SO2
-ANSWER: 0
-HINT: Identify the governing concept: polarity, geometry.
-
-CONCEPT: id=c44 | chapter=Mixed | title=resonance
-Q: difficulty=medium | Species with resonance and equivalent bond lengths?
-C: O3
-C: CH4
-C: H2O
-C: NaCl
-ANSWER: 0
-HINT: Identify the governing concept: resonance.
-
-CONCEPT: id=c45 | chapter=Mixed | title=formal charge
-Q: difficulty=medium | Formal charge on N in NH4+?
-C: -1
-C: 0
-C: +1
-C: +2
-ANSWER: 2
-HINT: Identify the governing concept: formal charge.
-
-CONCEPT: id=c46 | chapter=Mixed | title=bond polarity
-Q: difficulty=medium | Most polar bond?
-C: C-H
-C: C-C
-C: O-H
-C: N-H
-ANSWER: 2
-HINT: Identify the governing concept: bond polarity.
-
-CONCEPT: id=c50 | chapter=Mixed | title=MO theory, magnetism
-Q: difficulty=high | Why is O2 paramagnetic by MO theory?
-C: two unpaired electrons in antibonding pi orbitals
-C: no antibonding electrons
-C: ionic bonds
-C: lone pairs only
-ANSWER: 0
-HINT: Identify the governing concept: MO theory, magnetism.
-
-CONCEPT: id=c51 | chapter=Mixed | title=bond order
-Q: difficulty=medium | Bond order of N2?
+CONCEPT: id=c76 | chapter=kinetics | title=kinetics
+Q: difficulty=easy | Overall order for Rate=k[A][B]^2?
 C: 1
 C: 2
 C: 3
-C: 0
+C: cannot determine
 ANSWER: 2
-HINT: Identify the governing concept: bond order.
+HINT: Identify the governing concept: kinetics.
 
-CONCEPT: id=c52 | chapter=Mixed | title=bond order
-Q: difficulty=medium | Shortest bond listed?
-C: N2
-C: O2
-C: F2
-C: Cl2
-ANSWER: 0
-HINT: Identify the governing concept: bond order.
-
-CONCEPT: id=c59 | chapter=Mixed | title=KMT
-Q: difficulty=medium | Greatest average kinetic energy at same T?
-C: He
-C: Ne
-C: CO2
-C: all same
-ANSWER: 3
-HINT: Identify the governing concept: KMT.
-
-CONCEPT: id=c61 | chapter=Mixed | title=Boyle law
-Q: difficulty=medium | 2.00 L gas at 1.00 atm compressed to 0.500 L at constant T. Final P?
-C: 0.250 atm
-C: 0.500 atm
-C: 2.00 atm
-C: 4.00 atm
-ANSWER: 3
-HINT: Identify the governing concept: Boyle law.
-
-CONCEPT: id=c64 | chapter=Mixed | title=gas mixtures
-Q: difficulty=easy | Mole fraction of O2 in 2 mol O2 + 8 mol N2?
-C: 0.20
-C: 0.25
-C: 0.80
-C: 4.0
-ANSWER: 0
-HINT: Identify the governing concept: gas mixtures.
-
-CONCEPT: id=c65 | chapter=Mixed | title=phase changes
-Q: difficulty=easy | Endothermic phase change?
-C: freezing
-C: condensation
-C: deposition
-C: vaporization
-ANSWER: 3
-HINT: Identify the governing concept: phase changes.
-
-CONCEPT: id=c66 | chapter=Mixed | title=vapor pressure
-Q: difficulty=medium | At normal boiling point:
-C: vapor pressure equals 1 atm
-C: vapor pressure is zero
-C: molecules stop
-C: always 100 C
-ANSWER: 0
-HINT: Identify the governing concept: vapor pressure.
-
-CONCEPT: id=c67 | chapter=Mixed | title=solids
-Q: difficulty=easy | Network covalent solid?
-C: NaCl
-C: diamond
-C: ice
-C: copper
-ANSWER: 1
-HINT: Identify the governing concept: solids.
-
-CONCEPT: id=c69 | chapter=Mixed | title=Henry law
-Q: difficulty=medium | Gas solubility in water increases with:
-C: higher T
-C: lower gas pressure
-C: higher gas pressure
-C: adding nonvolatile solute
+CONCEPT: id=c77 | chapter=kinetics | title=kinetics
+Q: difficulty=medium | If [B] doubles in Rate=k[A][B]^2, rate changes by:
+C: 2
+C: 3
+C: 4
+C: 8
 ANSWER: 2
-HINT: Identify the governing concept: Henry law.
+HINT: Identify the governing concept: kinetics.
 
-CONCEPT: id=c73 | chapter=Mixed | title=dilution
-Q: difficulty=medium | Dilute 100.0 mL of 1.00 M to 500.0 mL. New M?
-C: 0.100 M
-C: 0.200 M
-C: 1.00 M
-C: 5.00 M
+CONCEPT: id=c81 | chapter=kinetics | title=kinetics
+Q: difficulty=medium | First-order half-life:
+C: depends on initial concentration
+C: independent of initial concentration
+C: increases linearly with time
+C: equals k
 ANSWER: 1
-HINT: Identify the governing concept: dilution.
+HINT: Identify the governing concept: kinetics.
 
-CONCEPT: id=c74 | chapter=Mixed | title=colligative properties
-Q: difficulty=easy | Colligative property?
-C: color
-C: freezing point depression
-C: reactivity with acid
-C: molecular shape
+CONCEPT: id=c83 | chapter=kinetics | title=kinetics
+Q: difficulty=medium | Activation energy is:
+C: reactant-product energy difference
+C: minimum energy to reach transition state
+C: always Delta H
+C: lowered by decreasing T
 ANSWER: 1
-HINT: Identify the governing concept: colligative properties.
+HINT: Identify the governing concept: kinetics.
 
-CONCEPT: id=c75 | chapter=Mixed | title=colligative properties
-Q: difficulty=medium | Greatest freezing point depression at 0.10 m, complete dissociation?
-C: glucose
-C: NaCl
-C: CaCl2
-C: urea
-ANSWER: 2
-HINT: Identify the governing concept: colligative properties.
-
-CONCEPT: id=c78 | chapter=Mixed | title=integrated rate laws
-Q: difficulty=medium | Zero-order linear plot?
-C: [A] vs time
-C: ln[A] vs time
-C: 1/[A] vs time
-C: rate vs time only
-ANSWER: 0
-HINT: Identify the governing concept: integrated rate laws.
-
-CONCEPT: id=c79 | chapter=Mixed | title=integrated rate laws
-Q: difficulty=medium | First-order linear plot?
-C: [A] vs time
-C: ln[A] vs time
-C: 1/[A] vs time
-C: [A]^2 vs time
+CONCEPT: id=c86 | chapter=kinetics | title=kinetics, thermodynamics
+Q: difficulty=high | Exothermic but slow reaction is best explained by:
+C: exothermic cannot be spontaneous
+C: large activation energy
+C: K exactly 1
+C: no transition state
 ANSWER: 1
-HINT: Identify the governing concept: integrated rate laws.
+HINT: Identify the governing concept: kinetics, thermodynamics.
 
-CONCEPT: id=c80 | chapter=Mixed | title=integrated rate laws
-Q: difficulty=medium | Second-order in A linear plot?
-C: [A] vs time
-C: ln[A] vs time
-C: 1/[A] vs time
-C: [A]^2 vs time
-ANSWER: 2
-HINT: Identify the governing concept: integrated rate laws.
-
-CONCEPT: id=c82 | chapter=Mixed | title=catalysis
-Q: difficulty=easy | Catalyst increases rate by:
-C: increasing Delta G
-C: changing K
-C: lowering activation energy
-C: increasing product stability only
-ANSWER: 2
-HINT: Identify the governing concept: catalysis.
-
-CONCEPT: id=c84 | chapter=Mixed | title=mechanisms
-Q: difficulty=medium | Slow first elementary step determines:
-C: overall balanced equation only
-C: rate law
-C: products only
-C: catalyst concentration only
+CONCEPT: id=c174 | chapter=kinetics | title=kinetics, thermodynamics
+Q: difficulty=high | Delta G<0 but reaction is slow. Best reason?
+C: Delta G determines speed
+C: activation energy controls rate
+C: K must be 1
+C: reaction impossible
 ANSWER: 1
-HINT: Identify the governing concept: mechanisms.
+HINT: Identify the governing concept: kinetics, thermodynamics.
 
-CONCEPT: id=c85 | chapter=Mixed | title=mechanisms
-Q: difficulty=medium | Elementary step A+B -> products has rate law:
-C: k[A][B]
-C: k[A]^2
-C: k[B]^2
-C: cannot be predicted
-ANSWER: 0
-HINT: Identify the governing concept: mechanisms.
 
-CONCEPT: id=c87 | chapter=Mixed | title=equilibrium
+
+========== EQUILIBRIUM ==========
+
+CONCEPT: id=c87 | chapter=equilibrium | title=equilibrium
 Q: difficulty=easy | At equilibrium:
 C: reactions stop
 C: forward and reverse rates equal
@@ -953,16 +174,7 @@ C: only products remain
 ANSWER: 1
 HINT: Identify the governing concept: equilibrium.
 
-CONCEPT: id=c88 | chapter=Mixed | title=Le Chatelier
-Q: difficulty=easy | N2+3H2 <=> 2NH3: increasing pressure shifts:
-C: left
-C: right
-C: no shift
-C: toward more gas moles
-ANSWER: 1
-HINT: Identify the governing concept: Le Chatelier.
-
-CONCEPT: id=c90 | chapter=Mixed | title=equilibrium, catalysis
+CONCEPT: id=c90 | chapter=equilibrium | title=equilibrium, catalysis
 Q: difficulty=medium | Adding catalyst to equilibrium system:
 C: increases K
 C: shifts products
@@ -971,16 +183,7 @@ C: stops reverse
 ANSWER: 2
 HINT: Identify the governing concept: equilibrium, catalysis.
 
-CONCEPT: id=c91 | chapter=Mixed | title=reaction quotient
-Q: difficulty=medium | If Q<K, reaction proceeds:
-C: toward products
-C: toward reactants
-C: at equilibrium
-C: stops
-ANSWER: 0
-HINT: Identify the governing concept: reaction quotient.
-
-CONCEPT: id=c92 | chapter=Mixed | title=equilibrium
+CONCEPT: id=c92 | chapter=equilibrium | title=equilibrium
 Q: difficulty=easy | K >> 1 means equilibrium favors:
 C: reactants
 C: products
@@ -989,727 +192,16 @@ C: no reaction
 ANSWER: 1
 HINT: Identify the governing concept: equilibrium.
 
-CONCEPT: id=c93 | chapter=Mixed | title=equilibrium expressions
-Q: difficulty=medium | Omitted from K expression:
-C: aqueous ions
-C: gases
-C: pure solids
-C: dissolved molecules
-ANSWER: 2
-HINT: Identify the governing concept: equilibrium expressions.
-
-CONCEPT: id=c94 | chapter=Mixed | title=heterogeneous equilibrium
-Q: difficulty=medium | CaCO3(s) <=> CaO(s)+CO2(g). Kp =
-C: PCO2
-C: PCO2/CaCO3
-C: CaO*PCO2/CaCO3
-C: 1/PCO2
-ANSWER: 0
-HINT: Identify the governing concept: heterogeneous equilibrium.
-
-CONCEPT: id=c95 | chapter=Mixed | title=acids
-Q: difficulty=easy | Strong acid in water?
-C: HF
-C: CH3COOH
-C: HCl
-C: H2CO3
-ANSWER: 2
-HINT: Identify the governing concept: acids.
-
-CONCEPT: id=c96 | chapter=Mixed | title=bases
-Q: difficulty=easy | Strong base in water?
-C: NH3
-C: NaOH
-C: CH3NH2
-C: H2O
+CONCEPT: id=c173 | chapter=equilibrium | title=equilibrium, thermochemistry
+Q: difficulty=high | Exothermic reaction produces fewer gas moles. Which favors products?
+C: increase T, decrease P
+C: decrease T, increase P
+C: add catalyst, increase T
+C: decrease P only
 ANSWER: 1
-HINT: Identify the governing concept: bases.
+HINT: Identify the governing concept: equilibrium, thermochemistry.
 
-CONCEPT: id=c97 | chapter=Mixed | title=pH
-Q: difficulty=easy | pH of 0.0010 M HCl?
-C: 1.00
-C: 2.00
-C: 3.00
-C: 11.00
-ANSWER: 2
-HINT: Identify the governing concept: pH.
-
-CONCEPT: id=c98 | chapter=Mixed | title=pOH
-Q: difficulty=easy | pOH of 0.010 M NaOH?
-C: 2.00
-C: 7.00
-C: 12.00
-C: 14.00
-ANSWER: 0
-HINT: Identify the governing concept: pOH.
-
-CONCEPT: id=c99 | chapter=Mixed | title=pH
-Q: difficulty=easy | pH of 0.010 M NaOH at 25 C?
-C: 2.00
-C: 4.00
-C: 12.00
-C: 14.00
-ANSWER: 2
-HINT: Identify the governing concept: pH.
-
-CONCEPT: id=c100 | chapter=Mixed | title=buffers
-Q: difficulty=medium | Which is a buffer?
-C: HCl/NaCl
-C: CH3COOH/CH3COONa
-C: NaOH/NaCl
-C: HNO3/KNO3
-ANSWER: 1
-HINT: Identify the governing concept: buffers.
-
-CONCEPT: id=c101 | chapter=Mixed | title=buffers
-Q: difficulty=medium | Added strong acid to acetate buffer is consumed mainly by:
-C: CH3COOH
-C: CH3COO-
-C: Na+
-C: water only
-ANSWER: 1
-HINT: Identify the governing concept: buffers.
-
-CONCEPT: id=c102 | chapter=Mixed | title=titrations
-Q: difficulty=medium | Half-equivalence point of weak acid-strong base titration:
-C: pH=7 always
-C: pH=pKa
-C: pH=pKb
-C: pH=14
-ANSWER: 1
-HINT: Identify the governing concept: titrations.
-
-CONCEPT: id=c103 | chapter=Mixed | title=titrations
-Q: difficulty=easy | Equivalence point pH for strong acid-strong base at 25 C:
-C: <7
-C: 7
-C: >7
-C: pKa
-ANSWER: 1
-HINT: Identify the governing concept: titrations.
-
-CONCEPT: id=c104 | chapter=Mixed | title=titrations
-Q: difficulty=medium | Equivalence point pH for weak acid-strong base:
-C: <7
-C: =7
-C: >7
-C: 0
-ANSWER: 2
-HINT: Identify the governing concept: titrations.
-
-CONCEPT: id=c105 | chapter=Mixed | title=salt hydrolysis
-Q: difficulty=medium | Basic salt solution?
-C: NaCl
-C: NH4Cl
-C: NaF
-C: KNO3
-ANSWER: 2
-HINT: Identify the governing concept: salt hydrolysis.
-
-CONCEPT: id=c106 | chapter=Mixed | title=salt hydrolysis
-Q: difficulty=medium | Acidic salt solution?
-C: NH4Cl
-C: NaCl
-C: KNO3
-C: NaClO4
-ANSWER: 0
-HINT: Identify the governing concept: salt hydrolysis.
-
-CONCEPT: id=c107 | chapter=Mixed | title=pH logs
-Q: difficulty=medium | pH 3 is how many times more acidic than pH 5?
-C: 2
-C: 10
-C: 100
-C: 1000
-ANSWER: 2
-HINT: Identify the governing concept: pH logs.
-
-CONCEPT: id=c108 | chapter=Mixed | title=acid strength
-Q: difficulty=medium | Best comparison 0.10 M HCl vs 0.10 M acetic acid:
-C: same pH
-C: HCl lower pH because full ionization
-C: acetic lower pH
-C: acetic strong due to many H
-ANSWER: 1
-HINT: Identify the governing concept: acid strength.
-
-CONCEPT: id=c109 | chapter=Mixed | title=Ka
-Q: difficulty=easy | Very small Ka means acid is:
-C: strong fully ionized
-C: weak mostly unionized
-C: strong base
-C: unable to donate H+
-ANSWER: 1
-HINT: Identify the governing concept: Ka.
-
-CONCEPT: id=c110 | chapter=Mixed | title=conjugate acid-base
-Q: difficulty=easy | In NH4+/NH3 pair, NH4+ is:
-C: base
-C: acid
-C: neutral salt only
-C: oxidizing agent only
-ANSWER: 1
-HINT: Identify the governing concept: conjugate acid-base.
-
-CONCEPT: id=c111 | chapter=Mixed | title=Ksp
-Q: difficulty=easy | Ksp for AgCl(s) <=> Ag+ + Cl-:
-C: [Ag+][Cl-]
-C: [AgCl]/[Ag+][Cl-]
-C: [Ag+]/[Cl-]
-C: [AgCl]
-ANSWER: 0
-HINT: Identify the governing concept: Ksp.
-
-CONCEPT: id=c112 | chapter=Mixed | title=common ion
-Q: difficulty=medium | Adding NaCl to saturated AgCl:
-C: increases solubility
-C: decreases solubility by common ion
-C: no effect
-C: destroys Ag+
-ANSWER: 1
-HINT: Identify the governing concept: common ion.
-
-CONCEPT: id=c113 | chapter=Mixed | title=precipitation
-Q: difficulty=medium | If Qsp>Ksp:
-C: more dissolves
-C: precipitation occurs
-C: unsaturated
-C: no change possible
-ANSWER: 1
-HINT: Identify the governing concept: precipitation.
-
-CONCEPT: id=c115 | chapter=Mixed | title=complex ions
-Q: difficulty=high | Complex ion formation often increases solubility because it:
-C: removes free metal ion
-C: increases Ksp directly
-C: turns solvent gas
-C: stops equilibria
-ANSWER: 0
-HINT: Identify the governing concept: complex ions.
-
-CONCEPT: id=c116 | chapter=Mixed | title=coordination chemistry
-Q: difficulty=easy | In [Cu(NH3)4]2+, NH3 is a:
-C: ligand
-C: counterion
-C: central metal
-C: precipitate
-ANSWER: 0
-HINT: Identify the governing concept: coordination chemistry.
-
-CONCEPT: id=c117 | chapter=Mixed | title=coordination chemistry
-Q: difficulty=easy | Coordination number of Co in [Co(NH3)6]3+?
-C: 3
-C: 4
-C: 6
-C: 9
-ANSWER: 2
-HINT: Identify the governing concept: coordination chemistry.
-
-CONCEPT: id=c118 | chapter=Mixed | title=ligands
-Q: difficulty=easy | Anionic ligand?
-C: ammine
-C: aqua
-C: chloro
-C: carbonyl
-ANSWER: 2
-HINT: Identify the governing concept: ligands.
-
-CONCEPT: id=c119 | chapter=Mixed | title=oxidation states
-Q: difficulty=medium | Oxidation state of Co in [Co(NH3)5Cl]2+?
-C: +1
-C: +2
-C: +3
-C: +4
-ANSWER: 2
-HINT: Identify the governing concept: oxidation states.
-
-CONCEPT: id=c120 | chapter=Mixed | title=entropy
-Q: difficulty=easy | Process with Delta S > 0?
-C: freezing
-C: condensation
-C: subliming dry ice
-C: deposition
-ANSWER: 2
-HINT: Identify the governing concept: entropy.
-
-CONCEPT: id=c121 | chapter=Mixed | title=Gibbs free energy
-Q: difficulty=medium | Delta H<0 and Delta S>0 reaction is:
-C: spontaneous all T
-C: nonspontaneous all T
-C: high T only
-C: low T only
-ANSWER: 0
-HINT: Identify the governing concept: Gibbs free energy.
-
-CONCEPT: id=c122 | chapter=Mixed | title=Gibbs free energy
-Q: difficulty=medium | Delta H>0 and Delta S>0 spontaneous at:
-C: high T
-C: low T
-C: all T
-C: no T
-ANSWER: 0
-HINT: Identify the governing concept: Gibbs free energy.
-
-CONCEPT: id=c123 | chapter=Mixed | title=Gibbs free energy
-Q: difficulty=high | Delta H<0 and Delta S<0 spontaneous at:
-C: high T
-C: low T
-C: all T
-C: no T
-ANSWER: 1
-HINT: Identify the governing concept: Gibbs free energy.
-
-CONCEPT: id=c124 | chapter=Mixed | title=thermodynamics
-Q: difficulty=easy | Delta G<0 means reaction is:
-C: spontaneous forward
-C: at equilibrium
-C: nonspontaneous forward
-C: must be fast
-ANSWER: 0
-HINT: Identify the governing concept: thermodynamics.
-
-CONCEPT: id=c125 | chapter=Mixed | title=thermodynamics, equilibrium
-Q: difficulty=easy | At equilibrium Delta G is:
-C: negative
-C: positive
-C: zero
-C: equal to Delta H always
-ANSWER: 2
-HINT: Identify the governing concept: thermodynamics, equilibrium.
-
-CONCEPT: id=c126 | chapter=Mixed | title=thermodynamics
-Q: difficulty=medium | Relation between Delta G° and K:
-C: Delta G°=-RT ln K
-C: Delta G°=RTK
-C: Delta G°=-nFE only
-C: Delta G°=q+w
-ANSWER: 0
-HINT: Identify the governing concept: thermodynamics.
-
-CONCEPT: id=c127 | chapter=Mixed | title=thermodynamics
-Q: difficulty=medium | If K>1, Delta G° is:
-C: positive
-C: negative
-C: zero always
-C: undefined
-ANSWER: 1
-HINT: Identify the governing concept: thermodynamics.
-
-CONCEPT: id=c128 | chapter=Mixed | title=entropy
-Q: difficulty=medium | Entropy best relates to:
-C: messiness only
-C: accessible microstates
-C: always negative
-C: only gases
-ANSWER: 1
-HINT: Identify the governing concept: entropy.
-
-CONCEPT: id=c129 | chapter=Mixed | title=entropy
-Q: difficulty=medium | Reaction likely positive Delta S:
-C: 2NO2(g)->N2O4(g)
-C: CaCO3(s)->CaO(s)+CO2(g)
-C: H2O(g)->H2O(l)
-C: Ag+ + Cl- -> AgCl(s)
-ANSWER: 1
-HINT: Identify the governing concept: entropy.
-
-CONCEPT: id=c130 | chapter=Mixed | title=redox
-Q: difficulty=easy | Oxidation is:
-C: gain e-
-C: loss e-
-C: gain neutrons
-C: loss protons
-ANSWER: 1
-HINT: Identify the governing concept: redox.
-
-CONCEPT: id=c131 | chapter=Mixed | title=redox
-Q: difficulty=easy | Reduction is:
-C: loss e-
-C: gain e-
-C: gain oxygen
-C: loss mass
-ANSWER: 1
-HINT: Identify the governing concept: redox.
-
-CONCEPT: id=c132 | chapter=Mixed | title=electrochemistry
-Q: difficulty=easy | Oxidation occurs at the:
-C: anode
-C: cathode
-C: salt bridge
-C: voltmeter
-ANSWER: 0
-HINT: Identify the governing concept: electrochemistry.
-
-CONCEPT: id=c133 | chapter=Mixed | title=electrochemistry
-Q: difficulty=easy | Reduction occurs at the:
-C: anode
-C: cathode
-C: salt bridge
-C: wire
-ANSWER: 1
-HINT: Identify the governing concept: electrochemistry.
-
-CONCEPT: id=c134 | chapter=Mixed | title=redox
-Q: difficulty=easy | In Zn + Cu2+ -> Zn2+ + Cu, oxidized species:
-C: Zn
-C: Cu2+
-C: Zn2+
-C: Cu
-ANSWER: 0
-HINT: Identify the governing concept: redox.
-
-CONCEPT: id=c135 | chapter=Mixed | title=redox
-Q: difficulty=easy | In Zn + Cu2+ -> Zn2+ + Cu, reduced species:
-C: Zn
-C: Cu2+
-C: Zn2+
-C: Zn2+ and Cu
-ANSWER: 1
-HINT: Identify the governing concept: redox.
-
-CONCEPT: id=c136 | chapter=Mixed | title=cell notation
-Q: difficulty=medium | Zn|Zn2+||Cu2+|Cu electron flow:
-C: Cu to Zn
-C: Zn to Cu
-C: salt bridge only
-C: cathode to anode
-ANSWER: 1
-HINT: Identify the governing concept: cell notation.
-
-CONCEPT: id=c137 | chapter=Mixed | title=galvanic cells
-Q: difficulty=medium | Salt bridge purpose:
-C: electron flow in solution
-C: charge balance by ion migration
-C: stop ions
-C: oxidizing agent
-ANSWER: 1
-HINT: Identify the governing concept: galvanic cells.
-
-CONCEPT: id=c138 | chapter=Mixed | title=cell potential
-Q: difficulty=easy | Positive E°cell indicates:
-C: nonspontaneous
-C: spontaneous standard reaction
-C: no electron transfer
-C: K<1 always
-ANSWER: 1
-HINT: Identify the governing concept: cell potential.
-
-CONCEPT: id=c139 | chapter=Mixed | title=electrochemistry, thermodynamics
-Q: difficulty=medium | Relation Delta G° and E°cell:
-C: Delta G°=-nFE°
-C: Delta G°=nFE°
-C: Delta G°=RTlnE°
-C: Delta G°=qP
-ANSWER: 0
-HINT: Identify the governing concept: electrochemistry, thermodynamics.
-
-CONCEPT: id=c140 | chapter=Mixed | title=electrolysis
-Q: difficulty=easy | Electrolytic nonspontaneous reaction is driven by:
-C: salt bridge only
-C: external power source
-C: lower T only
-C: removing electrodes
-ANSWER: 1
-HINT: Identify the governing concept: electrolysis.
-
-CONCEPT: id=c141 | chapter=Mixed | title=electrolysis
-Q: difficulty=medium | Molten NaCl electrolysis: Na metal forms at:
-C: anode oxidation
-C: cathode reduction
-C: salt bridge
-C: anode reduction
-ANSWER: 1
-HINT: Identify the governing concept: electrolysis.
-
-CONCEPT: id=c142 | chapter=Mixed | title=Nernst equation
-Q: difficulty=high | Concentration cell voltage arises because:
-C: different metals
-C: cell tends to equalize concentrations
-C: no redox
-C: salt bridge makes electrons
-ANSWER: 1
-HINT: Identify the governing concept: Nernst equation.
-
-CONCEPT: id=c143 | chapter=Mixed | title=Nernst equation
-Q: difficulty=medium | Nernst equation shows concentration changes:
-C: electrode identity only
-C: nonstandard cell potential
-C: Faraday constant
-C: number of electrons
-ANSWER: 1
-HINT: Identify the governing concept: Nernst equation.
-
-CONCEPT: id=c144 | chapter=Mixed | title=galvanic cells
-Q: difficulty=medium | Galvanic anode is typically:
-C: negative, electrons produced
-C: positive, electrons consumed
-C: neutral
-C: always copper
-ANSWER: 0
-HINT: Identify the governing concept: galvanic cells.
-
-CONCEPT: id=c145 | chapter=Mixed | title=nuclear chemistry
-Q: difficulty=easy | Alpha particle is:
-C: electron
-C: helium nucleus
-C: neutron
-C: proton
-ANSWER: 1
-HINT: Identify the governing concept: nuclear chemistry.
-
-CONCEPT: id=c146 | chapter=Mixed | title=nuclear chemistry
-Q: difficulty=easy | Beta-minus decay emits:
-C: electron
-C: helium nucleus
-C: photon only
-C: positron only
-ANSWER: 0
-HINT: Identify the governing concept: nuclear chemistry.
-
-CONCEPT: id=c147 | chapter=Mixed | title=nuclear chemistry
-Q: difficulty=easy | Gamma radiation is:
-C: helium nucleus
-C: high-energy photon
-C: neutron
-C: proton
-ANSWER: 1
-HINT: Identify the governing concept: nuclear chemistry.
-
-CONCEPT: id=c148 | chapter=Mixed | title=nuclear chemistry
-Q: difficulty=easy | Alpha decay changes mass number by:
-C: -4
-C: -2
-C: +1
-C: 0
-ANSWER: 0
-HINT: Identify the governing concept: nuclear chemistry.
-
-CONCEPT: id=c149 | chapter=Mixed | title=nuclear chemistry
-Q: difficulty=medium | Beta-minus decay changes atomic number by:
-C: -2
-C: -1
-C: +1
-C: 0
-ANSWER: 2
-HINT: Identify the governing concept: nuclear chemistry.
-
-CONCEPT: id=c150 | chapter=Mixed | title=half-life
-Q: difficulty=easy | After one half-life fraction remaining:
-C: 1/4
-C: 1/2
-C: 3/4
-C: 0
-ANSWER: 1
-HINT: Identify the governing concept: half-life.
-
-CONCEPT: id=c151 | chapter=Mixed | title=half-life
-Q: difficulty=medium | After three half-lives fraction remaining:
-C: 1/2
-C: 1/3
-C: 1/8
-C: 1/9
-ANSWER: 2
-HINT: Identify the governing concept: half-life.
-
-CONCEPT: id=c152 | chapter=Mixed | title=fission
-Q: difficulty=easy | Nuclear fission is:
-C: combining light nuclei
-C: splitting heavy nucleus
-C: electron loss
-C: burning fuel
-ANSWER: 1
-HINT: Identify the governing concept: fission.
-
-CONCEPT: id=c153 | chapter=Mixed | title=fusion
-Q: difficulty=easy | Nuclear fusion is:
-C: combining light nuclei
-C: splitting heavy nucleus
-C: electron transfer
-C: ionic solid formation
-ANSWER: 0
-HINT: Identify the governing concept: fusion.
-
-CONCEPT: id=c154 | chapter=Mixed | title=binding energy
-Q: difficulty=high | Fusion and fission can release energy because:
-C: move toward higher binding energy per nucleon near iron
-C: decrease all binding energy
-C: all nuclear reactions release energy
-C: only electrons convert to photons
-ANSWER: 0
-HINT: Identify the governing concept: binding energy.
-
-CONCEPT: id=c155 | chapter=Mixed | title=radiation
-Q: difficulty=easy | Radiation greatest penetrating power:
-C: alpha
-C: beta
-C: gamma
-C: large molecule
-ANSWER: 2
-HINT: Identify the governing concept: radiation.
-
-CONCEPT: id=c156 | chapter=Mixed | title=organic functional groups
-Q: difficulty=easy | Alcohol functional group:
-C: -OH bonded to carbon
-C: C=O internal
-C: -COOH
-C: -NH2 only
-ANSWER: 0
-HINT: Identify the governing concept: organic functional groups.
-
-CONCEPT: id=c157 | chapter=Mixed | title=organic functional groups
-Q: difficulty=easy | Carboxylic acid functional group:
-C: -OH
-C: -COOH
-C: -NH2
-C: C=C
-ANSWER: 1
-HINT: Identify the governing concept: organic functional groups.
-
-CONCEPT: id=c158 | chapter=Mixed | title=organic chemistry
-Q: difficulty=easy | Which is an alkene?
-C: ethane
-C: ethene
-C: ethanol
-C: ethanoic acid
-ANSWER: 1
-HINT: Identify the governing concept: organic chemistry.
-
-CONCEPT: id=c159 | chapter=Mixed | title=organic chemistry
-Q: difficulty=easy | Saturated hydrocarbon?
-C: ethane
-C: ethene
-C: ethyne
-C: benzene
-ANSWER: 0
-HINT: Identify the governing concept: organic chemistry.
-
-CONCEPT: id=c160 | chapter=Mixed | title=isomers
-Q: difficulty=medium | Structural isomers?
-C: CH3CH2OH and CH3OCH3
-C: CH4 and C2H6
-C: CO2 and O2
-C: NaCl and KCl
-ANSWER: 0
-HINT: Identify the governing concept: isomers.
-
-CONCEPT: id=c161 | chapter=Mixed | title=organic nomenclature
-Q: difficulty=easy | IUPAC name CH3CH2CH3:
-C: methane
-C: ethane
-C: propane
-C: butane
-ANSWER: 2
-HINT: Identify the governing concept: organic nomenclature.
-
-CONCEPT: id=c162 | chapter=Mixed | title=organic nomenclature
-Q: difficulty=easy | IUPAC name CH3CH2OH:
-C: methanol
-C: ethanol
-C: ethanal
-C: ethanoic acid
-ANSWER: 1
-HINT: Identify the governing concept: organic nomenclature.
-
-CONCEPT: id=c163 | chapter=Mixed | title=polymers
-Q: difficulty=easy | Polymers form from small repeating units called:
-C: isotopes
-C: monomers
-C: radicals
-C: catalysts
-ANSWER: 1
-HINT: Identify the governing concept: polymers.
-
-CONCEPT: id=c164 | chapter=Mixed | title=biochemistry
-Q: difficulty=easy | Proteins are polymers of:
-C: nucleotides
-C: amino acids
-C: monosaccharides
-C: fatty acids only
-ANSWER: 1
-HINT: Identify the governing concept: biochemistry.
-
-CONCEPT: id=c165 | chapter=Mixed | title=biochemistry
-Q: difficulty=easy | DNA/RNA are polymers of:
-C: amino acids
-C: nucleotides
-C: alkanes
-C: fatty acids
-ANSWER: 1
-HINT: Identify the governing concept: biochemistry.
-
-CONCEPT: id=c166 | chapter=Mixed | title=biochemistry
-Q: difficulty=easy | Biomolecule for membranes and long-term energy storage:
-C: lipids
-C: nucleic acids
-C: ionic salts
-C: noble gases
-ANSWER: 0
-HINT: Identify the governing concept: biochemistry.
-
-CONCEPT: id=c168 | chapter=Mixed | title=transition metals
-Q: difficulty=easy | Transition metal?
-C: Na
-C: Mg
-C: Fe
-C: Cl
-ANSWER: 2
-HINT: Identify the governing concept: transition metals.
-
-CONCEPT: id=c169 | chapter=Mixed | title=transition metals
-Q: difficulty=medium | Many transition metal compounds are colored because:
-C: d-electron transitions absorb visible light
-C: gamma emission
-C: only ionic bonds
-C: nuclear fission
-ANSWER: 0
-HINT: Identify the governing concept: transition metals.
-
-CONCEPT: id=c170 | chapter=Mixed | title=transition metals
-Q: difficulty=easy | Transition metals often have:
-C: only one oxidation state
-C: variable oxidation states
-C: no complexes
-C: all gases
-ANSWER: 1
-HINT: Identify the governing concept: transition metals.
-
-CONCEPT: id=c171 | chapter=Mixed | title=coordination chemistry
-Q: difficulty=medium | Likely octahedral complex:
-C: [Co(NH3)6]3+
-C: BF3
-C: CO2
-C: CH4
-ANSWER: 0
-HINT: Identify the governing concept: coordination chemistry.
-
-CONCEPT: id=c172 | chapter=Mixed | title=ligands
-Q: difficulty=easy | Neutral ligand?
-C: chloro
-C: cyano
-C: ammine
-C: hydroxo
-ANSWER: 2
-HINT: Identify the governing concept: ligands.
-
-CONCEPT: id=c175 | chapter=Mixed | title=acid-base equilibrium
-Q: difficulty=high | Weak acid diluted. Most accurate?
-C: percent ionization increases; concentration decreases
-C: percent ionization must decrease
-C: acid becomes strong
-C: Ka changes greatly
-ANSWER: 0
-HINT: Identify the governing concept: acid-base equilibrium.
-
-CONCEPT: id=c176 | chapter=Mixed | title=electrochemistry
-Q: difficulty=high | Student knows oxidation is electron loss but draws electron flow backward. This is mainly:
-C: representational error
-C: no error
-C: stoichiometric error only
-C: nuclear error
-ANSWER: 0
-HINT: Identify the governing concept: electrochemistry.
-
-CONCEPT: id=c177 | chapter=Mixed | title=equilibrium
+CONCEPT: id=c177 | chapter=equilibrium | title=equilibrium
 Q: difficulty=medium | If Q>K, reaction shifts:
 C: toward reactants
 C: toward products
@@ -1718,61 +210,65 @@ C: K increases
 ANSWER: 0
 HINT: Identify the governing concept: equilibrium.
 
-CONCEPT: id=c179 | chapter=Mixed | title=IMF
-Q: difficulty=medium | Hydrogen bonding generally causes:
-C: lower boiling point always
-C: higher boiling point than similar-sized non-H-bonding molecules
-C: no IMF
-C: ionic bonding
+CONCEPT: id=c180 | chapter=equilibrium | title=equilibrium, gases
+Q: difficulty=medium | Gas reaction Delta n = -2. Compression favors:
+C: reactants
+C: products
+C: no shift
+C: side with more gas
 ANSWER: 1
-HINT: Identify the governing concept: IMF.
+HINT: Identify the governing concept: equilibrium, gases.
 
-CONCEPT: id=c182 | chapter=Mixed | title=equilibrium expressions
-Q: difficulty=medium | Pure liquid water in K expression is:
-C: omitted as constant activity
-C: always included
-C: only gases included
-C: never any solutes
+CONCEPT: id=c181 | chapter=equilibrium | title=equilibrium, kinetics
+Q: difficulty=high | Large K means:
+C: fast reaction
+C: reaction cannot occur
+C: products favored at equilibrium, not rate info
+C: same as rate constant
+ANSWER: 2
+HINT: Identify the governing concept: equilibrium, kinetics.
+
+
+
+========== REDOX ==========
+
+CONCEPT: id=c130 | chapter=redox | title=redox
+Q: difficulty=easy | Oxidation is:
+C: gain e-
+C: loss e-
+C: gain neutrons
+C: loss protons
+ANSWER: 1
+HINT: Identify the governing concept: redox.
+
+CONCEPT: id=c131 | chapter=redox | title=redox
+Q: difficulty=easy | Reduction is:
+C: loss e-
+C: gain e-
+C: gain oxygen
+C: loss mass
+ANSWER: 1
+HINT: Identify the governing concept: redox.
+
+CONCEPT: id=c134 | chapter=redox | title=redox
+Q: difficulty=easy | In Zn + Cu2+ -> Zn2+ + Cu, oxidized species:
+C: Zn
+C: Cu2+
+C: Zn2+
+C: Cu
 ANSWER: 0
-HINT: Identify the governing concept: equilibrium expressions.
+HINT: Identify the governing concept: redox.
 
-CONCEPT: id=c183 | chapter=Mixed | title=acids
-Q: difficulty=easy | Strong vs weak acid distinction:
-C: molar mass
-C: extent of ionization
-C: concentration
-C: number of hydrogens only
+CONCEPT: id=c135 | chapter=redox | title=redox
+Q: difficulty=easy | In Zn + Cu2+ -> Zn2+ + Cu, reduced species:
+C: Zn
+C: Cu2+
+C: Zn2+
+C: Zn2+ and Cu
 ANSWER: 1
-HINT: Identify the governing concept: acids.
+HINT: Identify the governing concept: redox.
 
-CONCEPT: id=c190 | chapter=Mixed | title=vapor pressure
-Q: difficulty=medium | Increase vapor pressure of pure liquid by:
-C: decreasing T
-C: increasing T
-C: adding nonvolatile solute
-C: stronger IMF
-ANSWER: 1
-HINT: Identify the governing concept: vapor pressure.
-
-CONCEPT: id=c191 | chapter=Mixed | title=colligative properties
-Q: difficulty=medium | Adding nonvolatile solute generally:
-C: raises vapor pressure
-C: lowers vapor pressure
-C: eliminates boiling
-C: eliminates freezing
-ANSWER: 1
-HINT: Identify the governing concept: colligative properties.
-
-CONCEPT: id=c192 | chapter=Mixed | title=colligative properties
-Q: difficulty=medium | Highest boiling point solution, ideal: 
-C: pure water
-C: 0.10 m glucose
-C: 0.10 m NaCl
-C: 0.10 m CaCl2
-ANSWER: 3
-HINT: Identify the governing concept: colligative properties.
-
-CONCEPT: id=c193 | chapter=Mixed | title=redox
+CONCEPT: id=c193 | chapter=redox | title=redox
 Q: difficulty=easy | Oxidation number of elemental O2:
 C: -2
 C: 0
@@ -1781,7 +277,7 @@ C: -1
 ANSWER: 1
 HINT: Identify the governing concept: redox.
 
-CONCEPT: id=c194 | chapter=Mixed | title=redox
+CONCEPT: id=c194 | chapter=redox | title=redox
 Q: difficulty=medium | Oxidation state Mn in MnO4-:
 C: +3
 C: +5
@@ -1790,25 +286,47 @@ C: -7
 ANSWER: 2
 HINT: Identify the governing concept: redox.
 
-CONCEPT: id=c195 | chapter=Mixed | title=redox balancing
-Q: difficulty=medium | In acidic half-reaction, oxygen balanced with:
-C: H2O
-C: H+
-C: OH-
-C: electrons
+
+
+========== ELECTROCHEMISTRY ==========
+
+CONCEPT: id=c132 | chapter=electrochemistry | title=electrochemistry
+Q: difficulty=easy | Oxidation occurs at the:
+C: anode
+C: cathode
+C: salt bridge
+C: voltmeter
 ANSWER: 0
-HINT: Identify the governing concept: redox balancing.
+HINT: Identify the governing concept: electrochemistry.
 
-CONCEPT: id=c196 | chapter=Mixed | title=redox balancing
-Q: difficulty=medium | In acidic half-reaction, hydrogen balanced with:
-C: H2O
-C: H+
-C: O2
-C: metal ions
+CONCEPT: id=c133 | chapter=electrochemistry | title=electrochemistry
+Q: difficulty=easy | Reduction occurs at the:
+C: anode
+C: cathode
+C: salt bridge
+C: wire
 ANSWER: 1
-HINT: Identify the governing concept: redox balancing.
+HINT: Identify the governing concept: electrochemistry.
 
-CONCEPT: id=c197 | chapter=Mixed | title=electrochemistry
+CONCEPT: id=c139 | chapter=electrochemistry | title=electrochemistry, thermodynamics
+Q: difficulty=medium | Relation Delta G° and E°cell:
+C: Delta G°=-nFE°
+C: Delta G°=nFE°
+C: Delta G°=RTlnE°
+C: Delta G°=qP
+ANSWER: 0
+HINT: Identify the governing concept: electrochemistry, thermodynamics.
+
+CONCEPT: id=c176 | chapter=electrochemistry | title=electrochemistry
+Q: difficulty=high | Student knows oxidation is electron loss but draws electron flow backward. This is mainly:
+C: representational error
+C: no error
+C: stoichiometric error only
+C: nuclear error
+ANSWER: 0
+HINT: Identify the governing concept: electrochemistry.
+
+CONCEPT: id=c197 | chapter=electrochemistry | title=electrochemistry
 Q: difficulty=medium | Electrolysis: which remains true?
 C: oxidation at anode, reduction at cathode
 C: oxidation at cathode
@@ -1817,7 +335,56 @@ C: always spontaneous
 ANSWER: 0
 HINT: Identify the governing concept: electrochemistry.
 
-CONCEPT: id=c198 | chapter=Mixed | title=nuclear chemistry
+
+
+========== NUCLEAR CHEMISTRY ==========
+
+CONCEPT: id=c145 | chapter=nuclear chemistry | title=nuclear chemistry
+Q: difficulty=easy | Alpha particle is:
+C: electron
+C: helium nucleus
+C: neutron
+C: proton
+ANSWER: 1
+HINT: Identify the governing concept: nuclear chemistry.
+
+CONCEPT: id=c146 | chapter=nuclear chemistry | title=nuclear chemistry
+Q: difficulty=easy | Beta-minus decay emits:
+C: electron
+C: helium nucleus
+C: photon only
+C: positron only
+ANSWER: 0
+HINT: Identify the governing concept: nuclear chemistry.
+
+CONCEPT: id=c147 | chapter=nuclear chemistry | title=nuclear chemistry
+Q: difficulty=easy | Gamma radiation is:
+C: helium nucleus
+C: high-energy photon
+C: neutron
+C: proton
+ANSWER: 1
+HINT: Identify the governing concept: nuclear chemistry.
+
+CONCEPT: id=c148 | chapter=nuclear chemistry | title=nuclear chemistry
+Q: difficulty=easy | Alpha decay changes mass number by:
+C: -4
+C: -2
+C: +1
+C: 0
+ANSWER: 0
+HINT: Identify the governing concept: nuclear chemistry.
+
+CONCEPT: id=c149 | chapter=nuclear chemistry | title=nuclear chemistry
+Q: difficulty=medium | Beta-minus decay changes atomic number by:
+C: -2
+C: -1
+C: +1
+C: 0
+ANSWER: 2
+HINT: Identify the governing concept: nuclear chemistry.
+
+CONCEPT: id=c198 | chapter=nuclear chemistry | title=nuclear chemistry
 Q: difficulty=medium | Isotope with 26 protons and 30 neutrons:
 C: 56Fe
 C: 30Fe
@@ -1826,7 +393,7 @@ C: 26Mg
 ANSWER: 0
 HINT: Identify the governing concept: nuclear chemistry.
 
-CONCEPT: id=c199 | chapter=Mixed | title=nuclear chemistry
+CONCEPT: id=c199 | chapter=nuclear chemistry | title=nuclear chemistry
 Q: difficulty=medium | Alpha decay 238U -> 4He + ?
 C: 234Th
 C: 234Pa
@@ -1835,7 +402,7 @@ C: 242Pu
 ANSWER: 0
 HINT: Identify the governing concept: nuclear chemistry.
 
-CONCEPT: id=c200 | chapter=Mixed | title=nuclear chemistry
+CONCEPT: id=c200 | chapter=nuclear chemistry | title=nuclear chemistry
 Q: difficulty=medium | Beta-minus decay 14C -> 0e + ?
 C: 14N
 C: 14B
@@ -1843,5 +410,1422 @@ C: 13C
 C: 10Be
 ANSWER: 0
 HINT: Identify the governing concept: nuclear chemistry.
+
+
+
+========== MIXED REVIEW ==========
+
+CONCEPT: id=c1 | chapter=Mixed Review | title=measurement, density
+Q: difficulty=easy | A student reports density as 0.873 g/mL. Which statement is best?
+C: It depends on total amount
+C: It is an intensive property useful for identification
+C: It must double when mass doubles
+C: It is measured in mol/L
+ANSWER: 1
+HINT: Density = mass/volume
+
+CONCEPT: id=c3 | chapter=Mixed Review | title=measurement, significant figures
+Q: difficulty=easy | Which measurement has three significant figures?
+C: 0.00450 g
+C: 1000 g, no decimal shown
+C: 0.040 g
+C: 2.0 x 10^4 g
+ANSWER: 0
+HINT: Leading zeros are not significant
+
+CONCEPT: id=c4 | chapter=Mixed Review | title=atomic structure, isotopes
+Q: difficulty=easy | Which pair represents isotopes?
+C: 12C and 14C
+C: 14C and 14N
+C: 23Na+ and 24Mg2+
+C: 16O and 16S
+ANSWER: 0
+HINT: Identify the governing concept: atomic structure, isotopes.
+
+CONCEPT: id=c5 | chapter=Mixed Review | title=atomic structure, ions
+Q: difficulty=medium | How many protons, neutrons, and electrons are in 35Cl-?
+C: 17 p, 18 n, 18 e
+C: 17 p, 35 n, 18 e
+C: 18 p, 17 n, 17 e
+C: 17 p, 18 n, 16 e
+ANSWER: 0
+HINT: Identify the governing concept: atomic structure, ions.
+
+CONCEPT: id=c6 | chapter=Mixed Review | title=ionic compounds, nomenclature
+Q: difficulty=easy | Which formula is correct for aluminum oxide?
+C: AlO
+C: Al2O3
+C: Al3O2
+C: AlO2
+ANSWER: 1
+HINT: Identify the governing concept: ionic compounds, nomenclature.
+
+CONCEPT: id=c7 | chapter=Mixed Review | title=nomenclature, oxidation states
+Q: difficulty=medium | What is the correct Stock name for FeCl3?
+C: Iron chloride
+C: Iron(II) chloride
+C: Iron(III) chloride
+C: Iron(I) chloride
+ANSWER: 2
+HINT: Identify the governing concept: nomenclature, oxidation states.
+
+CONCEPT: id=c8 | chapter=Mixed Review | title=stoichiometry, balancing equations
+Q: difficulty=easy | Which equation is balanced?
+C: H2 + O2 -> H2O
+C: 2H2 + O2 -> 2H2O
+C: H2 + 2O2 -> H2O
+C: 2H2 + 2O2 -> H2O
+ANSWER: 1
+HINT: Identify the governing concept: stoichiometry, balancing equations.
+
+CONCEPT: id=c9 | chapter=Mixed Review | title=stoichiometry, limiting reagent
+Q: difficulty=medium | When 4.00 mol H2 reacts with 1.50 mol O2 by 2H2 + O2 -> 2H2O, which is limiting?
+C: H2
+C: O2
+C: H2O
+C: Neither
+ANSWER: 1
+HINT: Identify the governing concept: stoichiometry, limiting reagent.
+
+CONCEPT: id=c10 | chapter=Mixed Review | title=stoichiometry, molar mass
+Q: difficulty=medium | What mass of CO2 forms when 10.0 g CaCO3 reacts with excess HCl? CaCO3 + 2HCl -> CaCl2 + CO2 + H2O.
+C: 2.20 g
+C: 4.40 g
+C: 10.0 g
+C: 44.0 g
+ANSWER: 1
+HINT: Identify the governing concept: stoichiometry, molar mass.
+
+CONCEPT: id=c11 | chapter=Mixed Review | title=stoichiometry, percent yield
+Q: difficulty=easy | A theoretical yield is 12.0 g and actual yield is 9.00 g. Percent yield?
+C: 25.0%
+C: 75.0%
+C: 100%
+C: 133%
+ANSWER: 1
+HINT: Identify the governing concept: stoichiometry, percent yield.
+
+CONCEPT: id=c12 | chapter=Mixed Review | title=moles, Avogadro number
+Q: difficulty=high | Which sample contains the greatest number of atoms?
+C: 1.00 mol He
+C: 0.500 mol O2
+C: 0.250 mol CH4
+C: 0.200 mol C6H12O6
+ANSWER: 3
+HINT: Identify the governing concept: moles, Avogadro number.
+
+CONCEPT: id=c13 | chapter=Mixed Review | title=empirical formula
+Q: difficulty=medium | A compound is 40.0% C, 6.7% H, and 53.3% O. Empirical formula?
+C: CH2O
+C: C2H4O2
+C: C6H12O6
+C: CHO
+ANSWER: 0
+HINT: Identify the governing concept: empirical formula.
+
+CONCEPT: id=c14 | chapter=Mixed Review | title=molecular formula
+Q: difficulty=medium | Empirical formula CH2O, molar mass 180 g/mol. Molecular formula?
+C: CH2O
+C: C2H4O2
+C: C6H12O6
+C: C3H6O3
+ANSWER: 2
+HINT: Identify the governing concept: molecular formula.
+
+CONCEPT: id=c15 | chapter=Mixed Review | title=thermochemistry, enthalpy
+Q: difficulty=easy | Which statement describes an exothermic process?
+C: Heat flows into system
+C: System releases heat to surroundings
+C: Delta H is positive
+C: Products are always less stable
+ANSWER: 1
+HINT: Identify the governing concept: thermochemistry, enthalpy.
+
+CONCEPT: id=c18 | chapter=Mixed Review | title=thermochemistry, Hess law
+Q: difficulty=medium | Which statement about Hess's law is correct?
+C: Only one-step reactions apply
+C: Enthalpy is a state function
+C: Catalysts change Delta H
+C: Reversing reaction keeps same Delta H
+ANSWER: 1
+HINT: Identify the governing concept: thermochemistry, Hess law.
+
+CONCEPT: id=c19 | chapter=Mixed Review | title=thermochemistry
+Q: difficulty=easy | If a reaction is reversed, Delta H:
+C: becomes zero
+C: changes sign
+C: doubles
+C: stays same
+ANSWER: 1
+HINT: Identify the governing concept: thermochemistry.
+
+CONCEPT: id=c16 | chapter=Mixed Review | title=calorimetry, thermochemistry
+Q: difficulty=medium | A solution warms in a coffee-cup calorimeter. For the reaction system, q is most likely:
+C: positive
+C: negative
+C: zero
+C: undefined
+ANSWER: 1
+HINT: Identify the governing concept: calorimetry, thermochemistry.
+
+CONCEPT: id=c17 | chapter=Mixed Review | title=calorimetry
+Q: difficulty=easy | Heat to raise 50.0 g water from 20.0 to 30.0 C? c=4.184 J/g C
+C: 209 J
+C: 2.09 kJ
+C: 20.9 kJ
+C: 41.8 kJ
+ANSWER: 1
+HINT: Identify the governing concept: calorimetry.
+
+CONCEPT: id=c20 | chapter=Mixed Review | title=bond energy, thermochemistry
+Q: difficulty=medium | For an exothermic reaction, bond energy reasoning means:
+C: breaking bonds releases more energy
+C: forming bonds releases more energy than breaking absorbs
+C: no bonds break
+C: Delta H must be positive
+ANSWER: 1
+HINT: Identify the governing concept: bond energy, thermochemistry.
+
+CONCEPT: id=c21 | chapter=Mixed Review | title=electromagnetic radiation
+Q: difficulty=easy | Which photon has greatest energy?
+C: radio
+C: microwave
+C: red visible
+C: ultraviolet
+ANSWER: 3
+HINT: Identify the governing concept: electromagnetic radiation.
+
+CONCEPT: id=c22 | chapter=Mixed Review | title=quantum theory
+Q: difficulty=easy | As wavelength increases, photon energy:
+C: increases
+C: decreases
+C: stays constant
+C: becomes negative
+ANSWER: 1
+HINT: Identify the governing concept: quantum theory.
+
+CONCEPT: id=c23 | chapter=Mixed Review | title=quantum numbers
+Q: difficulty=medium | Which quantum number set is invalid?
+C: n=3,l=2,ml=0,ms=+1/2
+C: n=2,l=2,ml=0,ms=-1/2
+C: n=4,l=0,ml=0,ms=+1/2
+C: n=5,l=1,ml=-1,ms=-1/2
+ANSWER: 1
+HINT: Identify the governing concept: quantum numbers.
+
+CONCEPT: id=c24 | chapter=Mixed Review | title=orbitals
+Q: difficulty=easy | Which orbital designation is impossible?
+C: 2p
+C: 3d
+C: 4f
+C: 2d
+ANSWER: 3
+HINT: Identify the governing concept: orbitals.
+
+CONCEPT: id=c25 | chapter=Mixed Review | title=electron configuration
+Q: difficulty=easy | Maximum electrons in a 3d subshell?
+C: 2
+C: 6
+C: 10
+C: 14
+ANSWER: 2
+HINT: Identify the governing concept: electron configuration.
+
+CONCEPT: id=c26 | chapter=Mixed Review | title=electron configuration
+Q: difficulty=easy | Ground-state neutral oxygen configuration?
+C: 1s2 2s2 2p4
+C: 1s2 2s2 2p6
+C: 1s2 2s2 2p2
+C: 1s2 2p6
+ANSWER: 0
+HINT: Identify the governing concept: electron configuration.
+
+CONCEPT: id=c27 | chapter=Mixed Review | title=electron configuration
+Q: difficulty=easy | Which atom is [Ne]3s2 3p5?
+C: S
+C: Cl
+C: Ar
+C: P
+ANSWER: 1
+HINT: Identify the governing concept: electron configuration.
+
+CONCEPT: id=c28 | chapter=Mixed Review | title=magnetism, electron configuration
+Q: difficulty=medium | Which species is diamagnetic?
+C: O atom
+C: N atom
+C: Mg atom
+C: Fe3+
+ANSWER: 2
+HINT: Identify the governing concept: magnetism, electron configuration.
+
+CONCEPT: id=c29 | chapter=Mixed Review | title=ions, electron configuration
+Q: difficulty=medium | Which ion is isoelectronic with Ne?
+C: Na+
+C: Cl-
+C: K+
+C: O-
+ANSWER: 0
+HINT: Identify the governing concept: ions, electron configuration.
+
+CONCEPT: id=c33 | chapter=Mixed Review | title=ions, periodic trends
+Q: difficulty=easy | Which element most readily forms a 2- ion?
+C: Na
+C: Mg
+C: O
+C: Al
+ANSWER: 2
+HINT: Identify the governing concept: ions, periodic trends.
+
+CONCEPT: id=c34 | chapter=Mixed Review | title=ionic radius
+Q: difficulty=medium | Correct comparison?
+C: Na+ larger than Na
+C: Cl- smaller than Cl
+C: Mg2+ smaller than Mg
+C: O2- smaller than O
+ANSWER: 2
+HINT: Identify the governing concept: ionic radius.
+
+CONCEPT: id=c36 | chapter=Mixed Review | title=bonding
+Q: difficulty=easy | Most ionic compound?
+C: CO2
+C: NaCl
+C: CH4
+C: H2O
+ANSWER: 1
+HINT: Identify the governing concept: bonding.
+
+CONCEPT: id=c37 | chapter=Mixed Review | title=Lewis structures
+Q: difficulty=medium | Best Lewis feature for CO2?
+C: two single C-O bonds
+C: two C=O double bonds
+C: one triple and one single only
+C: positive oxygen required
+ANSWER: 1
+HINT: Identify the governing concept: Lewis structures.
+
+CONCEPT: id=c43 | chapter=Mixed Review | title=Lewis structures
+Q: difficulty=medium | Expanded octet?
+C: NH3
+C: PCl5
+C: CH4
+C: CO2
+ANSWER: 1
+HINT: Identify the governing concept: Lewis structures.
+
+CONCEPT: id=c41 | chapter=Mixed Review | title=polarity, geometry
+Q: difficulty=medium | Nonpolar molecule despite polar bonds?
+C: CO2
+C: H2O
+C: NH3
+C: SO2
+ANSWER: 0
+HINT: Identify the governing concept: polarity, geometry.
+
+CONCEPT: id=c44 | chapter=Mixed Review | title=resonance
+Q: difficulty=medium | Species with resonance and equivalent bond lengths?
+C: O3
+C: CH4
+C: H2O
+C: NaCl
+ANSWER: 0
+HINT: Identify the governing concept: resonance.
+
+CONCEPT: id=c45 | chapter=Mixed Review | title=formal charge
+Q: difficulty=medium | Formal charge on N in NH4+?
+C: -1
+C: 0
+C: +1
+C: +2
+ANSWER: 2
+HINT: Identify the governing concept: formal charge.
+
+CONCEPT: id=c46 | chapter=Mixed Review | title=bond polarity
+Q: difficulty=medium | Most polar bond?
+C: C-H
+C: C-C
+C: O-H
+C: N-H
+ANSWER: 2
+HINT: Identify the governing concept: bond polarity.
+
+CONCEPT: id=c47 | chapter=Mixed Review | title=hybridization
+Q: difficulty=easy | Hybridization of carbon with four sigma bonds?
+C: sp
+C: sp2
+C: sp3
+C: dsp3
+ANSWER: 2
+HINT: Identify the governing concept: hybridization.
+
+CONCEPT: id=c48 | chapter=Mixed Review | title=hybridization
+Q: difficulty=medium | Hybridization of carbon in CO2?
+C: sp
+C: sp2
+C: sp3
+C: sp3d
+ANSWER: 0
+HINT: Identify the governing concept: hybridization.
+
+CONCEPT: id=c49 | chapter=Mixed Review | title=covalent bonding
+Q: difficulty=easy | Correct sigma/pi statement?
+C: double bond has two sigma
+C: double bond has one sigma and one pi
+C: single bond has one pi
+C: triple has three sigma
+ANSWER: 1
+HINT: Identify the governing concept: covalent bonding.
+
+CONCEPT: id=c50 | chapter=Mixed Review | title=MO theory, magnetism
+Q: difficulty=high | Why is O2 paramagnetic by MO theory?
+C: two unpaired electrons in antibonding pi orbitals
+C: no antibonding electrons
+C: ionic bonds
+C: lone pairs only
+ANSWER: 0
+HINT: Identify the governing concept: MO theory, magnetism.
+
+CONCEPT: id=c51 | chapter=Mixed Review | title=bond order
+Q: difficulty=medium | Bond order of N2?
+C: 1
+C: 2
+C: 3
+C: 0
+ANSWER: 2
+HINT: Identify the governing concept: bond order.
+
+CONCEPT: id=c52 | chapter=Mixed Review | title=bond order
+Q: difficulty=medium | Shortest bond listed?
+C: N2
+C: O2
+C: F2
+C: Cl2
+ANSWER: 0
+HINT: Identify the governing concept: bond order.
+
+CONCEPT: id=c53 | chapter=Mixed Review | title=intermolecular forces
+Q: difficulty=easy | Intermolecular force present in all molecules?
+C: hydrogen bonding
+C: ion-dipole
+C: London dispersion
+C: covalent between molecules
+ANSWER: 2
+HINT: Identify the governing concept: intermolecular forces.
+
+CONCEPT: id=c55 | chapter=Mixed Review | title=intermolecular forces
+Q: difficulty=medium | Highest boiling point listed?
+C: CH4
+C: CH3CH3
+C: CH3OH
+C: CO2
+ANSWER: 2
+HINT: Identify the governing concept: intermolecular forces.
+
+CONCEPT: id=c54 | chapter=Mixed Review | title=hydrogen bonding
+Q: difficulty=easy | Pure substance that can hydrogen bond with itself?
+C: CH4
+C: CH3OH
+C: CH3Cl
+C: CO2
+ANSWER: 1
+HINT: Identify the governing concept: hydrogen bonding.
+
+CONCEPT: id=c56 | chapter=Mixed Review | title=gases, KMT
+Q: difficulty=easy | Ideal gas assumption?
+C: strong attractions
+C: significant particle volume
+C: negligible volume and no attractions
+C: inelastic collisions
+ANSWER: 2
+HINT: Identify the governing concept: gases, KMT.
+
+CONCEPT: id=c57 | chapter=Mixed Review | title=gas laws
+Q: difficulty=easy | At constant n,T, doubling volume causes pressure to:
+C: double
+C: halve
+C: quadruple
+C: stay constant
+ANSWER: 1
+HINT: Identify the governing concept: gas laws.
+
+CONCEPT: id=c58 | chapter=Mixed Review | title=gas laws
+Q: difficulty=easy | At constant P,n, increasing Kelvin temperature causes volume to:
+C: increase
+C: decrease
+C: stay constant
+C: become zero
+ANSWER: 0
+HINT: Identify the governing concept: gas laws.
+
+CONCEPT: id=c60 | chapter=Mixed Review | title=gas laws
+Q: difficulty=medium | Highest rms speed at same T?
+C: He
+C: Ne
+C: Ar
+C: Xe
+ANSWER: 0
+HINT: Identify the governing concept: gas laws.
+
+CONCEPT: id=c59 | chapter=Mixed Review | title=KMT
+Q: difficulty=medium | Greatest average kinetic energy at same T?
+C: He
+C: Ne
+C: CO2
+C: all same
+ANSWER: 3
+HINT: Identify the governing concept: KMT.
+
+CONCEPT: id=c61 | chapter=Mixed Review | title=Boyle law
+Q: difficulty=medium | 2.00 L gas at 1.00 atm compressed to 0.500 L at constant T. Final P?
+C: 0.250 atm
+C: 0.500 atm
+C: 2.00 atm
+C: 4.00 atm
+ANSWER: 3
+HINT: Identify the governing concept: Boyle law.
+
+CONCEPT: id=c62 | chapter=Mixed Review | title=real gases
+Q: difficulty=medium | Greatest real-gas deviation occurs at:
+C: high T low P
+C: low T high P
+C: high T high V
+C: low P high V
+ANSWER: 1
+HINT: Identify the governing concept: real gases.
+
+CONCEPT: id=c63 | chapter=Mixed Review | title=real gases, IMF
+Q: difficulty=medium | Gas deviating most from ideal behavior?
+C: He
+C: Ne
+C: CH4
+C: NH3
+ANSWER: 3
+HINT: Identify the governing concept: real gases, IMF.
+
+CONCEPT: id=c64 | chapter=Mixed Review | title=gas mixtures
+Q: difficulty=easy | Mole fraction of O2 in 2 mol O2 + 8 mol N2?
+C: 0.20
+C: 0.25
+C: 0.80
+C: 4.0
+ANSWER: 0
+HINT: Identify the governing concept: gas mixtures.
+
+CONCEPT: id=c65 | chapter=Mixed Review | title=phase changes
+Q: difficulty=easy | Endothermic phase change?
+C: freezing
+C: condensation
+C: deposition
+C: vaporization
+ANSWER: 3
+HINT: Identify the governing concept: phase changes.
+
+CONCEPT: id=c66 | chapter=Mixed Review | title=vapor pressure
+Q: difficulty=medium | At normal boiling point:
+C: vapor pressure equals 1 atm
+C: vapor pressure is zero
+C: molecules stop
+C: always 100 C
+ANSWER: 0
+HINT: Identify the governing concept: vapor pressure.
+
+CONCEPT: id=c190 | chapter=Mixed Review | title=vapor pressure
+Q: difficulty=medium | Increase vapor pressure of pure liquid by:
+C: decreasing T
+C: increasing T
+C: adding nonvolatile solute
+C: stronger IMF
+ANSWER: 1
+HINT: Identify the governing concept: vapor pressure.
+
+CONCEPT: id=c67 | chapter=Mixed Review | title=solids
+Q: difficulty=easy | Network covalent solid?
+C: NaCl
+C: diamond
+C: ice
+C: copper
+ANSWER: 1
+HINT: Identify the governing concept: solids.
+
+CONCEPT: id=c68 | chapter=Mixed Review | title=solids, metallic bonding
+Q: difficulty=easy | Solid conductor due to mobile electrons?
+C: NaCl
+C: SiO2
+C: Cu
+C: sugar
+ANSWER: 2
+HINT: Identify the governing concept: solids, metallic bonding.
+
+CONCEPT: id=c69 | chapter=Mixed Review | title=Henry law
+Q: difficulty=medium | Gas solubility in water increases with:
+C: higher T
+C: lower gas pressure
+C: higher gas pressure
+C: adding nonvolatile solute
+ANSWER: 2
+HINT: Identify the governing concept: Henry law.
+
+CONCEPT: id=c70 | chapter=Mixed Review | title=solubility
+Q: difficulty=easy | Most likely soluble in water?
+C: CCl4
+C: NaCl
+C: hexane
+C: I2
+ANSWER: 1
+HINT: Identify the governing concept: solubility.
+
+CONCEPT: id=c71 | chapter=Mixed Review | title=molarity
+Q: difficulty=easy | Molarity of 0.500 mol solute in 2.00 L solution?
+C: 0.250 M
+C: 1.00 M
+C: 2.50 M
+C: 4.00 M
+ANSWER: 0
+HINT: Identify the governing concept: molarity.
+
+CONCEPT: id=c72 | chapter=Mixed Review | title=molarity
+Q: difficulty=medium | Volume of 0.200 M NaCl containing 0.0500 mol?
+C: 0.0100 L
+C: 0.100 L
+C: 0.250 L
+C: 4.00 L
+ANSWER: 2
+HINT: Identify the governing concept: molarity.
+
+CONCEPT: id=c73 | chapter=Mixed Review | title=dilution
+Q: difficulty=medium | Dilute 100.0 mL of 1.00 M to 500.0 mL. New M?
+C: 0.100 M
+C: 0.200 M
+C: 1.00 M
+C: 5.00 M
+ANSWER: 1
+HINT: Identify the governing concept: dilution.
+
+CONCEPT: id=c74 | chapter=Mixed Review | title=colligative properties
+Q: difficulty=easy | Colligative property?
+C: color
+C: freezing point depression
+C: reactivity with acid
+C: molecular shape
+ANSWER: 1
+HINT: Identify the governing concept: colligative properties.
+
+CONCEPT: id=c75 | chapter=Mixed Review | title=colligative properties
+Q: difficulty=medium | Greatest freezing point depression at 0.10 m, complete dissociation?
+C: glucose
+C: NaCl
+C: CaCl2
+C: urea
+ANSWER: 2
+HINT: Identify the governing concept: colligative properties.
+
+CONCEPT: id=c191 | chapter=Mixed Review | title=colligative properties
+Q: difficulty=medium | Adding nonvolatile solute generally:
+C: raises vapor pressure
+C: lowers vapor pressure
+C: eliminates boiling
+C: eliminates freezing
+ANSWER: 1
+HINT: Identify the governing concept: colligative properties.
+
+CONCEPT: id=c192 | chapter=Mixed Review | title=colligative properties
+Q: difficulty=medium | Highest boiling point solution, ideal: 
+C: pure water
+C: 0.10 m glucose
+C: 0.10 m NaCl
+C: 0.10 m CaCl2
+ANSWER: 3
+HINT: Identify the governing concept: colligative properties.
+
+CONCEPT: id=c78 | chapter=Mixed Review | title=integrated rate laws
+Q: difficulty=medium | Zero-order linear plot?
+C: [A] vs time
+C: ln[A] vs time
+C: 1/[A] vs time
+C: rate vs time only
+ANSWER: 0
+HINT: Identify the governing concept: integrated rate laws.
+
+CONCEPT: id=c79 | chapter=Mixed Review | title=integrated rate laws
+Q: difficulty=medium | First-order linear plot?
+C: [A] vs time
+C: ln[A] vs time
+C: 1/[A] vs time
+C: [A]^2 vs time
+ANSWER: 1
+HINT: Identify the governing concept: integrated rate laws.
+
+CONCEPT: id=c80 | chapter=Mixed Review | title=integrated rate laws
+Q: difficulty=medium | Second-order in A linear plot?
+C: [A] vs time
+C: ln[A] vs time
+C: 1/[A] vs time
+C: [A]^2 vs time
+ANSWER: 2
+HINT: Identify the governing concept: integrated rate laws.
+
+CONCEPT: id=c82 | chapter=Mixed Review | title=catalysis
+Q: difficulty=easy | Catalyst increases rate by:
+C: increasing Delta G
+C: changing K
+C: lowering activation energy
+C: increasing product stability only
+ANSWER: 2
+HINT: Identify the governing concept: catalysis.
+
+CONCEPT: id=c84 | chapter=Mixed Review | title=mechanisms
+Q: difficulty=medium | Slow first elementary step determines:
+C: overall balanced equation only
+C: rate law
+C: products only
+C: catalyst concentration only
+ANSWER: 1
+HINT: Identify the governing concept: mechanisms.
+
+CONCEPT: id=c85 | chapter=Mixed Review | title=mechanisms
+Q: difficulty=medium | Elementary step A+B -> products has rate law:
+C: k[A][B]
+C: k[A]^2
+C: k[B]^2
+C: cannot be predicted
+ANSWER: 0
+HINT: Identify the governing concept: mechanisms.
+
+CONCEPT: id=c88 | chapter=Mixed Review | title=Le Chatelier
+Q: difficulty=easy | N2+3H2 <=> 2NH3: increasing pressure shifts:
+C: left
+C: right
+C: no shift
+C: toward more gas moles
+ANSWER: 1
+HINT: Identify the governing concept: Le Chatelier.
+
+CONCEPT: id=c89 | chapter=Mixed Review | title=Le Chatelier, thermochemistry
+Q: difficulty=medium | For exothermic equilibrium, increasing temperature shifts:
+C: products
+C: reactants
+C: no shift
+C: fewer moles only
+ANSWER: 1
+HINT: Identify the governing concept: Le Chatelier, thermochemistry.
+
+CONCEPT: id=c91 | chapter=Mixed Review | title=reaction quotient
+Q: difficulty=medium | If Q<K, reaction proceeds:
+C: toward products
+C: toward reactants
+C: at equilibrium
+C: stops
+ANSWER: 0
+HINT: Identify the governing concept: reaction quotient.
+
+CONCEPT: id=c93 | chapter=Mixed Review | title=equilibrium expressions
+Q: difficulty=medium | Omitted from K expression:
+C: aqueous ions
+C: gases
+C: pure solids
+C: dissolved molecules
+ANSWER: 2
+HINT: Identify the governing concept: equilibrium expressions.
+
+CONCEPT: id=c182 | chapter=Mixed Review | title=equilibrium expressions
+Q: difficulty=medium | Pure liquid water in K expression is:
+C: omitted as constant activity
+C: always included
+C: only gases included
+C: never any solutes
+ANSWER: 0
+HINT: Identify the governing concept: equilibrium expressions.
+
+CONCEPT: id=c94 | chapter=Mixed Review | title=heterogeneous equilibrium
+Q: difficulty=medium | CaCO3(s) <=> CaO(s)+CO2(g). Kp =
+C: PCO2
+C: PCO2/CaCO3
+C: CaO*PCO2/CaCO3
+C: 1/PCO2
+ANSWER: 0
+HINT: Identify the governing concept: heterogeneous equilibrium.
+
+CONCEPT: id=c95 | chapter=Mixed Review | title=acids
+Q: difficulty=easy | Strong acid in water?
+C: HF
+C: CH3COOH
+C: HCl
+C: H2CO3
+ANSWER: 2
+HINT: Identify the governing concept: acids.
+
+CONCEPT: id=c183 | chapter=Mixed Review | title=acids
+Q: difficulty=easy | Strong vs weak acid distinction:
+C: molar mass
+C: extent of ionization
+C: concentration
+C: number of hydrogens only
+ANSWER: 1
+HINT: Identify the governing concept: acids.
+
+CONCEPT: id=c96 | chapter=Mixed Review | title=bases
+Q: difficulty=easy | Strong base in water?
+C: NH3
+C: NaOH
+C: CH3NH2
+C: H2O
+ANSWER: 1
+HINT: Identify the governing concept: bases.
+
+CONCEPT: id=c97 | chapter=Mixed Review | title=pH
+Q: difficulty=easy | pH of 0.0010 M HCl?
+C: 1.00
+C: 2.00
+C: 3.00
+C: 11.00
+ANSWER: 2
+HINT: Identify the governing concept: pH.
+
+CONCEPT: id=c99 | chapter=Mixed Review | title=pH
+Q: difficulty=easy | pH of 0.010 M NaOH at 25 C?
+C: 2.00
+C: 4.00
+C: 12.00
+C: 14.00
+ANSWER: 2
+HINT: Identify the governing concept: pH.
+
+CONCEPT: id=c98 | chapter=Mixed Review | title=pOH
+Q: difficulty=easy | pOH of 0.010 M NaOH?
+C: 2.00
+C: 7.00
+C: 12.00
+C: 14.00
+ANSWER: 0
+HINT: Identify the governing concept: pOH.
+
+CONCEPT: id=c100 | chapter=Mixed Review | title=buffers
+Q: difficulty=medium | Which is a buffer?
+C: HCl/NaCl
+C: CH3COOH/CH3COONa
+C: NaOH/NaCl
+C: HNO3/KNO3
+ANSWER: 1
+HINT: Identify the governing concept: buffers.
+
+CONCEPT: id=c101 | chapter=Mixed Review | title=buffers
+Q: difficulty=medium | Added strong acid to acetate buffer is consumed mainly by:
+C: CH3COOH
+C: CH3COO-
+C: Na+
+C: water only
+ANSWER: 1
+HINT: Identify the governing concept: buffers.
+
+CONCEPT: id=c102 | chapter=Mixed Review | title=titrations
+Q: difficulty=medium | Half-equivalence point of weak acid-strong base titration:
+C: pH=7 always
+C: pH=pKa
+C: pH=pKb
+C: pH=14
+ANSWER: 1
+HINT: Identify the governing concept: titrations.
+
+CONCEPT: id=c103 | chapter=Mixed Review | title=titrations
+Q: difficulty=easy | Equivalence point pH for strong acid-strong base at 25 C:
+C: <7
+C: 7
+C: >7
+C: pKa
+ANSWER: 1
+HINT: Identify the governing concept: titrations.
+
+CONCEPT: id=c104 | chapter=Mixed Review | title=titrations
+Q: difficulty=medium | Equivalence point pH for weak acid-strong base:
+C: <7
+C: =7
+C: >7
+C: 0
+ANSWER: 2
+HINT: Identify the governing concept: titrations.
+
+CONCEPT: id=c105 | chapter=Mixed Review | title=salt hydrolysis
+Q: difficulty=medium | Basic salt solution?
+C: NaCl
+C: NH4Cl
+C: NaF
+C: KNO3
+ANSWER: 2
+HINT: Identify the governing concept: salt hydrolysis.
+
+CONCEPT: id=c106 | chapter=Mixed Review | title=salt hydrolysis
+Q: difficulty=medium | Acidic salt solution?
+C: NH4Cl
+C: NaCl
+C: KNO3
+C: NaClO4
+ANSWER: 0
+HINT: Identify the governing concept: salt hydrolysis.
+
+CONCEPT: id=c107 | chapter=Mixed Review | title=pH logs
+Q: difficulty=medium | pH 3 is how many times more acidic than pH 5?
+C: 2
+C: 10
+C: 100
+C: 1000
+ANSWER: 2
+HINT: Identify the governing concept: pH logs.
+
+CONCEPT: id=c108 | chapter=Mixed Review | title=acid strength
+Q: difficulty=medium | Best comparison 0.10 M HCl vs 0.10 M acetic acid:
+C: same pH
+C: HCl lower pH because full ionization
+C: acetic lower pH
+C: acetic strong due to many H
+ANSWER: 1
+HINT: Identify the governing concept: acid strength.
+
+CONCEPT: id=c109 | chapter=Mixed Review | title=Ka
+Q: difficulty=easy | Very small Ka means acid is:
+C: strong fully ionized
+C: weak mostly unionized
+C: strong base
+C: unable to donate H+
+ANSWER: 1
+HINT: Identify the governing concept: Ka.
+
+CONCEPT: id=c110 | chapter=Mixed Review | title=conjugate acid-base
+Q: difficulty=easy | In NH4+/NH3 pair, NH4+ is:
+C: base
+C: acid
+C: neutral salt only
+C: oxidizing agent only
+ANSWER: 1
+HINT: Identify the governing concept: conjugate acid-base.
+
+CONCEPT: id=c111 | chapter=Mixed Review | title=Ksp
+Q: difficulty=easy | Ksp for AgCl(s) <=> Ag+ + Cl-:
+C: [Ag+][Cl-]
+C: [AgCl]/[Ag+][Cl-]
+C: [Ag+]/[Cl-]
+C: [AgCl]
+ANSWER: 0
+HINT: Identify the governing concept: Ksp.
+
+CONCEPT: id=c112 | chapter=Mixed Review | title=common ion
+Q: difficulty=medium | Adding NaCl to saturated AgCl:
+C: increases solubility
+C: decreases solubility by common ion
+C: no effect
+C: destroys Ag+
+ANSWER: 1
+HINT: Identify the governing concept: common ion.
+
+CONCEPT: id=c113 | chapter=Mixed Review | title=precipitation
+Q: difficulty=medium | If Qsp>Ksp:
+C: more dissolves
+C: precipitation occurs
+C: unsaturated
+C: no change possible
+ANSWER: 1
+HINT: Identify the governing concept: precipitation.
+
+CONCEPT: id=c114 | chapter=Mixed Review | title=solubility rules
+Q: difficulty=easy | Likely insoluble compound?
+C: NaNO3
+C: KCl
+C: AgCl
+C: NH4NO3
+ANSWER: 2
+HINT: Identify the governing concept: solubility rules.
+
+CONCEPT: id=c115 | chapter=Mixed Review | title=complex ions
+Q: difficulty=high | Complex ion formation often increases solubility because it:
+C: removes free metal ion
+C: increases Ksp directly
+C: turns solvent gas
+C: stops equilibria
+ANSWER: 0
+HINT: Identify the governing concept: complex ions.
+
+CONCEPT: id=c116 | chapter=Mixed Review | title=coordination chemistry
+Q: difficulty=easy | In [Cu(NH3)4]2+, NH3 is a:
+C: ligand
+C: counterion
+C: central metal
+C: precipitate
+ANSWER: 0
+HINT: Identify the governing concept: coordination chemistry.
+
+CONCEPT: id=c117 | chapter=Mixed Review | title=coordination chemistry
+Q: difficulty=easy | Coordination number of Co in [Co(NH3)6]3+?
+C: 3
+C: 4
+C: 6
+C: 9
+ANSWER: 2
+HINT: Identify the governing concept: coordination chemistry.
+
+CONCEPT: id=c171 | chapter=Mixed Review | title=coordination chemistry
+Q: difficulty=medium | Likely octahedral complex:
+C: [Co(NH3)6]3+
+C: BF3
+C: CO2
+C: CH4
+ANSWER: 0
+HINT: Identify the governing concept: coordination chemistry.
+
+CONCEPT: id=c118 | chapter=Mixed Review | title=ligands
+Q: difficulty=easy | Anionic ligand?
+C: ammine
+C: aqua
+C: chloro
+C: carbonyl
+ANSWER: 2
+HINT: Identify the governing concept: ligands.
+
+CONCEPT: id=c172 | chapter=Mixed Review | title=ligands
+Q: difficulty=easy | Neutral ligand?
+C: chloro
+C: cyano
+C: ammine
+C: hydroxo
+ANSWER: 2
+HINT: Identify the governing concept: ligands.
+
+CONCEPT: id=c119 | chapter=Mixed Review | title=oxidation states
+Q: difficulty=medium | Oxidation state of Co in [Co(NH3)5Cl]2+?
+C: +1
+C: +2
+C: +3
+C: +4
+ANSWER: 2
+HINT: Identify the governing concept: oxidation states.
+
+CONCEPT: id=c120 | chapter=Mixed Review | title=entropy
+Q: difficulty=easy | Process with Delta S > 0?
+C: freezing
+C: condensation
+C: subliming dry ice
+C: deposition
+ANSWER: 2
+HINT: Identify the governing concept: entropy.
+
+CONCEPT: id=c128 | chapter=Mixed Review | title=entropy
+Q: difficulty=medium | Entropy best relates to:
+C: messiness only
+C: accessible microstates
+C: always negative
+C: only gases
+ANSWER: 1
+HINT: Identify the governing concept: entropy.
+
+CONCEPT: id=c129 | chapter=Mixed Review | title=entropy
+Q: difficulty=medium | Reaction likely positive Delta S:
+C: 2NO2(g)->N2O4(g)
+C: CaCO3(s)->CaO(s)+CO2(g)
+C: H2O(g)->H2O(l)
+C: Ag+ + Cl- -> AgCl(s)
+ANSWER: 1
+HINT: Identify the governing concept: entropy.
+
+CONCEPT: id=c121 | chapter=Mixed Review | title=Gibbs free energy
+Q: difficulty=medium | Delta H<0 and Delta S>0 reaction is:
+C: spontaneous all T
+C: nonspontaneous all T
+C: high T only
+C: low T only
+ANSWER: 0
+HINT: Identify the governing concept: Gibbs free energy.
+
+CONCEPT: id=c122 | chapter=Mixed Review | title=Gibbs free energy
+Q: difficulty=medium | Delta H>0 and Delta S>0 spontaneous at:
+C: high T
+C: low T
+C: all T
+C: no T
+ANSWER: 0
+HINT: Identify the governing concept: Gibbs free energy.
+
+CONCEPT: id=c123 | chapter=Mixed Review | title=Gibbs free energy
+Q: difficulty=high | Delta H<0 and Delta S<0 spontaneous at:
+C: high T
+C: low T
+C: all T
+C: no T
+ANSWER: 1
+HINT: Identify the governing concept: Gibbs free energy.
+
+CONCEPT: id=c124 | chapter=Mixed Review | title=thermodynamics
+Q: difficulty=easy | Delta G<0 means reaction is:
+C: spontaneous forward
+C: at equilibrium
+C: nonspontaneous forward
+C: must be fast
+ANSWER: 0
+HINT: Identify the governing concept: thermodynamics.
+
+CONCEPT: id=c125 | chapter=Mixed Review | title=thermodynamics, equilibrium
+Q: difficulty=easy | At equilibrium Delta G is:
+C: negative
+C: positive
+C: zero
+C: equal to Delta H always
+ANSWER: 2
+HINT: Identify the governing concept: thermodynamics, equilibrium.
+
+CONCEPT: id=c126 | chapter=Mixed Review | title=thermodynamics
+Q: difficulty=medium | Relation between Delta G° and K:
+C: Delta G°=-RT ln K
+C: Delta G°=RTK
+C: Delta G°=-nFE only
+C: Delta G°=q+w
+ANSWER: 0
+HINT: Identify the governing concept: thermodynamics.
+
+CONCEPT: id=c127 | chapter=Mixed Review | title=thermodynamics
+Q: difficulty=medium | If K>1, Delta G° is:
+C: positive
+C: negative
+C: zero always
+C: undefined
+ANSWER: 1
+HINT: Identify the governing concept: thermodynamics.
+
+CONCEPT: id=c136 | chapter=Mixed Review | title=cell notation
+Q: difficulty=medium | Zn|Zn2+||Cu2+|Cu electron flow:
+C: Cu to Zn
+C: Zn to Cu
+C: salt bridge only
+C: cathode to anode
+ANSWER: 1
+HINT: Identify the governing concept: cell notation.
+
+CONCEPT: id=c137 | chapter=Mixed Review | title=galvanic cells
+Q: difficulty=medium | Salt bridge purpose:
+C: electron flow in solution
+C: charge balance by ion migration
+C: stop ions
+C: oxidizing agent
+ANSWER: 1
+HINT: Identify the governing concept: galvanic cells.
+
+CONCEPT: id=c144 | chapter=Mixed Review | title=galvanic cells
+Q: difficulty=medium | Galvanic anode is typically:
+C: negative, electrons produced
+C: positive, electrons consumed
+C: neutral
+C: always copper
+ANSWER: 0
+HINT: Identify the governing concept: galvanic cells.
+
+CONCEPT: id=c138 | chapter=Mixed Review | title=cell potential
+Q: difficulty=easy | Positive E°cell indicates:
+C: nonspontaneous
+C: spontaneous standard reaction
+C: no electron transfer
+C: K<1 always
+ANSWER: 1
+HINT: Identify the governing concept: cell potential.
+
+CONCEPT: id=c140 | chapter=Mixed Review | title=electrolysis
+Q: difficulty=easy | Electrolytic nonspontaneous reaction is driven by:
+C: salt bridge only
+C: external power source
+C: lower T only
+C: removing electrodes
+ANSWER: 1
+HINT: Identify the governing concept: electrolysis.
+
+CONCEPT: id=c141 | chapter=Mixed Review | title=electrolysis
+Q: difficulty=medium | Molten NaCl electrolysis: Na metal forms at:
+C: anode oxidation
+C: cathode reduction
+C: salt bridge
+C: anode reduction
+ANSWER: 1
+HINT: Identify the governing concept: electrolysis.
+
+CONCEPT: id=c142 | chapter=Mixed Review | title=Nernst equation
+Q: difficulty=high | Concentration cell voltage arises because:
+C: different metals
+C: cell tends to equalize concentrations
+C: no redox
+C: salt bridge makes electrons
+ANSWER: 1
+HINT: Identify the governing concept: Nernst equation.
+
+CONCEPT: id=c143 | chapter=Mixed Review | title=Nernst equation
+Q: difficulty=medium | Nernst equation shows concentration changes:
+C: electrode identity only
+C: nonstandard cell potential
+C: Faraday constant
+C: number of electrons
+ANSWER: 1
+HINT: Identify the governing concept: Nernst equation.
+
+CONCEPT: id=c150 | chapter=Mixed Review | title=half-life
+Q: difficulty=easy | After one half-life fraction remaining:
+C: 1/4
+C: 1/2
+C: 3/4
+C: 0
+ANSWER: 1
+HINT: Identify the governing concept: half-life.
+
+CONCEPT: id=c151 | chapter=Mixed Review | title=half-life
+Q: difficulty=medium | After three half-lives fraction remaining:
+C: 1/2
+C: 1/3
+C: 1/8
+C: 1/9
+ANSWER: 2
+HINT: Identify the governing concept: half-life.
+
+CONCEPT: id=c152 | chapter=Mixed Review | title=fission
+Q: difficulty=easy | Nuclear fission is:
+C: combining light nuclei
+C: splitting heavy nucleus
+C: electron loss
+C: burning fuel
+ANSWER: 1
+HINT: Identify the governing concept: fission.
+
+CONCEPT: id=c153 | chapter=Mixed Review | title=fusion
+Q: difficulty=easy | Nuclear fusion is:
+C: combining light nuclei
+C: splitting heavy nucleus
+C: electron transfer
+C: ionic solid formation
+ANSWER: 0
+HINT: Identify the governing concept: fusion.
+
+CONCEPT: id=c154 | chapter=Mixed Review | title=binding energy
+Q: difficulty=high | Fusion and fission can release energy because:
+C: move toward higher binding energy per nucleon near iron
+C: decrease all binding energy
+C: all nuclear reactions release energy
+C: only electrons convert to photons
+ANSWER: 0
+HINT: Identify the governing concept: binding energy.
+
+CONCEPT: id=c155 | chapter=Mixed Review | title=radiation
+Q: difficulty=easy | Radiation greatest penetrating power:
+C: alpha
+C: beta
+C: gamma
+C: large molecule
+ANSWER: 2
+HINT: Identify the governing concept: radiation.
+
+CONCEPT: id=c156 | chapter=Mixed Review | title=organic functional groups
+Q: difficulty=easy | Alcohol functional group:
+C: -OH bonded to carbon
+C: C=O internal
+C: -COOH
+C: -NH2 only
+ANSWER: 0
+HINT: Identify the governing concept: organic functional groups.
+
+CONCEPT: id=c157 | chapter=Mixed Review | title=organic functional groups
+Q: difficulty=easy | Carboxylic acid functional group:
+C: -OH
+C: -COOH
+C: -NH2
+C: C=C
+ANSWER: 1
+HINT: Identify the governing concept: organic functional groups.
+
+CONCEPT: id=c158 | chapter=Mixed Review | title=organic chemistry
+Q: difficulty=easy | Which is an alkene?
+C: ethane
+C: ethene
+C: ethanol
+C: ethanoic acid
+ANSWER: 1
+HINT: Identify the governing concept: organic chemistry.
+
+CONCEPT: id=c159 | chapter=Mixed Review | title=organic chemistry
+Q: difficulty=easy | Saturated hydrocarbon?
+C: ethane
+C: ethene
+C: ethyne
+C: benzene
+ANSWER: 0
+HINT: Identify the governing concept: organic chemistry.
+
+CONCEPT: id=c160 | chapter=Mixed Review | title=isomers
+Q: difficulty=medium | Structural isomers?
+C: CH3CH2OH and CH3OCH3
+C: CH4 and C2H6
+C: CO2 and O2
+C: NaCl and KCl
+ANSWER: 0
+HINT: Identify the governing concept: isomers.
+
+CONCEPT: id=c161 | chapter=Mixed Review | title=organic nomenclature
+Q: difficulty=easy | IUPAC name CH3CH2CH3:
+C: methane
+C: ethane
+C: propane
+C: butane
+ANSWER: 2
+HINT: Identify the governing concept: organic nomenclature.
+
+CONCEPT: id=c162 | chapter=Mixed Review | title=organic nomenclature
+Q: difficulty=easy | IUPAC name CH3CH2OH:
+C: methanol
+C: ethanol
+C: ethanal
+C: ethanoic acid
+ANSWER: 1
+HINT: Identify the governing concept: organic nomenclature.
+
+CONCEPT: id=c163 | chapter=Mixed Review | title=polymers
+Q: difficulty=easy | Polymers form from small repeating units called:
+C: isotopes
+C: monomers
+C: radicals
+C: catalysts
+ANSWER: 1
+HINT: Identify the governing concept: polymers.
+
+CONCEPT: id=c164 | chapter=Mixed Review | title=biochemistry
+Q: difficulty=easy | Proteins are polymers of:
+C: nucleotides
+C: amino acids
+C: monosaccharides
+C: fatty acids only
+ANSWER: 1
+HINT: Identify the governing concept: biochemistry.
+
+CONCEPT: id=c165 | chapter=Mixed Review | title=biochemistry
+Q: difficulty=easy | DNA/RNA are polymers of:
+C: amino acids
+C: nucleotides
+C: alkanes
+C: fatty acids
+ANSWER: 1
+HINT: Identify the governing concept: biochemistry.
+
+CONCEPT: id=c166 | chapter=Mixed Review | title=biochemistry
+Q: difficulty=easy | Biomolecule for membranes and long-term energy storage:
+C: lipids
+C: nucleic acids
+C: ionic salts
+C: noble gases
+ANSWER: 0
+HINT: Identify the governing concept: biochemistry.
+
+CONCEPT: id=c167 | chapter=Mixed Review | title=biochemistry, kinetics
+Q: difficulty=medium | Enzyme acts by:
+C: increasing Delta G
+C: lowering activation energy
+C: changing K
+C: being consumed stoichiometrically
+ANSWER: 1
+HINT: Identify the governing concept: biochemistry, kinetics.
+
+CONCEPT: id=c168 | chapter=Mixed Review | title=transition metals
+Q: difficulty=easy | Transition metal?
+C: Na
+C: Mg
+C: Fe
+C: Cl
+ANSWER: 2
+HINT: Identify the governing concept: transition metals.
+
+CONCEPT: id=c169 | chapter=Mixed Review | title=transition metals
+Q: difficulty=medium | Many transition metal compounds are colored because:
+C: d-electron transitions absorb visible light
+C: gamma emission
+C: only ionic bonds
+C: nuclear fission
+ANSWER: 0
+HINT: Identify the governing concept: transition metals.
+
+CONCEPT: id=c170 | chapter=Mixed Review | title=transition metals
+Q: difficulty=easy | Transition metals often have:
+C: only one oxidation state
+C: variable oxidation states
+C: no complexes
+C: all gases
+ANSWER: 1
+HINT: Identify the governing concept: transition metals.
+
+CONCEPT: id=c175 | chapter=Mixed Review | title=acid-base equilibrium
+Q: difficulty=high | Weak acid diluted. Most accurate?
+C: percent ionization increases; concentration decreases
+C: percent ionization must decrease
+C: acid becomes strong
+C: Ka changes greatly
+ANSWER: 0
+HINT: Identify the governing concept: acid-base equilibrium.
+
+CONCEPT: id=c178 | chapter=Mixed Review | title=solubility equilibrium
+Q: difficulty=medium | Clear solutions form precipitate. Best explanation:
+C: all ions vanish
+C: Qsp exceeded Ksp
+C: solutions became gases
+C: must be redox
+ANSWER: 1
+HINT: Identify the governing concept: solubility equilibrium.
+
+CONCEPT: id=c179 | chapter=Mixed Review | title=IMF
+Q: difficulty=medium | Hydrogen bonding generally causes:
+C: lower boiling point always
+C: higher boiling point than similar-sized non-H-bonding molecules
+C: no IMF
+C: ionic bonding
+ANSWER: 1
+HINT: Identify the governing concept: IMF.
+
+CONCEPT: id=c184 | chapter=Mixed Review | title=kinetics data
+Q: difficulty=medium | Best data to determine rate law:
+C: balanced equation only
+C: initial rates vs concentrations
+C: molar masses
+C: reactant colors only
+ANSWER: 1
+HINT: Identify the governing concept: kinetics data.
+
+CONCEPT: id=c185 | chapter=Mixed Review | title=kinetics data
+Q: difficulty=medium | Observation supporting first order:
+C: constant half-life
+C: rate independent of concentration
+C: 1/[A] linear
+C: products=reactants
+ANSWER: 0
+HINT: Identify the governing concept: kinetics data.
+
+CONCEPT: id=c188 | chapter=Mixed Review | title=solutions, electrolytes
+Q: difficulty=easy | Strong electrolyte likely:
+C: sucrose
+C: ethanol
+C: NaCl
+C: hexane
+ANSWER: 2
+HINT: Identify the governing concept: solutions, electrolytes.
+
+CONCEPT: id=c189 | chapter=Mixed Review | title=solutions
+Q: difficulty=easy | Saturated solution means:
+C: no solute
+C: maximum dissolved solute at equilibrium
+C: equal moles solvent and solute
+C: always highly concentrated
+ANSWER: 1
+HINT: Identify the governing concept: solutions.
+
+CONCEPT: id=c195 | chapter=Mixed Review | title=redox balancing
+Q: difficulty=medium | In acidic half-reaction, oxygen balanced with:
+C: H2O
+C: H+
+C: OH-
+C: electrons
+ANSWER: 0
+HINT: Identify the governing concept: redox balancing.
+
+CONCEPT: id=c196 | chapter=Mixed Review | title=redox balancing
+Q: difficulty=medium | In acidic half-reaction, hydrogen balanced with:
+C: H2O
+C: H+
+C: O2
+C: metal ions
+ANSWER: 1
+HINT: Identify the governing concept: redox balancing.
 
 
